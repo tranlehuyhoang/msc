@@ -8,7 +8,8 @@ var showDropMenu = function (name, article) {
     var maxOffset = child.offsetWidth + article.offsetLeft;
 
     if (maxOffset > screenWidth) {
-        dropMenu.style.paddingLeft = (screenWidth - child.offsetWidth) + 'px';
+        console.log(true)
+        dropMenu.style.paddingLeft = (screenWidth - child.offsetWidth - 20) + 'px';
     } else {
 
         dropMenu.style.paddingLeft = article.offsetLeft + 'px';
@@ -41,4 +42,17 @@ articles.forEach(function (article) {
             article.classList.remove('hover_');
         }, 500);
     });
+});
+document.querySelector('.navigation').addEventListener('click', function () {
+    var headerMobile = document.querySelector('#header_mobile');
+    if (headerMobile.style.height === '100vh') {
+        headerMobile.style.height = 'auto';
+        document.querySelector('#header_mobile  #content').style.display = 'none';
+        document.querySelector('.navigation').src = 'https://cdn.animaapp.com/projects/65d5e3adb758944670ebfa1e/releases/65d5e43b6f7b7e704bcb5c36/img/navigation-1.svg';
+    } else {
+        headerMobile.style.height = '100vh';
+        document.querySelector('#header_mobile  #content').style.display = 'block';
+
+        document.querySelector('.navigation').src = 'https://cdn.animaapp.com/projects/65d5e3adb758944670ebfa1e/releases/65d5e43b6f7b7e704bcb5c36/img/navigation.svg';
+    }
 });
