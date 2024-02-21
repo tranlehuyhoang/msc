@@ -1,0 +1,183 @@
+:root {
+    --black                               : #000000;
+    --gray                                : #828282;
+    --greyscale-text0                     : #ffffff;
+    --greyscale-text5                     : #ececec;
+    --primaryblue-400                     : #1e60c1;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --primaryblue-700                     : #0d356e;
+    --secondaryblue-50                    : #e8f8fb;
+    --secondaryblue-500                   : #1ab7da;
+    --font-size-l                         : 24px;
+    --font-size-m                         : 20px;
+    --font-size-s                         : 16px;
+    --font-size-xl                        : 32px;
+    --font-size-xs                        : 14px;
+    --font-size-xxl                       : 48px;
+    --font-family-averta-bold             : "Averta-Bold", Helvetica;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#contact {
+    width: 100%;
+
+    background-color: gray;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+#contact .frame-1000007076-WGugOq {
+    width: 100%;
+
+    background-color: transparent;
+    height          : 663px;
+    left            : 0px;
+    overflow        : hidden;
+    width           : 100%;
+}
+
+#contact .group-1000004187-08NlFf {
+    background-color: transparent;
+    height          : 660px;
+    right           : 0;
+    position        : absolute;
+    transform       : rotate(180deg);
+    width           : 1174px;
+}
+
+#contact .nal_1829-1-B8n4it {
+    background-color: transparent;
+    height          : 654px;
+    left            : 116px;
+    object-fit      : cover;
+    top             : 6px;
+    transform       : rotate(-180deg);
+    width           : 1058px;
+}
+
+
+#contact .frame-1000007075-08NlFf {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 32px;
+    left            : 95px;
+    position        : absolute;
+    top             : 139px;
+}
+
+#contact .frame-1000007074-4j35oh {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 24px;
+    position        : relative;
+}
+
+#contact .msc-international-clinic-FInJMH {
+    background-color: transparent;
+    color           : transparent;
+    font-family     : var(--font-family-proxima_nova-bold);
+    font-size       : var(--font-size-xl);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : 0.08px;
+    line-height     : 41.6px;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#contact .span0-NYXvKJ {
+    color         : var(--secondaryblue-500);
+    font-style    : normal;
+    letter-spacing: 0.03px;
+}
+
+#contact .span1-NYXvKJ {
+    color         : var(--primaryblue-500);
+    font-style    : normal;
+    letter-spacing: 0.03px;
+}
+
+#contact .phng-khm-a-khoa-quc-FInJMH {
+    background-color: transparent;
+    color           : var(--primaryblue-700);
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-size       : var(--font-size-m);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.00px;
+    line-height     : 24.0px;
+    position        : relative;
+    text-align      : justify;
+    width           : 565px;
+}
+
+#contact .frame-1000007077-4j35oh {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 18px;
+    position        : relative;
+}
+
+#contact .button-offical {
+    align-items  : center;
+    border-radius: 24px;
+    display      : inline-flex;
+    flex         : 0 0 auto;
+    gap          : 8px;
+    position     : relative;
+}
+
+#contact .button-offical-AXvOWE {
+    background-color: var(--primaryblue-500);
+    padding         : 8px 8px 8px 24px;
+}
+
+#contact .xem-thm {
+    background-color: transparent;
+    font-family     : var(--font-family-proxima_nova_vh-semibold);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#contact .xem-thm-GKUYeu {
+    color: var(--greyscale-text0);
+}
+
+#contact .frame-1000005542-WGugOq {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    gap             : 8px;
+    height          : 19px;
+    left            : 100px;
+    position        : absolute;
+    width           : 179px;
+}
+
+#contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact
