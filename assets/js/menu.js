@@ -50,13 +50,13 @@ document.querySelector('.navigation').addEventListener('click', function () {
         document.querySelector('#header_mobile  #content').style.display = 'none';
         document.querySelector('.frame-1000005533-pVIns9').style.opacity = '1';
 
-        document.querySelector('.navigation').src = 'https://cdn.animaapp.com/projects/65d5e3adb758944670ebfa1e/releases/65d5e43b6f7b7e704bcb5c36/img/navigation-1.svg';
+        document.querySelector('.navigation').src = './assets/imgs/navigation-1.svg';
     } else {
         headerMobile.style.height = '100vh';
         document.querySelector('#header_mobile  #content').style.display = 'block';
         document.querySelector('.frame-1000005533-pVIns9').style.opacity = '0';
 
-        document.querySelector('.navigation').src = 'https://cdn.animaapp.com/projects/65d5e3adb758944670ebfa1e/releases/65d5e43b6f7b7e704bcb5c36/img/navigation.svg';
+        document.querySelector('.navigation').src = './assets/imgs/navigation.svg';
     }
 });
 
