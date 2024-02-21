@@ -23,10 +23,16 @@
     --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
 }
 
-#contact {
-    width: 100%;
+body {
+    background-color: rgb(0, 0, 0);
+}
 
-    background-color: gray;
+#contact {
+    width           : 100%;
+    background-color: white;
+    position        : relative;
+
+
 }
 
 * {
@@ -66,6 +72,7 @@
 
 
 #contact .frame-1000007075-08NlFf {
+    z-index         : 99;
     align-items     : flex-start;
     background-color: transparent;
     display         : inline-flex;
@@ -175,9 +182,106 @@
     display         : flex;
     gap             : 8px;
     height          : 19px;
-    left            : 100px;
     position        : absolute;
     width           : 179px;
+    margin-top      : -50px;
 }
 
-#contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact #contact
+#contact .trang-ch {
+    background-color: transparent;
+    position        : relative;
+}
+
+#contact .trang-ch-aNfYjd {
+    color         : var(--primaryblue-400);
+    font-family   : var(--font-family-proxima_nova_vh-regular);
+    font-size     : var(--font-size-s);
+    font-style    : normal;
+    font-weight   : 400;
+    letter-spacing: -0.16px;
+    line-height   : 19.2px;
+    margin-top    : -1px;
+    text-align    : center;
+    white-space   : nowrap;
+    width         : fit-content;
+}
+
+#contact .x-aNfYjd {
+    background-color: transparent;
+    color           : var(--primaryblue-400);
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : -0.16px;
+    line-height     : 19.2px;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#contact .lin-h-aNfYjd {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : -0.16px;
+    line-height     : 19.2px;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#contact .rectangle-34625285-08NlFf {
+    background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.6109344363212585) 55.50137162208557%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    height          : 200px;
+    position        : absolute;
+    bottom          : 0px;
+    width           : 100%;
+    transform       : rotate(180deg);
+}
+
+#contact .rectangle-34625284-08NlFf {
+    background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.6109344363212585) 55.50137162208557%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    height          : 663px;
+    left            : 134px;
+    position        : absolute;
+    top             : 6px;
+    width           : 931px;
+}
+
+#lien-he {
+    width: 100%;
+}
+
+#lien-he .frame-1000007069-WGugOq {
+    display         : flex;
+    justify-content : center;
+    background-color: transparent;
+    padding         : 0 100px;
+    width           : 100%;
+}
+
+#lien-he .rectangle-34625256-28E5zJ {
+    background-color: #f5f7fa;
+    border-radius   : 24px;
+    height          : 513px;
+    width           : 100%;
+}
+
+#lien-he .frame-1000006933-28E5zJ {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 32px;
+    top             : 48px;
+}
