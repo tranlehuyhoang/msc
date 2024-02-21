@@ -1,9 +1,19 @@
 var showDropMenu = function (name, article) {
-    console.log('Left offset position:', article.offsetLeft, 'px');
 
     var dropMenu = document.getElementsByClassName(name)[0];
+    var child = dropMenu.querySelector('div');
     dropMenu.style.setProperty('display', 'block');
-    dropMenu.style.paddingLeft = article.offsetLeft + 'px';
+
+    var screenWidth = window.innerWidth;
+    var maxOffset = child.offsetWidth + article.offsetLeft;
+
+    if (maxOffset > screenWidth) {
+        dropMenu.style.paddingLeft = (screenWidth - child.offsetWidth) + 'px';
+    } else {
+
+        dropMenu.style.paddingLeft = article.offsetLeft + 'px';
+    }
+
 };
 
 var hideDropMenu = function (name) {
