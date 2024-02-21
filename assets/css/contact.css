@@ -265,16 +265,23 @@ body {
 #lien-he .frame-1000007069-WGugOq {
     display         : flex;
     justify-content : center;
-    background-color: transparent;
+    background-color: white;
     padding         : 0 100px;
     width           : 100%;
 }
 
 #lien-he .rectangle-34625256-28E5zJ {
+    justify-content : space-between;
+    position        : relative;
+    display         : flex;
+    flex-direction  : row-reverse;
     background-color: #f5f7fa;
     border-radius   : 24px;
     height          : 513px;
     width           : 100%;
+    margin-bottom   : 50px;
+    padding         : 50px;
+    padding-bottom  : 0px;
 }
 
 #lien-he .frame-1000006933-28E5zJ {
@@ -284,4 +291,234 @@ body {
     flex-direction  : column;
     gap             : 32px;
     top             : 48px;
+}
+
+#lien-he .a-tH0G9Z {
+    background-color: transparent;
+    height          : 429px;
+    left            : 0px;
+    width           : 549px;
+    position        : absolute;
+    bottom          : 0px;
+    left            : 50px;
+}
+
+#lien-he .thng-tin-lin-h-NR76uC {
+    background-color: transparent;
+    color           : transparent;
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-xxl);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : -0.48px;
+    line-height     : 57.6px;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#lien-he .span0-0cCVvc {
+    color         : var(--primaryblue-500);
+    font-style    : normal;
+    letter-spacing: -0.23px;
+}
+
+#lien-he .span1-0cCVvc {
+    color         : var(--secondaryblue-500);
+    font-style    : normal;
+    letter-spacing: -0.23px;
+}
+
+#lien-he .frame-1000006932-NR76uC {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 27px;
+    position        : relative;
+}
+
+#lien-he .frame-1000006931-f0y7gy {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 16px;
+    position        : relative;
+}
+
+#lien-he .input-field-boGjWv {
+    align-items     : flex-start;
+    background-color: transparent;
+    border-radius   : 24px;
+    display         : flex;
+    flex-direction  : column;
+    gap             : 8px;
+    overflow        : hidden;
+    position        : relative;
+    width           : 433px;
+}
+
+#lien-he .frame-9137-j8dMxZ {
+    align-items     : flex-start;
+    align-self      : stretch;
+    background-color: transparent;
+    display         : flex;
+    flex-direction  : column;
+    gap             : 8px;
+    height          : 48px;
+    position        : relative;
+    width           : 100%;
+}
+
+#lien-he .frame-16 {
+    background-color: var(--greyscale-text0);
+    display         : flex;
+    justify-content : space-between;
+    overflow        : hidden;
+    position        : relative;
+}
+
+#lien-he .frame-16-dPqJd6 {
+    align-items  : center;
+    align-self   : stretch;
+    border-radius: 4px;
+    height       : 48px;
+    padding      : 12px 20px;
+    width        : 100%;
+}
+
+#lien-he .frame-9174 {
+    align-items: center;
+    display    : flex;
+    gap        : 8px;
+    position   : relative;
+}
+
+#lien-he .frame-9174-PQesU0 {
+    background-color: transparent;
+    flex            : 1;
+    flex-grow       : 1;
+}
+
+#lien-he .frame-16 {
+    background-color: var(--greyscale-text0);
+    display         : flex;
+    justify-content : space-between;
+    overflow        : hidden;
+    position        : relative;
+}
+
+#lien-he .frame-16-boGjWv {
+    align-items  : center;
+    border-radius: 24px;
+    height       : 48px;
+    padding      : 12px 16px 12px 20px;
+    width        : 208.5px;
+}
+
+#lien-he .frame-9174 {
+    align-items: center;
+    display    : flex;
+    gap        : 8px;
+    position   : relative;
+}
+
+#lien-he .frame-9174-hlyejA {
+    background-color: transparent;
+    flex            : 1;
+    flex-grow       : 1;
+}
+
+#lien-he .s-in-thoi-pnVv56 {
+    background-color: transparent;
+    letter-spacing  : 0.00px;
+    line-height     : 24px;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#lien-he .frame-1000005496-f0y7gy {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 20px;
+    position        : relative;
+}
+
+#lien-he .frame-16 {
+    background-color: var(--greyscale-text0);
+    display         : flex;
+    justify-content : space-between;
+    overflow        : hidden;
+    position        : relative;
+}
+
+#lien-he .frame-16-gYxlEb {
+    align-items  : flex-start;
+    border-radius: 24px;
+    height       : 184px;
+    padding      : 16px 12px 12px 16px;
+    width        : 661px;
+}
+
+#lien-he .frame-9174 {
+    align-items: center;
+    display    : flex;
+    gap        : 8px;
+    position   : relative;
+}
+
+#lien-he .frame-9174-oiDALJ {
+    background-color: transparent;
+    flex            : 1;
+    flex-grow       : 1;
+}
+
+#lien-he .frame-1000005478-gYxlEb {
+    align-items     : center;
+    background-color: var(--primaryblue-500);
+    border-radius   : 100px;
+    display         : flex;
+    gap             : 4px;
+    height          : 48px;
+    justify-content : center;
+    overflow        : hidden;
+    padding         : 0px 24px;
+    position        : relative;
+    width           : 661px;
+}
+
+#lien-he .ng-k-thm-khm-UdtxqP {
+    background-color: transparent;
+    color           : var(--greyscale-text0);
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : -0.16px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+input {
+    outline: none;
+    border : 0;
+}
+
+textarea {
+    outline: none;
+    border : 0;
+
 }
