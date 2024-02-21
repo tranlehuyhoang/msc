@@ -34,7 +34,7 @@
     --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
 }
 
-.menu-lTxfya {
+header .menu-lTxfya {
     position        : fixed;
     background-color: var(--background-elevation5);
     box-shadow      : 0px 4px 20px #0021530d;
@@ -49,7 +49,7 @@
 
 }
 
-.frame-1000005465-xgRxsF {
+header .frame-1000005465-xgRxsF {
     width           : 1400px;
     align-items     : center;
     background-color: transparent;
@@ -59,7 +59,7 @@
     margin          : 0 auto;
 }
 
-.frame-1000005346-xgRxsF {
+header .frame-1000005346-xgRxsF {
     align-items     : flex-start;
     background-color: transparent;
     display         : flex;
@@ -71,14 +71,14 @@
 
 }
 
-.frame-9174 {
+header .frame-9174 {
     align-items: center;
     display    : flex;
     gap        : 8px;
     position   : relative;
 }
 
-.frame-9174-VqwDhh {
+header .frame-9174-VqwDhh {
     background-color: #e7edf580;
     border-radius   : 20px;
     height          : 40px;
@@ -86,7 +86,7 @@
     width           : 562px;
 }
 
-.frame-1000005464-xaxcGs {
+header .frame-1000005464-xaxcGs {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -96,7 +96,7 @@
     position        : relative;
 }
 
-.button-offical-va96Ru {
+header .button-offical-va96Ru {
     align-items     : center;
     background-color: var(--secondaryblue-50);
     border-radius   : 24px;
@@ -108,7 +108,7 @@
     position        : relative;
 }
 
-.homepage .button-offical-MRhrET {
+header .homepage .button-offical-MRhrET {
     align-items     : center;
     background-color: var(--secondaryblue-500);
     border-radius   : 24px;
@@ -120,7 +120,7 @@
     position        : relative;
 }
 
-.frame-1000005462-va96Ru {
+header .frame-1000005462-va96Ru {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -130,7 +130,7 @@
     position        : relative;
 }
 
-.frame-1000005179-tYkvsG {
+header .frame-1000005179-tYkvsG {
     background-color: var(--primaryblue-500);
     border-radius   : 20px;
     height          : 36px;
@@ -139,7 +139,7 @@
     width           : 36px;
 }
 
-.component-15-wX3hxc {
+header .component-15-wX3hxc {
     background-color: transparent;
     height          : 24px;
     left            : 6px;
@@ -148,7 +148,7 @@
     width           : 24px;
 }
 
-.button-offical-MRhrET {
+header .button-offical-MRhrET {
     align-items     : center;
     background-color: var(--secondaryblue-500);
     border-radius   : 24px;
@@ -160,17 +160,17 @@
     position        : relative;
 }
 
-.xem-thm {
+header .xem-thm {
     background-color: transparent;
-    letter-spacing  : 0.20px;
-    line-height     : 19.2px;
+    letter-spacing  : 0header .20px;
+    line-height     : 19header .2px;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
     width           : fit-content;
 }
 
-.proximanovavh-normal-white-16px {
+header .proximanovavh-normal-white-16px {
     color      : var(--background-elevation5);
     font-family: var(--font-family-proxima_nova_vh-semibold);
     font-size  : var(--font-size-m);
@@ -180,7 +180,7 @@
 
 
 /* --- */
-.frame-1000005346-xgRxsF {
+header .frame-1000005346-xgRxsF {
     align-items     : flex-start;
     background-color: transparent;
     display         : flex;
@@ -188,7 +188,7 @@
     width           : 1400px;
 }
 
-.trang-ch {
+header .trang-ch {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -201,7 +201,7 @@
     position: relative;
 }
 
-.frame-1000005463 {
+header .frame-1000005463 {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -212,7 +212,7 @@
     position        : relative;
 }
 
-.frame-1000005168 {
+header .frame-1000005168 {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -222,10 +222,10 @@
     position        : relative;
 }
 
-.i-ng-chuyn-gia {
+header .i-ng-chuyn-gia {
     background-color: transparent;
-    letter-spacing  : 0.00px;
-    line-height     : 16.8px;
+    letter-spacing  : 0header .00px;
+    line-height     : 16header .8px;
     margin-top      : -1px;
     position        : relative;
     text-align      : center;
@@ -234,14 +234,14 @@
     margin-bottom   : 0px;
 }
 
-.arrow-chevron_-down {
+header .arrow-chevron_-down {
     background-color: transparent;
     height          : 16px;
     position        : relative;
     width           : 16px;
 }
 
-.proximanovavh-normal-tory-blue-14px {
+header .proximanovavh-normal-tory-blue-14px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
     font-size  : var(--font-size-s);
@@ -249,7 +249,7 @@
     font-weight: 400;
 }
 
-.tm-kim-dch-v-jumfUc {
+header .tm-kim-dch-v-jumfUc {
     background-color: transparent;
     outline         : none;
     height          : 100%;
@@ -257,7 +257,7 @@
     width           : 100%;
 }
 
-.proximanovavh-normal-tory-blue-16px {
+header .proximanovavh-normal-tory-blue-16px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
     font-size  : var(--font-size-m);
@@ -266,18 +266,18 @@
 }
 
 @media (max-width: 1400px) {
-    .menu-lTxfya {
+    header .menu-lTxfya {
         height : auto;
         padding: 20px;
 
     }
 
-    .frame-1000005465-xgRxsF {
+    header .frame-1000005465-xgRxsF {
         width: 100%;
 
     }
 
-    .frame-1000005346-xgRxsF {
+    header .frame-1000005346-xgRxsF {
         width          : auto;
         flex-wrap      : wrap;
         justify-content: start;
@@ -285,18 +285,18 @@
 }
 
 @media (max-width: 768px) {
-    .menu-lTxfya {
+    header .menu-lTxfya {
         height : auto;
         padding: 20px;
 
     }
 
-    .frame-1000005465-xgRxsF {
+    header .frame-1000005465-xgRxsF {
         width: 100%;
 
     }
 
-    .frame-1000005346-xgRxsF {
+    header .frame-1000005346-xgRxsF {
         width          : auto;
         flex-wrap      : wrap;
         justify-content: start;
@@ -305,7 +305,7 @@
 
 
 /* hover css */
-.frame-1000005487-NcootA {
+header .frame-1000005487-NcootA {
     background-color: var(--background-elevation5);
     border          : 2px solid;
     border-color    : var(--background-elevation5);
@@ -319,7 +319,7 @@
     width           : 575px;
 }
 
-.rectangle-34625106 {
+header .rectangle-34625106 {
     background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
     background-color: transparent;
     height          : 221px;
@@ -328,11 +328,11 @@
     top             : 0px;
 }
 
-.rectangle-34625106-ixWPiO {
+header .rectangle-34625106-ixWPiO {
     width: 599px;
 }
 
-.frame-1000005181 {
+header .frame-1000005181 {
     background-color: transparent;
     border          : 2px solid;
     border-color    : var(--background-elevation5);
@@ -343,11 +343,11 @@
     top             : 0px;
 }
 
-.frame-1000005181-ixWPiO {
+header .frame-1000005181-ixWPiO {
     width: 299px;
 }
 
-.rectangle-34625110 {
+header .rectangle-34625110 {
     background-color: transparent;
     height          : 299px;
     left            : 0px;
@@ -356,11 +356,11 @@
     top             : 0px;
 }
 
-.rectangle-34625110-pdmKv0 {
+header .rectangle-34625110-pdmKv0 {
     width: 299px;
 }
 
-.rectangle-34625111 {
+header .rectangle-34625111 {
     background-color: transparent;
     height          : 299px;
     left            : 0px;
@@ -368,17 +368,17 @@
     top             : 0px;
 }
 
-.rectangle-34625111-pdmKv0 {
+header .rectangle-34625111-pdmKv0 {
     object-fit: cover;
     width     : 299px;
 }
 
-.v-chng-ti-pdmKv0 {
+header .v-chng-ti-pdmKv0 {
     background-color: transparent;
     height          : auto;
     left            : 53px;
-    letter-spacing  : -0.28px;
-    line-height     : 33.6px;
+    letter-spacing  : -0header .28px;
+    line-height     : 33header .6px;
     position        : absolute;
     text-align      : center;
     top             : 240px;
@@ -386,7 +386,7 @@
     width           : auto;
 }
 
-.proximanova-bold-white-28px {
+header .proximanova-bold-white-28px {
     color      : var(--background-elevation5);
     font-family: var(--font-family-proxima_nova-bold);
     font-size  : var(--font-size-l);
@@ -394,7 +394,7 @@
     font-weight: 700;
 }
 
-.frame-1000005507 {
+header .frame-1000005507 {
     align-items     : flex-start;
     background-color: transparent;
     display         : inline-flex;
@@ -402,13 +402,13 @@
     gap             : 12px;
 }
 
-.frame-1000005507-ixWPiO {
+header .frame-1000005507-ixWPiO {
     left    : 322px;
     position: absolute;
     top     : 37px;
 }
 
-.frame-1000005339 {
+header .frame-1000005339 {
     align-items     : center;
     background-color: transparent;
     display         : inline-flex;
@@ -416,17 +416,17 @@
     position        : absolute;
 }
 
-.frame-1000005339-ixWPiO {
+header .frame-1000005339-ixWPiO {
     left: 439px;
     top : 259px;
 }
 
-.gout {
+header .gout {
     background-color: transparent;
     position        : relative;
 }
 
-.gout-CpmxGP {
+header .gout-CpmxGP {
     align-items    : flex-start;
     display        : inline-flex;
     flex           : 0 0 auto;
@@ -435,10 +435,10 @@
     justify-content: center;
 }
 
-.xem-tt-c {
+header .xem-tt-c {
     background-color: transparent;
-    letter-spacing  : 0.14px;
-    line-height     : 16.8px;
+    letter-spacing  : 0header .14px;
+    line-height     : 16header .8px;
     margin-top      : -1px;
     position        : relative;
     text-align      : left;
@@ -446,11 +446,11 @@
     width           : fit-content;
 }
 
-.screen div {
+header .screen div {
     -webkit-text-size-adjust: none;
 }
 
-.proximanovavh-bold-cerulean-14px {
+header .proximanovavh-bold-cerulean-14px {
     color      : var(--secondaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-bold);
     font-size  : var(--font-size-s);
@@ -458,7 +458,7 @@
     font-weight: 700;
 }
 
-#dropMenu {
+header #dropMenu {
     position        : fixed;
     top             : 0;
     width           : 100vw;
@@ -469,14 +469,15 @@
     /* Màu đen với độ trong suốt 20% */
 }
 
-.vechungtoi {
+header .vechungtoi {
     display: none;
 }
 
-.coxuongkhop {
+header .coxuongkhop {
     display: none;
 }
 
 article {
     border-bottom: 2px solid black;
+    margin       : 0 5px;
 }
