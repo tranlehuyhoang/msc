@@ -272,6 +272,7 @@ body {
 
 #lien-he .rectangle-34625256-28E5zJ {
     justify-content : space-between;
+    max-width       : 1400px;
     position        : relative;
     display         : flex;
     flex-direction  : row-reverse;
@@ -521,4 +522,141 @@ textarea {
     outline: none;
     border : 0;
 
+}
+
+
+#map .banner-WGugOq {
+
+    background-color: white;
+}
+
+#map .groupbanner-WGugOq {
+    justify-content: space-between;
+    display        : flex;
+    width          : 100%;
+    max-width      : 1400px;
+}
+
+#map .image-48-WxNvH0 {
+    width: 865px;
+
+    height: 457px;
+}
+
+#map .image-47-WxNvH0 {
+    width: 498px;
+
+    height: 457px;
+
+}
+
+#map .container {
+    display        : flex;
+    width          : 100%;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    padding        : 50px 100px;
+
+}
+
+#map .title-WxNvH0 {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-xxl);
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    letter-spacing  : -0.48px;
+    line-height     : 57.6px;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : auto;
+    padding         : 50px 0;
+}
+
+#map .gruop_ {
+    max-width: 1400px;
+    width    : 100%;
+}
+
+#map .title-WxNvH0 {
+    display        : flex;
+    justify-content: start;
+}
+
+#map .frame-1000005505-WxNvH0 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    justify-content : space-between;
+    width           : 100%;
+    max-width       : 1400px;
+
+}
+
+#map .frame-1000005502-COE1DE {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    gap             : 16px;
+    position        : relative;
+}
+
+#map .frame-1000005501-KEa3Sr {
+    background-color: transparent;
+    height          : 60px;
+    position        : relative;
+    width           : 60px;
+}
+
+#map .frame-1000005499-bp1DwR {
+    background-color: transparent;
+    height          : 52px;
+    left            : 13px;
+    position        : relative;
+    top             : 4px;
+    width           : 34px;
+}
+
+#map .group-tR10f1 {
+    background-color: transparent;
+    height          : 45px;
+    left            : 0px;
+    position        : absolute;
+    top             : 0px;
+    width           : 34px;
+}
+
+#map .ellipse-11-tR10f1 {
+    background-color: var(--secondaryblue-500);
+    border-radius   : 12.99px/2.6px;
+    height          : 5px;
+    left            : 4px;
+    position        : absolute;
+    top             : 47px;
+    width           : 26px;
+}
+
+
+
+.proximanova-regular-normal-midnight-blue-20px {
+    color      : var(--primaryblue-700);
+    font-family: var(--font-family-proxima_nova-regular);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#map .a-ch-tt20-21-22-s-20-KEa3Sr {
+    background-color: transparent;
+    height          : 60px;
+    letter-spacing  : 0.00px;
+    line-height     : 30px;
+    margin-right    : -49.98px;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-align      : left;
+    width           : 451.98486328125px;
 }
