@@ -1,0 +1,670 @@
+ * {
+     margin    : 0;
+     padding   : 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --black                               : #000000;
+     --greyscale-text0                     : #ffffff;
+     --greyscale-text30                    : #828282;
+     --primaryblue-100                     : #b6c7e0;
+     --primaryblue-500                     : #134a9b;
+     --primaryblue-600                     : #0e3f86;
+     --thunderbird                         : #bd2424;
+     --font-size-l                         : 32px;
+     --font-size-m                         : 16px;
+     --font-size-xl                        : 48px;
+     --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+     --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+     --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+     --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+ }
+
+ body {
+     /* background-color: gray; */
+ }
+
+
+ #form_lien_he textarea,
+ #form_lien_he input {
+     border  : none;
+     overflow: hidden;
+     outline : none;
+ }
+
+ #form_lien_he textarea {
+     height: 100%;
+ }
+
+ #form_lien_he {
+     background-color: aliceblue;
+     display         : flex;
+     justify-content : center;
+ }
+
+ #form_lien_he .official-form-ng-k-thm-khm-lR8Ypc {
+     /* background-color: gray; */
+     display        : flex;
+     align-items    : center;
+     height         : 541px;
+     max-width      : 1600px;
+     width          : 100%;
+     justify-content: space-around;
+ }
+
+ #form_lien_he .rectangle-PReCxz {
+     background-color: transparent;
+     height          : 366px;
+     width           : 483px;
+
+ }
+
+ #form_lien_he .frame-1000005498-PReCxz {
+     margin-right: 20px;
+
+     align-items     : center;
+     background-color: transparent;
+     display         : inline-flex;
+     flex-direction  : column;
+     gap             : 36px;
+ }
+
+ #form_lien_he .li-nhu-cu-khm {
+     background-color: transparent;
+     color           : var(--primaryblue-500);
+     font-style      : normal;
+     font-weight     : 700;
+     text-align      : center;
+     text-shadow     : 0px -13.40185546875px 18.762598037719727px #ffffff40;
+     white-space     : nowrap;
+ }
+
+ #form_lien_he .li-nhu-cu-khm-N1nw72 {
+     font-family: var(--font-family-proxima_nova_vh-bold);
+     font-size  : var(--font-size-xl);
+     line-height: 57.6px;
+     position   : relative;
+     width      : fit-content;
+ }
+
+ #form_lien_he .frame-1000005497 {
+     align-items     : flex-start;
+     background-color: transparent;
+     display         : flex;
+     flex            : 0 0 auto;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-1000005497-N1nw72 {
+     gap  : 24px;
+     width: 840px;
+ }
+
+ #form_lien_he .frame-1000005383-lDMiED {
+     align-items     : flex-start;
+     background-color: transparent;
+     display         : flex;
+     flex-direction  : column;
+     gap             : 20px;
+     position        : relative;
+     width           : 368px;
+ }
+
+ #form_lien_he .input-field {
+     align-items     : flex-start;
+     background-color: transparent;
+     border-radius   : 24px;
+     display         : flex;
+     flex-direction  : column;
+     gap             : 8px;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .input-field-MI5n4j {
+     align-self: stretch;
+     flex      : 0 0 auto;
+     width     : 100%;
+ }
+
+ #form_lien_he .frame-9137 {
+     align-items     : flex-start;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex-direction  : column;
+     gap             : 8px;
+     height          : 48px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-3ud2Wx {
+     align-items    : center;
+     align-self     : stretch;
+     border-radius  : 4px;
+     height         : 48px;
+     justify-content: space-between;
+     padding        : 12px 20px;
+     width          : 100%;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .h-v-tn {
+     background-color: transparent;
+     letter-spacing  : 0.00px;
+     line-height     : 24px;
+     margin-top      : -1.00px;
+     position        : relative;
+     text-align      : left;
+     white-space     : nowrap;
+     width           : fit-content;
+ }
+
+ .proximanovavh-regular-normal-white-16px {
+     font-family: var(--font-family-proxima_nova_vh-regular);
+     font-size  : var(--font-size-m);
+     font-style : normal;
+     font-weight: 400;
+ }
+
+ #form_lien_he .frame-1000005380-MI5n4j {
+     align-items     : flex-start;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex            : 0 0 auto;
+     gap             : 16px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-FpLHIk {
+     align-items    : center;
+     align-self     : stretch;
+     border-radius  : 24px;
+     justify-content: space-between;
+     padding        : 12px 16px 12px 20px;
+     width          : 174px;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .s-in-thoi {
+     background-color: transparent;
+     letter-spacing  : 0.00px;
+     line-height     : 24px;
+     margin-top      : -1.00px;
+     position        : relative;
+     text-align      : left;
+     white-space     : nowrap;
+     width           : fit-content;
+ }
+
+ .proximanovavh-regular-normal-white-16px {
+     font-family: var(--font-family-proxima_nova_vh-regular);
+     font-size  : var(--font-size-m);
+     font-style : normal;
+     font-weight: 400;
+ }
+
+ .proximanovavh-regular-normal-gray-16px {
+     color      : var(--greyscale-text30);
+     font-family: var(--font-family-proxima_nova_vh-regular);
+     font-size  : var(--font-size-m);
+     font-style : normal;
+     font-weight: 400;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-XJ5Rd1 {
+     align-items    : center;
+     align-self     : stretch;
+     border-radius  : 24px;
+     flex           : 1;
+     flex-grow      : 1;
+     gap            : 8px;
+     justify-content: space-around;
+     padding        : 12px 20px;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .nm-sinh {
+     background-color: transparent;
+     letter-spacing  : 0.00px;
+     line-height     : 24px;
+     margin-top      : -1.00px;
+     position        : relative;
+     text-align      : left;
+     white-space     : nowrap;
+     width           : 100%;
+ }
+
+ .proximanovavh-normal-gray-16px {
+     color      : var(--greyscale-text30);
+     font-family: var(--font-family-proxima_nova_vh-semibold);
+     font-size  : var(--font-size-m);
+     font-style : normal;
+     font-weight: 400;
+ }
+
+ #form_lien_he .frame-1000005381-MI5n4j {
+     align-items     : center;
+     align-self      : stretch;
+     background-color: var(--greyscale-text0);
+     border-radius   : 24px;
+     display         : flex;
+     height          : 48px;
+     justify-content : space-between;
+     overflow        : hidden;
+     padding         : 12px 16px 12px 20px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .arrow-caret_-down_md {
+     background-color: transparent;
+     height          : 20px;
+     position        : relative;
+     width           : 20px;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-MI5n4j {
+     align-items    : center;
+     align-self     : stretch;
+     border-radius  : 24px;
+     height         : 48px;
+     justify-content: space-between;
+     padding        : 12px 16px 12px 20px;
+     width          : 100%;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .arrow-caret_-down_md {
+     background-color: transparent;
+     height          : 20px;
+     position        : relative;
+     width           : 20px;
+ }
+
+ #form_lien_he .frame-1000007229-MI5n4j {
+     align-items     : flex-start;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex            : 0 0 auto;
+     gap             : 10px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-eJxK4I {
+     align-items    : center;
+     border-radius  : 24px;
+     height         : 48px;
+     justify-content: space-between;
+     padding        : 12px 16px 12px 20px;
+     width          : 189px;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .calendar-calendar {
+     background-color: transparent;
+     height          : 20px;
+     position        : relative;
+     width           : 20px;
+ }
+
+ #form_lien_he .input-field {
+     align-items     : flex-start;
+     background-color: transparent;
+     border-radius   : 24px;
+     display         : flex;
+     flex-direction  : column;
+     gap             : 8px;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .input-field-eJxK4I {
+     flex     : 1;
+     flex-grow: 1;
+ }
+
+ #form_lien_he .frame-9137 {
+     align-items     : flex-start;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex-direction  : column;
+     gap             : 8px;
+     height          : 48px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-g1i0GS {
+     align-items    : center;
+     align-self     : stretch;
+     border-radius  : 4px;
+     height         : 48px;
+     justify-content: space-between;
+     padding        : 12px 20px;
+     width          : 100%;
+ }
+
+ #form_lien_he .frame-9174 {
+     align-items     : center;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-grow       : 1;
+     gap             : 8px;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-1000005496-lDMiED {
+     align-items     : center;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex            : 1;
+     flex-direction  : column;
+     flex-grow       : 1;
+     gap             : 20px;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16 {
+     background-color: var(--greyscale-text0);
+     display         : flex;
+     overflow        : hidden;
+     position        : relative;
+ }
+
+ #form_lien_he .frame-16-kcBZIQ {
+     align-items    : flex-start;
+     align-self     : stretch;
+     border-radius  : 24px;
+     flex           : 1;
+     flex-grow      : 1;
+     justify-content: space-between;
+     padding        : 16px 12px 12px 16px;
+     width          : 100%;
+ }
+
+ #form_lien_he .frame-1000007212-kcBZIQ {
+     align-items     : center;
+     align-self      : stretch;
+     background-color: transparent;
+     display         : flex;
+     flex            : 0 0 auto;
+     gap             : 18px;
+     position        : relative;
+     width           : 100%;
+ }
+
+ #form_lien_he .button-offical {
+     align-items  : center;
+     border-radius: 24px;
+     display      : flex;
+     flex         : 1;
+     flex-grow    : 1;
+     gap          : 8px;
+     height       : 48px;
+     padding      : 8px 24px;
+     position     : relative;
+ }
+
+ #form_lien_he .xem-thm {
+     background-color: transparent;
+     font-family     : var(--font-family-proxima_nova_vh-semibold);
+     font-size       : var(--font-size-m);
+     font-style      : normal;
+     font-weight     : 400;
+     letter-spacing  : 0.20px;
+     line-height     : 19.2px;
+     position        : relative;
+     text-align      : center;
+ }
+
+ #form_lien_he .xem-thm-xVx1RY {
+     color: var(--greyscale-text0);
+     flex : 1;
+ }
+
+ #form_lien_he .button-offical {
+     align-items  : center;
+     border-radius: 24px;
+     display      : flex;
+     flex         : 1;
+     flex-grow    : 1;
+     gap          : 8px;
+     height       : 48px;
+     padding      : 8px 24px;
+     position     : relative;
+ }
+
+ #form_lien_he .button-offical-oyRLgM {
+     background-color: var(--greyscale-text0);
+     border          : 1px solid;
+     border-color    : var(--primaryblue-500);
+     b
+ }
+
+ #form_lien_he .xem-thm {
+     background-color: transparent;
+     font-family     : var(--font-family-proxima_nova_vh-semibold);
+     font-size       : var(--font-size-m);
+     font-style      : normal;
+     font-weight     : 400;
+     letter-spacing  : 0.20px;
+     line-height     : 19.2px;
+     position        : relative;
+     text-align      : center;
+ }
+
+ #form_lien_he .xem-thm-xNm438 {
+     color       : var(--primaryblue-500);
+     margin-right: -1.00px;
+     white-space : nowrap;
+     width       : fit-content;
+ }
+
+ #form_lien_he .button-offical-Ckhi2G {
+     background-color: var(--primaryblue-500);
+ }
+
+ @media (max-width: 1300px) {
+     #form_lien_he .rectangle-PReCxz {
+         display: none;
+     }
+
+     #form_lien_he .official-form-ng-k-thm-khm-lR8Ypc {
+         justify-content: space-around;
+     }
+
+     #form_lien_he .frame-1000005498-PReCxz {
+         margin-right: 0px;
+     }
+ }
+
+ @media (max-width: 880px) {
+     #form_lien_he .frame-1000005497-N1nw72 {
+         flex-direction: column;
+         display       : flex;
+         width         : 90vw;
+     }
+
+     #form_lien_he .frame-1000005498-PReCxz {
+         margin-top: 50px;
+     }
+
+
+
+     #form_lien_he .official-form-ng-k-thm-khm-lR8Ypc {
+         height : 100%;
+         padding: 50px 0;
+     }
+
+     #form_lien_he .frame-1000005383-lDMiED {
+         width: 100%;
+     }
+
+     #form_lien_he .frame-1000007212-kcBZIQ {
+         display       : flex;
+         flex-direction: column;
+     }
+
+     #form_lien_he .button-offical-Ckhi2G {
+         width: 100%;
+     }
+
+     #form_lien_he .button-offical-oyRLgM {
+         width          : 100%;
+         justify-content: center;
+     }
+
+     #form_lien_he .frame-1000007229-MI5n4j {
+         flex-direction: column;
+     }
+
+     #form_lien_he .frame-1000005380-MI5n4j {
+
+         gap: 20px;
+     }
+
+     #form_lien_he .frame-16 {
+         width: 100%;
+     }
+
+     #form_lien_he .input-field-eJxK4I {
+         width: 100%;
+
+     }
+
+     #form_lien_he .frame-1000005380-MI5n4j {
+         flex-direction: column;
+     }
+
+     #form_lien_he .frame-1000007229-MI5n4j {
+
+         gap: 20px;
+
+     }
+
+     #form_lien_he .xem-thm {
+         margin: 8px;
+     }
+
+     #form_lien_he .frame-9174__ {
+         width : 100%;
+         height: 89px !important;
+
+     }
+
+     #form_lien_he .li-nhu-cu-khm-N1nw72 {
+         font-size: 10vw
+     }
+
+     #form_lien_he .button-offical-oyRLgM {
+         background-color: var(--primaryblue-100);
+         border          : 0;
+     }
+ }
