@@ -90,13 +90,16 @@
 }
 
 #suluachonhangdau .frame-1000005735-7GnH4e {
-    display         : flex;
-    justify-content : space-between;
-    align-items     : center;
-    height          : 13.0625rem;
-    width           : 100%;
-    padding         : 0 3.125rem;
-    background-image: url('https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d800f31e57a5bc26ea12fb/img/rectangle-34625240.png');
+    display            : flex;
+    justify-content    : space-between;
+    align-items        : center;
+    height             : 13.0625rem;
+    width              : 100%;
+    padding            : 0 3.125rem;
+    background-image   : url('../imgs/rectangle-34625240.png');
+    background-size    : contain;
+    background-position: center;
+    background-repeat  : no-repeat;
 }
 
 #suluachonhangdau .rectangle-34625240 {
@@ -248,9 +251,8 @@
 }
 
 #suluachonhangdau .msc-clinic-quy-t-i-n-rxwt9x {
-    letter-spacing: 0.00px;
-    line-height   : 1.5rem;
-    width         : 19.69rem;
+    line-height: 1.5rem;
+    width      : 19.69rem;
 }
 
 .proximanovavh-regular-normal-white-16px {
@@ -706,5 +708,26 @@
     #suluachonhangdau .frame-1000005742-vxPFGA {
         width: 100%;
 
+    }
+
+    .proximanovavh-bold-turquoise-blue-48px {
+        font-size: 7vw;
+    }
+
+    .proximanovavh-bold-white-48px {
+        font-size: 7vw;
+
+    }
+
+    .proximanovavh-bold-turquoise-blue-48px {
+        font-size: 7vw;
+
+    }
+
+    .proximanovavh-bold-white-16px {
+
+        font-size  : 2.7vw;
+        font-style : normal;
+        font-weight: 700;
     }
 }
