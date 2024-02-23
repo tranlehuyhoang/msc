@@ -1,0 +1,682 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-300                     : #6186bc;
+    --primaryblue-400                     : #1e60c1;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --primaryblue-700                     : #0d356e;
+    --secondaryblue-400                   : #45dcff;
+    --font-size-l                         : 16.2px;
+    --font-size-m                         : 16px;
+    --font-size-s                         : 14px;
+    --font-size-xl                        : 20.9px;
+    --font-size-xxl                       : 24px;
+    --font-size-xxxl                      : 32px;
+    --font-size-xxxxl                     : 48px;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#suluachonhangdau {
+    background-color: #134a9b;
+
+
+    width          : 100%;
+    justify-content: center;
+    display        : flex;
+    align-items    : center;
+
+
+}
+
+#suluachonhangdau .container {
+    background-color: var(--primaryblue-600);
+
+    max-width: 1400px;
+    width    : 100%;
+}
+
+#suluachonhangdau .s-la-chn-hng-u-cho-sc-kho-ca-bn {
+    background-color: transparent;
+    color           : transparent;
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+}
+
+#suluachonhangdau .s-la-chn-hng-u-cho-sc-kho-ca-bn-7GnH4e {
+    font-size  : var(--font-size-xxxxl);
+    line-height: 57.6px;
+    text-align : justify;
+    white-space: nowrap;
+    width      : auto;
+    margin     : 50px 0;
+}
+
+.proximanovavh-bold-white-48px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+.proximanovavh-bold-turquoise-blue-48px {
+    color      : var(--secondaryblue-400);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+
+
+#suluachonhangdau .component-187-rLs8bh {
+    background-color: var(--primaryblue-600);
+    height          : 875px;
+    overflow        : hidden;
+    position        : relative;
+}
+
+#suluachonhangdau .frame-1000005735-7GnH4e {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    height          : 209px;
+    width           : 100%;
+    padding         : 0 50px;
+    background-image: url('https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d800f31e57a5bc26ea12fb/img/rectangle-34625240.png');
+}
+
+#suluachonhangdau .rectangle-34625240 {
+    background-color: transparent;
+    object-fit      : cover;
+}
+
+#suluachonhangdau .rectangle-34625240-t7KdB8 {
+    height: 209px;
+    width : 1400px;
+}
+
+#suluachonhangdau .phng-khm-a-khoa-msc {
+    background-color: transparent;
+    color           : transparent;
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    text-align      : justify;
+}
+
+#suluachonhangdau .phng-khm-a-khoa-msc-t7KdB8 {
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : var(--font-size-xxl);
+    left          : 54px;
+    letter-spacing: -0.24px;
+
+    top  : 49px;
+    width: 448px;
+}
+
+#suluachonhangdau .span0-INX0tY {
+    color         : var(--greyscale-text0);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+#suluachonhangdau .span1-INX0tY {
+    color         : var(--secondaryblue-400);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+#suluachonhangdau .span2-INX0tY {
+    color         : var(--greyscale-text0);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+#suluachonhangdau .span3-INX0tY {
+    color         : var(--secondaryblue-400);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+#suluachonhangdau .ellipse-2036 {
+    background      : linear-gradient(180deg, rgb(218.87500405311584, 50.158855095505714, 50.158855095505714) 0%, rgba(255, 88.18749949336052, 88.18749949336052, 0) 100%);
+    background-color: transparent;
+}
+
+#suluachonhangdau .ellipse-2036-t7KdB8 {
+    border-radius: 69.53px;
+    height       : 139px;
+    width        : 139px;
+
+}
+
+#suluachonhangdau .frame-1000005734 {
+    display         : flex;
+    background-color: transparent;
+
+}
+
+#suluachonhangdau .frame-1000005734-7GnH4e {
+    margin-top     : 50px;
+    display        : flex;
+    width          : 100%;
+    max-width      : 1400px;
+    justify-content: space-between;
+    align-items    : center;
+    gap            : 50px;
+}
+
+#suluachonhangdau .frame-1000005736 {
+    border-color: var(--primaryblue-300);
+    overflow    : hidden;
+    position    : relative;
+}
+
+#suluachonhangdau .frame-1000005736-e3envm {
+    background-color: var(--primaryblue-400);
+    border          : 1px solid;
+    border-radius   : 16px;
+    height          : 360px;
+    display         : flex;
+    width           : 100%;
+    padding         : 50px;
+}
+
+#suluachonhangdau .frame-1000005738-e3envm {
+    background-color: var(--primaryblue-400);
+    border          : 1px solid;
+    border-color    : var(--primaryblue-300);
+    border-radius   : 16px;
+    height          : 360px;
+    overflow        : hidden;
+    position        : relative;
+    width           : 676px;
+}
+
+#suluachonhangdau .frame-1000005739-cFPO5S {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 30px;
+}
+
+#suluachonhangdau .frame-1000005740 {
+    align-items     : flex-start;
+    background-color: transparent;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    position        : relative;
+}
+
+#suluachonhangdau .frame-1000005740-RTxuZD {
+    display: inline-flex;
+    gap    : 24px;
+}
+
+#suluachonhangdau .i-ng-bc-s-chuyn-gia-u-ngnh-rxwt9x {
+    line-height: 38.4px;
+    text-align : justify;
+    width      : fit-content;
+}
+
+.proximanovavh-bold-white-32px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#suluachonhangdau .msc-clinic-quy-t-i-n {
+    background-color: transparent;
+    position        : relative;
+    text-align      : justify;
+}
+
+#suluachonhangdau .msc-clinic-quy-t-i-n-rxwt9x {
+    letter-spacing: 0.00px;
+    line-height   : 24px;
+    width         : 314.05859375px;
+}
+
+.proximanovavh-regular-normal-white-16px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-regular);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#suluachonhangdau .frame-1000005740-RTxuZD {
+    display: inline-flex;
+    gap    : 24px;
+}
+
+#suluachonhangdau .button-offical {
+    align-items     : center;
+    background-color: var(--greyscale-text0);
+    border-radius   : 24px;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 8px;
+    padding         : 8px 8px 8px 24px;
+    position        : relative;
+}
+
+#suluachonhangdau .xem-thm {
+    background-color: transparent;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#suluachonhangdau .frame-1000005541 {
+    background-color: transparent;
+    height          : 32px;
+    position        : relative;
+    width           : 32px;
+}
+
+#suluachonhangdau .frame-1000005738-e3envm {
+    background-color: var(--primaryblue-400);
+    border          : 1px solid;
+    border-color    : var(--primaryblue-300);
+    border-radius   : 16px;
+    height          : 360px;
+    overflow        : hidden;
+    position        : relative;
+    width           : 100%;
+
+    display    : flex;
+    align-items: center;
+    padding    : 50px;
+}
+
+#suluachonhangdau .a-cFPO5S {
+    height  : 274px;
+    width   : 335px;
+    position: absolute;
+    right   : 0;
+    bottom  : 0;
+}
+
+#suluachonhangdau .rectangle-iZpwdQ {
+    height  : 259px;
+    position: absolute;
+    right   : 0;
+    bottom  : 0;
+}
+
+#suluachonhangdau .msc-clinic-s-hu-h-th-qEgvC8 {
+    letter-spacing: 0.00px;
+    line-height   : 24px;
+    width         : 345.4375px;
+}
+
+.proximanovavh-regular-normal-white-16px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-regular);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#suluachonhangdau .frame-1000005739-iZpwdQ {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 30px;
+}
+
+#suluachonhangdau .frame-1000005741-8dLgDj {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 24px;
+    position        : relative;
+}
+
+#suluachonhangdau .msc-clinic-s-hu-h-th-qEgvC8 {
+    letter-spacing: 0.00px;
+    line-height   : 24px;
+    width         : 345.4375px;
+}
+
+#suluachonhangdau .frame-1000005736-e3envm {
+    background-color: var(--primaryblue-400);
+    border          : 1px solid;
+    border-radius   : 16px;
+    height          : 360px;
+    width           : 100%;
+}
+
+#suluachonhangdau .frame-1000005736 {
+    border-color: var(--primaryblue-300);
+    overflow    : hidden;
+    position    : relative;
+}
+
+#suluachonhangdau .frame-1000005596-rLs8bh {
+    background-color: var(--primaryblue-600);
+    height          : 695px;
+    overflow        : hidden;
+    position        : relative;
+    display         : flex;
+    justify-content : space-between;
+}
+
+#suluachonhangdau .tm-nhn-v-s-mnh {
+    background-color: transparent;
+    color           : transparent;
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-style      : normal;
+    font-weight     : 700;
+}
+
+#suluachonhangdau .tm-nhn-v-s-mnh-v9DT2u {
+    font-size    : var(--font-size-xxxxl);
+    height       : auto;
+    line-height  : 57.6px;
+    text-align   : left;
+    margin-bottom: 50px;
+}
+
+#suluachonhangdau .frame-1000005751-v9DT2u {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 16px;
+}
+
+#suluachonhangdau .component-200 {
+    background-color: var(--primaryblue-400);
+    padding         : 36px;
+    border          : 1px solid;
+    border-color    : var(--primaryblue-300);
+    border-radius   : 16px;
+    width           : 527px;
+}
+
+#suluachonhangdau .component-200-xXIWKJ {
+    position: relative;
+}
+
+#suluachonhangdau .frame-1000005742 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    justify-content : space-between;
+}
+
+#suluachonhangdau .frame-1000005742-vxPFGA {
+    width: 455px;
+}
+
+#suluachonhangdau .frame-1000005743 {
+    align-items     : center;
+    background-color: transparent;
+    display         : flex;
+    position        : relative;
+}
+
+#suluachonhangdau .frame-1000005743-1WxP6I {
+    gap  : 16px;
+    width: 346.937744140625px;
+}
+
+#suluachonhangdau .frame-1000005748 {
+    align-items     : flex-start;
+    background-color: transparent;
+    flex-direction  : column;
+    justify-content : center;
+    position        : relative;
+}
+
+#suluachonhangdau .frame-1000005748-2Rv49S {
+    display: flex;
+    gap    : 8px;
+    width  : 412px;
+}
+
+#suluachonhangdau .frame-1000005749 {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    position        : relative;
+}
+
+#suluachonhangdau .frame-1000005749-q9Vrrt {
+    gap: 8px;
+}
+
+#suluachonhangdau .component-201-TEB11C {
+    height: 40px;
+    width : 40px;
+}
+
+#suluachonhangdau .s-mnh {
+    background-color: transparent;
+    position        : relative;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+.proximanova-bold-turquoise-blue-32px {
+    color      : var(--secondaryblue-400);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : var(--font-size-xxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#suluachonhangdau .pclasss {
+    margin-top: 10px;
+}
+
+#suluachonhangdau .msc-clinic-c-quyn-s-q9Vrrt {
+    align-self : stretch;
+    line-height: 19.2px;
+    text-align : justify;
+    white-space: nowrap;
+}
+
+.proximanovavh-bold-white-16px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#suluachonhangdau .gip-iu-tr-nhng-tn-th {
+    background-color: transparent;
+    height          : auto;
+    line-height     : 24px;
+    width           : 455px;
+}
+
+.proximanovavh-normal-tory-blue-16px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#suluachonhangdau .a-v9DT2u {
+    height  : 594px;
+    width   : 776px;
+    bottom  : 0;
+    right   : 0;
+    position: absolute;
+}
+
+@media (max-width: 1480px) {
+    #suluachonhangdau .container {
+        padding: 50px;
+    }
+
+    #suluachonhangdau .frame-1000005735-7GnH4e {
+
+        border-radius: 20px;
+    }
+
+    #suluachonhangdau .a-cFPO5S {
+        display: none;
+    }
+
+    #suluachonhangdau .rectangle-iZpwdQ {
+        display: none;
+    }
+
+    #suluachonhangdau .s-la-chn-hng-u-cho-sc-kho-ca-bn-7GnH4e {
+        display  : flex;
+        gap      : 5px;
+        flex-wrap: wrap;
+    }
+
+    #suluachonhangdau .a-v9DT2u {
+        display: none;
+    }
+
+    #suluachonhangdau .frame-1000005596-rLs8bh {
+        justify-content: center;
+    }
+}
+
+#suluachonhangdau .span_mobie {
+    display: none;
+}
+
+@media (max-width: 1070px) {
+    #suluachonhangdau .frame-1000005734-7GnH4e {
+        flex-direction: column;
+        height        : 100%;
+        height        : 800px !important;
+    }
+
+    #suluachonhangdau .component-187-rLs8bh {
+        height: 100%;
+    }
+
+    #suluachonhangdau .a-cFPO5S {
+        display: block;
+    }
+
+    #suluachonhangdau .rectangle-iZpwdQ {
+        display: block;
+        right  : 0;
+
+    }
+
+    #suluachonhangdau .rectangle-iZpwdQ {
+        height  : 259px;
+        position: absolute;
+        right   : 0;
+        bottom  : 0;
+    }
+
+    #suluachonhangdau .a-v9DT2u {
+        display : block;
+        position: relative;
+        width   : 100%;
+        height  : auto;
+
+    }
+
+    #suluachonhangdau .frame-1000005596-rLs8bh {
+        flex-direction: column-reverse;
+
+    }
+
+    #suluachonhangdau .frame-1000005596-rLs8bh {
+        height         : 100%;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    #suluachonhangdau .frame-1000005735-7GnH4e {
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-position: center;
+        height             : 240px;
+        background-image   : url('../imgs/Rectangle\ 34625240\ \(1\).png');
+        position           : relative;
+    }
+
+    #suluachonhangdau .phng-khm-a-khoa-msc-t7KdB8 {
+        display: none;
+    }
+
+    #suluachonhangdau .span_mobie {
+        display: block;
+        width  : 100%;
+        margin : 50px 0;
+    }
+
+    #suluachonhangdau .ellipse-2036-t7KdB8 {
+        position: absolute;
+        top     : 10px;
+        right   : 10px;
+    }
+
+
+
+}
+
+@media (max-width: 786px) {
+    #suluachonhangdau .a-cFPO5S {
+        display: none;
+    }
+
+    #suluachonhangdau .rectangle-iZpwdQ {
+        display: none;
+    }
+
+    #suluachonhangdau .frame-1000005736-e3envm {
+
+        padding: 20px;
+    }
+
+    #suluachonhangdau .msc-clinic-quy-t-i-n-rxwt9x {
+        width: 100%;
+    }
+
+    #suluachonhangdau .msc-clinic-s-hu-h-th-qEgvC8 {
+        width: 100%;
+
+    }
+
+    #suluachonhangdau .frame-1000005736-e3envm {
+        height: 100%;
+    }
+
+    #suluachonhangdau .frame-1000005734-7GnH4e {
+        flex-direction: column;
+        height        : 100% !important;
+    }
+}
