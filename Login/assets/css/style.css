@@ -1,0 +1,579 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black                               : #000000;
+    --gray                                : #828282;
+    --greyscale-text0                     : #ffffff;
+    --greyscale-text70                    : #313131;
+    --primaryblue-300                     : #6186bc;
+    --primaryblue-400                     : #1e60c1;
+    --primaryblue-50                      : #e7edf5;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --primaryblue-700                     : #0d356e;
+    --thunderbird                         : #bd2424;
+    --font-size-l                         : 43px;
+    --font-size-m                         : 16px;
+    --font-size-s                         : 13.9px;
+    --font-size-xl                        : 48px;
+    --font-size-xs                        : 12.1px;
+    --font-size-xxl                       : 64px;
+    --font-size-xxs                       : 10.5px;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
+    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#login {
+    background-color: var(--primaryblue-600);
+    width           : 100%;
+    justify-content : center;
+    display         : flex;
+
+}
+
+#login .container {
+    justify-content: space-between;
+    width          : 100%;
+    display        : flex;
+    overflow       : hidden;
+    margin-top     : 100px;
+    max-width      : 1600px;
+}
+
+#login .content__ {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+#login .frame-1000007321-OIXrcG {
+    height: 691px;
+    width : 509px;
+}
+
+#login .group-1000004233-AxfcVQ {
+    height: 362px;
+    width : 515px;
+}
+
+#login .tham-gia {
+    background-color: transparent;
+    height          : auto;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#login .tham-gia-q0LBll {
+    line-height: 57.6px;
+    position   : relative;
+}
+
+.proximanovavh-bold-white-48px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#login .i-ng-affiliate {
+    background-color: transparent;
+    color           : transparent;
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#login .i-ng-affiliate-q0LBll {
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxl);
+    line-height: 76.8px;
+}
+
+#login .span0-99dxKx {
+    color     : #1ab7da;
+    font-style: normal;
+}
+
+#login .ca-chng-ti {
+    background-color: transparent;
+    height          : auto;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#login .ca-chng-ti-q0LBll {
+    line-height: 57.6px;
+}
+
+.proximanovavh-bold-white-48px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#login .group-1000004197-q0LBll {
+    height: 138px;
+    width : 138px;
+}
+
+#login .group-1000004197 {
+    background-color: transparent;
+}
+
+#login .ellipse-2141-7I1oDE {
+    background-color: var(--primaryblue-50);
+    border-radius   : 46px;
+    height          : 92px;
+    left            : 23px;
+    position        : absolute;
+    top             : 23px;
+    width           : 92px;
+}
+
+#login .ellipse-2142 {
+    background-color: var(--primaryblue-50);
+    opacity         : 0.3;
+    position        : absolute;
+}
+
+#login .ellipse-2142-7I1oDE {
+    border-radius: 55px;
+    height       : 110px;
+    left         : 14px;
+    top          : 14px;
+    width        : 110px;
+}
+
+#login .ellipse-2143 {
+    background-color: var(--primaryblue-50);
+    opacity         : 0.1;
+    left            : 0;
+}
+
+#login .ellipse-2143-7I1oDE {
+    border-radius: 69px;
+    height       : 138px;
+    width        : 138px;
+    position     : absolute;
+}
+
+#login .star-1-7I1oDE {
+    height: 28px;
+    left  : 61px;
+    top   : 55px;
+    width : 24px;
+}
+
+#login .star-1 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#login .button-offical {
+    align-items: center;
+    display    : inline-flex;
+}
+
+#login .button-offical-q0LBll {
+    background-color: var(--greyscale-text0);
+    border-radius   : 24px;
+    gap             : 8px;
+    left            : 170px;
+    padding         : 8px 8px 8px 24px;
+    top             : 277px;
+}
+
+#login .xem-thm {
+    background-color: transparent;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+.proximanovavh-normal-tory-blue-16px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#login .frame-1000005541 {
+    background-color: transparent;
+    position        : relative;
+}
+
+#login .gruop_content>div {
+    display        : flex;
+    position       : relative;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+#login .frame-1000005541-Xf3O6x {
+    height: 32px;
+    width : 32px;
+}
+
+#login .xem-video {
+    background-color: transparent;
+    height          : auto;
+    white-space     : nowrap;
+    width           : auto;
+    display         : block;
+
+}
+
+#login .xem-video-AxfcVQ {
+    letter-spacing : 0.20px;
+    line-height    : 19.2px;
+    text-align     : center;
+    justify-content: flex-start;
+    width          : 138px;
+    text-align     : center;
+    text-align     : center;
+    display        : block !important;
+}
+
+.proximanovavh-normal-white-16px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#login .frame-1000007047 {
+    background-color: transparent;
+    position        : absolute;
+    display         : flex;
+    justify-content : center;
+    flex-direction  : column;
+}
+
+#login .frame-1000007047-OIXrcG {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 790px;
+    right          : 0;
+    bottom         : 0;
+    width          : 400px;
+    margin-right   : 265px;
+}
+
+#login .phone {
+    position: relative;
+}
+
+#login .group-1000004196-zYHUut {
+    height         : 87px;
+    width          : 88px;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+#login .group-1000004196 {
+    background-color: transparent;
+}
+
+#login .ellipse-2138 {
+    background-color: var(--greyscale-text0);
+}
+
+#login .ellipse-2138-svynlu {
+    border-radius: 37.78px;
+    height       : 76px;
+    width        : 76px;
+    position     : absolute;
+}
+
+#login .ellipse-2139 {
+    background-color: var(--greyscale-text0);
+    opacity         : 0.3;
+}
+
+#login .ellipse-2139-svynlu {
+    border-radius: 43.82px/43.5px;
+    position     : absolute;
+    height       : 87px;
+    width        : 88px;
+}
+
+#login .group-svynlu {
+    height: 44px;
+    width : 36px;
+}
+
+#login .group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#login .interface-check {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#login .interface-check-svynlu {
+    height: 14px;
+    bottom: 0;
+    width : 14px;
+}
+
+#login .ng-nhp {
+    background-color: transparent;
+    color           : var(--primaryblue-600);
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    letter-spacing  : 0.00px;
+    text-align      : left;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#login .ng-nhp-zYHUut {
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : 32px;
+    line-height: 38.4px;
+}
+
+#login .form-ng-nhp {
+    background-color: transparent;
+}
+
+#login .form-ng-nhp-zYHUut {
+    border-radius: 15px;
+    box-shadow   : 2px 6px 30px #124b9a0a, 0px 12px 32px #1bb7da0a;
+    height       : 238px;
+    width        : 100%;
+}
+
+#login .frame-1000005497 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    justify-content : center;
+}
+
+#login .frame-1000005497-cijZyr {
+    gap: 12px;
+}
+
+#login .frame-1000005383 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    flex            : 1;
+    flex-direction  : column;
+    flex-grow       : 1;
+    position        : relative;
+}
+
+#login .frame-1000005383-IU640i {
+    gap: 20px;
+}
+
+#login .frame-1000007040 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    flex-direction  : column;
+    position        : relative;
+}
+
+#login .frame-1000007040-9Zu6zx {
+    align-self: stretch;
+    flex      : 0 0 auto;
+    gap       : 5px;
+    width     : 100%;
+}
+
+#login .s-in-thoi {
+    align-self      : stretch;
+    background-color: transparent;
+    letter-spacing  : 0.00px;
+    position        : relative;
+    text-align      : left;
+}
+
+#login .s-in-thoi-SVJfT9 {
+    line-height: 24px;
+    margin-top : -1.00px;
+}
+
+.proximanovavh-normal-mine-shaft-16px {
+    color      : var(--greyscale-text70);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#login .input-field {
+    align-items     : flex-start;
+    align-self      : stretch;
+    background-color: transparent;
+    display         : flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    overflow        : hidden;
+    position        : relative;
+    width           : 100%;
+}
+
+#login .input-field-SVJfT9 {
+    border       : 1px solid;
+    border-color : var(--primaryblue-300);
+    border-radius: 24px;
+    gap          : 8px;
+}
+
+#login .frame-9137 {
+    align-items     : flex-start;
+    align-self      : stretch;
+    background-color: transparent;
+    display         : flex;
+    flex-direction  : column;
+    position        : relative;
+    width           : 100%;
+}
+
+#login .frame-9137-bfl1M1 {
+    gap   : 8px;
+    height: 48px;
+}
+
+#login .frame-16 {
+    align-items     : center;
+    align-self      : stretch;
+    background-color: var(--greyscale-text0);
+    display         : flex;
+    justify-content : space-between;
+    overflow        : hidden;
+    position        : relative;
+    width           : 100%;
+}
+
+#login .frame-16-zRPZ88 {
+    border-radius: 4px;
+    height       : 48px;
+    padding      : 12px 20px;
+}
+
+#login .frame-9174 {
+    align-items     : center;
+    background-color: transparent;
+    display         : flex;
+    flex            : 1;
+    flex-grow       : 1;
+    position        : relative;
+}
+
+#login .frame-9174-CzvTPT {
+    gap: 2px;
+}
+
+#login .qun-mt-khu {
+    background-color: transparent;
+    color           : var(--greyscale-text0);
+    font-family     : var(--font-family-proxima_nova-semibold);
+    font-style      : normal;
+    font-weight     : 400;
+    height          : auto;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#login .qun-mt-khu-cijZyr {
+    display        : flex;
+    font-size      : var(--font-size-s);
+    justify-content: flex-start;
+    letter-spacing : 0.17px;
+    line-height    : 16.7px;
+}
+
+#login .group_button {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-between;
+}
+
+#login .button-offical {
+    align-items: center;
+    display    : inline-flex;
+}
+
+#login .button-offical-zYHUut {
+    background-color: var(--primaryblue-500);
+    border-radius   : 24px;
+    gap             : 8px;
+    padding         : 8px 8px 8px 24px;
+}
+
+#login .ng-k-zYHUut {
+    align-items: flex-start;
+    display    : inline-flex;
+    gap        : 8.685258865356445px;
+}
+
+#login .cha-c-ti-khon {
+    background-color: transparent;
+    color           : var(--black);
+    font-family     : var(--font-family-proxima_nova-regular);
+    font-style      : normal;
+    font-weight     : 400;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#login .cha-c-ti-khon-SLxDw7 {
+    font-size     : var(--font-size-s);
+    letter-spacing: 0.17px;
+    line-height   : 16.7px;
+}
+
+#login .ng-k-ngay {
+    background-color: transparent;
+    color           : var(--primaryblue-700);
+    font-family     : var(--font-family-proxima_nova-semibold);
+    font-style      : normal;
+    font-weight     : 400;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#login .ng-k-ngay-SLxDw7 {
+    font-size     : var(--font-size-s);
+    letter-spacing: 0.17px;
+    line-height   : 16.7px;
+}
+
+#login .front-view-hand-holding-smartphone-1 {
+    height: 800px;
+}
