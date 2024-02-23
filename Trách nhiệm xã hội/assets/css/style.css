@@ -1,0 +1,219 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-500                     : #134a9b;
+    --font-size-l                         : 32px;
+    --font-size-m                         : 24px;
+    --font-size-s                         : 16px;
+    --font-size-xl                        : 48px;
+    --font-size-xs                        : 14px;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#trachnhiemxahoi {
+    width           : 100%;
+    display         : flex;
+    background-color: white;
+    justify-content : center;
+}
+
+#trachnhiemxahoi .container {
+    width     : 100%;
+    max-width : 1600px;
+    text-align: center;
+    position  : relative;
+}
+
+#trachnhiemxahoi .trch-nhim-x-hi {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-style      : normal;
+    font-weight     : 700;
+    position        : relative;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#trachnhiemxahoi .trch-nhim-x-hi-8XohnY {
+    margin     : 3.125rem 0;
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xl);
+    line-height: 57.6px;
+    width      : 100%;
+}
+
+#trachnhiemxahoi .grid {
+    display              : grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap                  : 2.5rem;
+}
+
+#trachnhiemxahoi .grid>div {}
+
+#trachnhiemxahoi img {
+    width : 100%;
+    margin: 1.25rem 0;
+}
+
+body {
+    background-color: gray;
+    height          : 1000px;
+}
+
+#trachnhiemxahoi .frame-1000005752 {
+    align-items     : center;
+    background-color: transparent;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    position        : relative;
+}
+
+#trachnhiemxahoi .frame-1000005752-8XohnY {
+    display   : inline-flex;
+    margin-top: 1.25rem;
+}
+
+#trachnhiemxahoi .vi-trit-l-vn-ha-tn-t {
+    background-color: transparent;
+    font-style      : normal;
+    position        : relative;
+    text-align      : justify;
+}
+
+#trachnhiemxahoi .vi-trit-l-vn-ha-tn-t-3OT23c {
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : 24px;
+    font-weight: 700;
+}
+
+.proximanovavh-bold-tory-blue-24px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : 24px;
+    font-style : normal;
+    font-weight: 700;
+}
+
+#trachnhiemxahoi .span1-SHUJzn {
+    color     : #1ab7da;
+    font-style: normal;
+}
+
+#trachnhiemxahoi .span3-SHUJzn {
+    color     : #1ab7da;
+    font-style: normal;
+}
+
+#trachnhiemxahoi .button-offical-3OT23c {
+    align-items     : center;
+    background-color: var(--primaryblue-500);
+    border-radius   : 1.5rem;
+    display         : flex;
+    gap             : 0.5rem;
+    height          : 3rem;
+    justify-content : center;
+    padding         : 0.5rem 1.5rem;
+    position        : relative;
+    width           : 7.5625rem;
+}
+
+#trachnhiemxahoi .xem-thm-fv2x63 {
+    background-color: transparent;
+    color           : var(--greyscale-text0);
+    font-family     : var(--font-family-proxima_nova_vh-semibold);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#trachnhiemxahoi .rectangle-34625241-DpfFcK {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 64.65253829956055%, rgb(255, 255, 255) 100%);
+    height    : 18.25rem;
+    width     : 100%;
+    bottom    : 0;
+}
+
+#trachnhiemxahoi .rectangle-34625241 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#trachnhiemxahoi .mobile {
+    padding: 0 1.25rem;
+    display: none;
+}
+
+#trachnhiemxahoi .mobile_button {
+    display: none;
+}
+
+#trachnhiemxahoi .mobie__ {
+    position       : relative;
+    width          : 100%;
+    justify-content: center;
+    display        : flex;
+}
+
+#trachnhiemxahoi .mobile .proximanovavh-bold-tory-blue-24px {
+    align-self : stretch;
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-regular);
+    font-size  : var(--font-size-s);
+
+    font-weight   : 400;
+    letter-spacing: 0.04px;
+    line-height   : 21px;
+}
+
+@media (max-width: 1000px) {
+    #trachnhiemxahoi .mobile {
+        display: block;
+    }
+
+    #trachnhiemxahoi .desktop {
+        display: none;
+    }
+
+    #trachnhiemxahoi .button-offical-3OT23c {
+        display: none;
+    }
+
+    #trachnhiemxahoi .rectangle-34625212-DpfFcK {
+        display: none;
+    }
+
+    #trachnhiemxahoi .rectangle-34625213-DpfFcK {
+        display: none;
+    }
+
+    #trachnhiemxahoi .mobile_button {
+        display        : block;
+        justify-content: center;
+        text-align     : center;
+        display        : flex;
+        bottom         : 1.875rem;
+    }
+
+    #trachnhiemxahoi .grid {
+        gap: 1.25rem;
+    }
+
+    #trachnhiemxahoi img {
+        margin: 0.625rem 0;
+    }
+}

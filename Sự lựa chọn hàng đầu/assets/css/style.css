@@ -40,7 +40,7 @@
 }
 
 #suluachonhangdau .container {
-    background-color: var(--primaryblue-600);
+
 
     max-width: 87.5rem;
     width    : 100%;
@@ -83,10 +83,10 @@
 
 
 #suluachonhangdau .component-187-rLs8bh {
-    background-color: var(--primaryblue-600);
-    height          : 54.6875rem;
-    overflow        : hidden;
-    position        : relative;
+
+    height  : 54.6875rem;
+    overflow: hidden;
+    position: relative;
 }
 
 #suluachonhangdau .frame-1000005735-7GnH4e {
@@ -379,12 +379,12 @@
 }
 
 #suluachonhangdau .frame-1000005596-rLs8bh {
-    background-color: var(--primaryblue-600);
-    height          : 43.4375rem;
-    overflow        : hidden;
-    position        : relative;
-    display         : flex;
-    justify-content : space-between;
+
+    height         : 43.4375rem;
+    overflow       : hidden;
+    position       : relative;
+    display        : flex;
+    justify-content: space-between;
 }
 
 #suluachonhangdau .tm-nhn-v-s-mnh {
