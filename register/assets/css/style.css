@@ -526,7 +526,7 @@
     width          : 100%;
     display        : flex;
     justify-content: space-between;
-    margin-top     : 190px;
+    margin-top     : 220px;
 }
 
 #login .button-offical {
@@ -619,16 +619,16 @@
     display: none;
 }
 
-#login .gruop_input .input-field {
+#login .gruop_input {
+    margin-top: 20px;
+    display   : flex;
+    gap       : 10px;
+
+}
+
+#login .gruop_input .frame-1000007040-9Zu6zx {
     width: auto;
 }
-
-#login .gruop_input {
-    display: flex;
-    gap    : 10px;
-    width  : 100%;
-}
-
 
 
 
@@ -706,9 +706,15 @@
         width: 90%;
     }
 
-    /* #login .frame-1000007047 {
-        padding: 0 0.625rem;
-    } */
+    #login .gruop_input {
+        width                : 100%;
+        display              : grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+
 }
 
 @media (max-width: 555px) {
@@ -721,5 +727,22 @@
 
         font-size: var(--font-size-xl);
 
+    }
+
+    #login .gruop_input {
+        width  : 100%;
+        display: block;
+
+
+    }
+
+    #login .group_button {
+
+        margin-top: 290px;
+    }
+
+    #login .frame-100000704000 {
+
+        margin-top: 20px;
     }
 }
