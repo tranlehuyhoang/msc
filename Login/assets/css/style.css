@@ -36,7 +36,15 @@
     width           : 100%;
     justify-content : center;
     display         : flex;
+    position        : relative;
+    overflow        : hidden;
 
+}
+
+#login input {
+    border  : none;
+    overflow: hidden;
+    outline : none;
 }
 
 #login .container {
@@ -55,13 +63,13 @@
 }
 
 #login .frame-1000007321-OIXrcG {
-    height: 691px;
-    width : 509px;
+    height: 43.1875rem;
+    width : 31.8125rem;
 }
 
 #login .group-1000004233-AxfcVQ {
-    height: 362px;
-    width : 515px;
+    height: 22.625rem;
+    width : 32.1875rem;
 }
 
 #login .tham-gia {
@@ -73,14 +81,14 @@
 }
 
 #login .tham-gia-q0LBll {
-    line-height: 57.6px;
+    line-height: 3.6rem;
     position   : relative;
 }
 
 .proximanovavh-bold-white-48px {
     color      : var(--greyscale-text0);
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-xl);
+    font-size  : 3rem;
     font-style : normal;
     font-weight: 700;
 }
@@ -97,9 +105,10 @@
 }
 
 #login .i-ng-affiliate-q0LBll {
+    margin     : 1.25rem 0;
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-xxl);
-    line-height: 76.8px;
+    font-size  : 3.8rem;
+    line-height: 4.8rem;
 }
 
 #login .span0-99dxKx {
@@ -116,20 +125,20 @@
 }
 
 #login .ca-chng-ti-q0LBll {
-    line-height: 57.6px;
+    line-height: 3.6rem;
 }
 
 .proximanovavh-bold-white-48px {
     color      : var(--greyscale-text0);
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-xl);
+    font-size  : 3rem;
     font-style : normal;
     font-weight: 700;
 }
 
 #login .group-1000004197-q0LBll {
-    height: 138px;
-    width : 138px;
+    height: 8.625rem;
+    width : 8.625rem;
 }
 
 #login .group-1000004197 {
@@ -138,12 +147,12 @@
 
 #login .ellipse-2141-7I1oDE {
     background-color: var(--primaryblue-50);
-    border-radius   : 46px;
-    height          : 92px;
-    left            : 23px;
+    border-radius   : 2.875rem;
+    height          : 5.75rem;
+    left            : 1.4375rem;
     position        : absolute;
-    top             : 23px;
-    width           : 92px;
+    top             : 1.4375rem;
+    width           : 5.75rem;
 }
 
 #login .ellipse-2142 {
@@ -153,11 +162,11 @@
 }
 
 #login .ellipse-2142-7I1oDE {
-    border-radius: 55px;
-    height       : 110px;
-    left         : 14px;
-    top          : 14px;
-    width        : 110px;
+    border-radius: 3.4375rem;
+    height       : 6.875rem;
+    left         : 0.875rem;
+    top          : 0.875rem;
+    width        : 6.875rem;
 }
 
 #login .ellipse-2143 {
@@ -167,17 +176,17 @@
 }
 
 #login .ellipse-2143-7I1oDE {
-    border-radius: 69px;
-    height       : 138px;
-    width        : 138px;
+    border-radius: 4.3125rem;
+    height       : 8.625rem;
+    width        : 8.625rem;
     position     : absolute;
 }
 
 #login .star-1-7I1oDE {
-    height: 28px;
-    left  : 61px;
-    top   : 55px;
-    width : 24px;
+    height: 1.75rem;
+    left  : 3.8125rem;
+    top   : 3.4375rem;
+    width : 1.5rem;
 }
 
 #login .star-1 {
@@ -185,18 +194,16 @@
     position        : absolute;
 }
 
-#login .button-offical {
-    align-items: center;
-    display    : inline-flex;
-}
+
 
 #login .button-offical-q0LBll {
+    margin-right    : 6.25rem;
     background-color: var(--greyscale-text0);
-    border-radius   : 24px;
-    gap             : 8px;
-    left            : 170px;
-    padding         : 8px 8px 8px 24px;
-    top             : 277px;
+    border-radius   : 1.5rem;
+    gap             : 0.5rem;
+    left            : 10.625rem;
+    padding         : 0.5rem 0.5rem 0.5rem 1.5rem;
+    top             : 17.3125rem;
 }
 
 #login .xem-thm {
@@ -210,7 +217,7 @@
 .proximanovavh-normal-tory-blue-16px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -221,6 +228,7 @@
 }
 
 #login .gruop_content>div {
+    margin-top     : 0.625rem;
     display        : flex;
     position       : relative;
     align-items    : center;
@@ -228,8 +236,8 @@
 }
 
 #login .frame-1000005541-Xf3O6x {
-    height: 32px;
-    width : 32px;
+    height: 2rem;
+    width : 2rem;
 }
 
 #login .xem-video {
@@ -242,11 +250,11 @@
 }
 
 #login .xem-video-AxfcVQ {
-    letter-spacing : 0.20px;
-    line-height    : 19.2px;
+    letter-spacing : 0.0125rem;
+    line-height    : 1.2rem;
     text-align     : center;
     justify-content: flex-start;
-    width          : 138px;
+    width          : 8.625rem;
     text-align     : center;
     text-align     : center;
     display        : block !important;
@@ -255,7 +263,7 @@
 .proximanovavh-normal-white-16px {
     color      : var(--greyscale-text0);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -272,11 +280,11 @@
     display        : flex;
     justify-content: center;
     align-items    : center;
-    height         : 790px;
+    height         : 49.375rem;
     right          : 0;
     bottom         : 0;
-    width          : 400px;
-    margin-right   : 265px;
+    width          : 25rem;
+    margin-right   : 16.65625rem;
 }
 
 #login .phone {
@@ -284,8 +292,8 @@
 }
 
 #login .group-1000004196-zYHUut {
-    height         : 87px;
-    width          : 88px;
+    height         : 5.4375rem;
+    width          : 5.5rem;
     position       : relative;
     display        : flex;
     justify-content: center;
@@ -301,9 +309,9 @@
 }
 
 #login .ellipse-2138-svynlu {
-    border-radius: 37.78px;
-    height       : 76px;
-    width        : 76px;
+    border-radius: 2.36125rem;
+    height       : 4.75rem;
+    width        : 4.75rem;
     position     : absolute;
 }
 
@@ -313,15 +321,15 @@
 }
 
 #login .ellipse-2139-svynlu {
-    border-radius: 43.82px/43.5px;
+    border-radius: 2.73875rem/2.71875rem;
     position     : absolute;
-    height       : 87px;
-    width        : 88px;
+    height       : 5.4375rem;
+    width        : 5.5rem;
 }
 
 #login .group-svynlu {
-    height: 44px;
-    width : 36px;
+    height: 2.75rem;
+    width : 2.25rem;
 }
 
 #login .group {
@@ -335,9 +343,9 @@
 }
 
 #login .interface-check-svynlu {
-    height: 14px;
+    height: 0.875rem;
     bottom: 0;
-    width : 14px;
+    width : 0.875rem;
 }
 
 #login .ng-nhp {
@@ -346,7 +354,6 @@
     font-style      : normal;
     font-weight     : 700;
     height          : auto;
-    letter-spacing  : 0.00px;
     text-align      : left;
     white-space     : nowrap;
     width           : auto;
@@ -354,8 +361,8 @@
 
 #login .ng-nhp-zYHUut {
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : 32px;
-    line-height: 38.4px;
+    font-size  : 2rem;
+    line-height: 2.4rem;
 }
 
 #login .form-ng-nhp {
@@ -363,9 +370,9 @@
 }
 
 #login .form-ng-nhp-zYHUut {
-    border-radius: 15px;
-    box-shadow   : 2px 6px 30px #124b9a0a, 0px 12px 32px #1bb7da0a;
-    height       : 238px;
+    border-radius: 0.9375rem;
+    box-shadow   : 0.125rem 0.375rem 1.875rem #124b9a0a, 0px 0.75rem 2rem #1bb7da0a;
+    height       : 14.875rem;
     width        : 100%;
 }
 
@@ -377,7 +384,7 @@
 }
 
 #login .frame-1000005497-cijZyr {
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 #login .frame-1000005383 {
@@ -391,7 +398,7 @@
 }
 
 #login .frame-1000005383-IU640i {
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 #login .frame-1000007040 {
@@ -405,27 +412,27 @@
 #login .frame-1000007040-9Zu6zx {
     align-self: stretch;
     flex      : 0 0 auto;
-    gap       : 5px;
+    gap       : 0.3125rem;
     width     : 100%;
 }
 
 #login .s-in-thoi {
     align-self      : stretch;
     background-color: transparent;
-    letter-spacing  : 0.00px;
+    letter-spacing  : 0;
     position        : relative;
     text-align      : left;
 }
 
 #login .s-in-thoi-SVJfT9 {
-    line-height: 24px;
-    margin-top : -1.00px;
+    line-height: 1.5rem;
+    margin-top : -0.0625rem;
 }
 
 .proximanovavh-normal-mine-shaft-16px {
     color      : var(--greyscale-text70);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -443,10 +450,10 @@
 }
 
 #login .input-field-SVJfT9 {
-    border       : 1px solid;
+    border       : 0.0625rem solid;
     border-color : var(--primaryblue-300);
-    border-radius: 24px;
-    gap          : 8px;
+    border-radius: 1.5rem;
+    gap          : 0.5rem;
 }
 
 #login .frame-9137 {
@@ -460,8 +467,8 @@
 }
 
 #login .frame-9137-bfl1M1 {
-    gap   : 8px;
-    height: 48px;
+    gap   : 0.5rem;
+    height: 3rem;
 }
 
 #login .frame-16 {
@@ -476,9 +483,9 @@
 }
 
 #login .frame-16-zRPZ88 {
-    border-radius: 4px;
-    height       : 48px;
-    padding      : 12px 20px;
+    border-radius: 0.25rem;
+    height       : 3rem;
+    padding      : 0.75rem 1.25rem;
 }
 
 #login .frame-9174 {
@@ -491,7 +498,7 @@
 }
 
 #login .frame-9174-CzvTPT {
-    gap: 2px;
+    gap: 0.125rem;
 }
 
 #login .qun-mt-khu {
@@ -508,10 +515,11 @@
 
 #login .qun-mt-khu-cijZyr {
     display        : flex;
-    font-size      : var(--font-size-s);
+    font-size      : 0.875rem;
     justify-content: flex-start;
     letter-spacing : 0.17px;
-    line-height    : 16.7px;
+    line-height    : 1.04rem;
+    margin         : 0.625rem 0;
 }
 
 #login .group_button {
@@ -523,19 +531,21 @@
 #login .button-offical {
     align-items: center;
     display    : inline-flex;
+
 }
 
 #login .button-offical-zYHUut {
     background-color: var(--primaryblue-500);
-    border-radius   : 24px;
-    gap             : 8px;
-    padding         : 8px 8px 8px 24px;
+    border-radius   : 1.5rem;
+    gap             : 0.5rem;
+    padding         : 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
 #login .ng-k-zYHUut {
     align-items: flex-start;
-    display    : inline-flex;
-    gap        : 8.685258865356445px;
+    display    : flex;
+    align-items: center;
+    gap        : 0.5rem;
 }
 
 #login .cha-c-ti-khon {
@@ -551,9 +561,9 @@
 }
 
 #login .cha-c-ti-khon-SLxDw7 {
-    font-size     : var(--font-size-s);
+    font-size     : 0.875rem;
     letter-spacing: 0.17px;
-    line-height   : 16.7px;
+    line-height   : 1.04rem;
 }
 
 #login .ng-k-ngay {
@@ -569,11 +579,133 @@
 }
 
 #login .ng-k-ngay-SLxDw7 {
-    font-size     : var(--font-size-s);
+    font-size     : 0.875rem;
     letter-spacing: 0.17px;
-    line-height   : 16.7px;
+    line-height   : 1.04rem;
 }
 
 #login .front-view-hand-holding-smartphone-1 {
-    height: 800px;
+    height: 50rem;
+}
+
+#login .ellipse-2141-OIXrcG {
+    background-color: var(--primaryblue-400);
+    border-radius   : 48.65625rem;
+    filter          : blur(18.20625rem);
+    height          : 97.3125rem;
+    right           : -71.7rem;
+    top             : -60.85rem;
+    position        : absolute;
+    width           : 97.3125rem;
+}
+
+#login .group_title {
+    margin-left: 1.875rem;
+}
+
+#login .ellipse-2141-OIXrcH {
+    background-color: var(--primaryblue-400);
+    border-radius   : 48.65625rem;
+    filter          : blur(18.20625rem);
+    height          : 97.3125rem;
+    bottom          : -57.3125rem;
+    left            : -76.0625rem;
+    position        : absolute;
+    width           : 97.3125rem;
+}
+
+#login .a {
+    display: none;
+}
+
+@media (max-width: 85.625rem) {
+    #login .container {
+        flex-direction: column;
+    }
+
+    #login .phone {
+        display        : flex;
+        justify-content: center;
+    }
+
+    #login .frame-1000007047-OIXrcG {
+
+        margin-right: 0;
+    }
+
+    #login .front-view-hand-holding-smartphone-1 {
+        display: none;
+    }
+
+    #login .frame-1000007047 {
+        background-color: #0d356e;
+        padding         : 0 6.25rem;
+        position        : relative;
+        background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+        border          : 0.0625rem solid;
+        border-radius   : 3.125rem;
+        border-color    : var(--greyscale-text0);
+    }
+
+    #login .frame-1000007047-OIXrcG {
+
+        width: auto;
+    }
+
+    #login .frame-1000007321-OIXrcG {
+        height       : auto;
+        margin-bottom: 6.25rem;
+        width        : 31.8125rem;
+    }
+
+    #login .phone {
+        margin-bottom: 6.25rem;
+    }
+
+    #login .frame-1000007047 {
+        padding: 0 3.125rem;
+    }
+
+    #login .content__ {
+        width: 100%;
+    }
+
+    #login .frame-1000007321-OIXrcG {
+        width          : 100%;
+        justify-content: center;
+        align-items    : center;
+        display        : flex;
+    }
+
+    #login .frame-1000007047 {
+        width: 80%;
+    }
+
+    #login .a {
+        display : block;
+        left    : 0;
+        position: absolute;
+        top     : 0rem;
+    }
+
+    #login .frame-1000007047 {
+        width: 90%;
+    }
+
+    /* #login .frame-1000007047 {
+        padding: 0 0.625rem;
+    } */
+}
+
+@media (max-width: 555px) {
+
+    #login .frame-1000007047 {
+        padding: 0 10px;
+    }
+
+    #login .i-ng-affiliate-q0LBll {
+
+        font-size: var(--font-size-xl);
+
+    }
 }
