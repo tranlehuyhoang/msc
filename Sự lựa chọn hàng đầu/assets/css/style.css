@@ -13,13 +13,13 @@
     --primaryblue-600                     : #0e3f86;
     --primaryblue-700                     : #0d356e;
     --secondaryblue-400                   : #45dcff;
-    --font-size-l                         : 16.2px;
-    --font-size-m                         : 16px;
-    --font-size-s                         : 14px;
-    --font-size-xl                        : 20.9px;
-    --font-size-xxl                       : 24px;
-    --font-size-xxxl                      : 32px;
-    --font-size-xxxxl                     : 48px;
+    --font-size-l                         : 1.0125rem;
+    --font-size-m                         : 1rem;
+    --font-size-s                         : 0.875rem;
+    --font-size-xl                        : 1.30625rem;
+    --font-size-xxl                       : 1.5rem;
+    --font-size-xxxl                      : 2rem;
+    --font-size-xxxxl                     : 3rem;
     --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
     --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
     --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
@@ -42,7 +42,7 @@
 #suluachonhangdau .container {
     background-color: var(--primaryblue-600);
 
-    max-width: 1400px;
+    max-width: 87.5rem;
     width    : 100%;
 }
 
@@ -57,11 +57,11 @@
 
 #suluachonhangdau .s-la-chn-hng-u-cho-sc-kho-ca-bn-7GnH4e {
     font-size  : var(--font-size-xxxxl);
-    line-height: 57.6px;
+    line-height: 3.6rem;
     text-align : justify;
     white-space: nowrap;
     width      : auto;
-    margin     : 50px 0;
+    margin     : 3.125rem 0;
 }
 
 .proximanovavh-bold-white-48px {
@@ -84,7 +84,7 @@
 
 #suluachonhangdau .component-187-rLs8bh {
     background-color: var(--primaryblue-600);
-    height          : 875px;
+    height          : 54.6875rem;
     overflow        : hidden;
     position        : relative;
 }
@@ -93,9 +93,9 @@
     display         : flex;
     justify-content : space-between;
     align-items     : center;
-    height          : 209px;
+    height          : 13.0625rem;
     width           : 100%;
-    padding         : 0 50px;
+    padding         : 0 3.125rem;
     background-image: url('https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d800f31e57a5bc26ea12fb/img/rectangle-34625240.png');
 }
 
@@ -105,8 +105,8 @@
 }
 
 #suluachonhangdau .rectangle-34625240-t7KdB8 {
-    height: 209px;
-    width : 1400px;
+    height: 13.0625rem;
+    width : 87.5rem;
 }
 
 #suluachonhangdau .phng-khm-a-khoa-msc {
@@ -121,35 +121,34 @@
 #suluachonhangdau .phng-khm-a-khoa-msc-t7KdB8 {
     font-family   : var(--font-family-proxima_nova_vh-bold);
     font-size     : var(--font-size-xxl);
-    left          : 54px;
+    left          : 3.375rem;
     letter-spacing: -0.24px;
 
-    top  : 49px;
-    width: 448px;
+    top  : 3.0625rem;
+    width: 28rem;
 }
 
 #suluachonhangdau .span0-INX0tY {
-    color         : var(--greyscale-text0);
-    font-style    : normal;
-    letter-spacing: -0.06px;
+    color     : var(--greyscale-text0);
+    font-style: normal;
 }
 
 #suluachonhangdau .span1-INX0tY {
-    color         : var(--secondaryblue-400);
-    font-style    : normal;
-    letter-spacing: -0.06px;
+    color     : var(--secondaryblue-400);
+    font-style: normal;
+
 }
 
 #suluachonhangdau .span2-INX0tY {
-    color         : var(--greyscale-text0);
-    font-style    : normal;
-    letter-spacing: -0.06px;
+    color     : var(--greyscale-text0);
+    font-style: normal;
+
 }
 
 #suluachonhangdau .span3-INX0tY {
-    color         : var(--secondaryblue-400);
-    font-style    : normal;
-    letter-spacing: -0.06px;
+    color     : var(--secondaryblue-400);
+    font-style: normal;
+
 }
 
 #suluachonhangdau .ellipse-2036 {
@@ -158,9 +157,9 @@
 }
 
 #suluachonhangdau .ellipse-2036-t7KdB8 {
-    border-radius: 69.53px;
-    height       : 139px;
-    width        : 139px;
+    border-radius: 4.345rem;
+    height       : 8.75rem;
+    width        : 8.75rem;
 
 }
 
@@ -171,13 +170,13 @@
 }
 
 #suluachonhangdau .frame-1000005734-7GnH4e {
-    margin-top     : 50px;
+    margin-top     : 3.125rem;
     display        : flex;
     width          : 100%;
-    max-width      : 1400px;
+    max-width      : 87.5rem;
     justify-content: space-between;
     align-items    : center;
-    gap            : 50px;
+    gap            : 3.125rem;
 }
 
 #suluachonhangdau .frame-1000005736 {
@@ -189,22 +188,22 @@
 #suluachonhangdau .frame-1000005736-e3envm {
     background-color: var(--primaryblue-400);
     border          : 1px solid;
-    border-radius   : 16px;
-    height          : 360px;
+    border-radius   : 1.6rem;
+    height          : 22.5rem;
     display         : flex;
     width           : 100%;
-    padding         : 50px;
+    padding         : 3.125rem;
 }
 
 #suluachonhangdau .frame-1000005738-e3envm {
     background-color: var(--primaryblue-400);
     border          : 1px solid;
     border-color    : var(--primaryblue-300);
-    border-radius   : 16px;
-    height          : 360px;
+    border-radius   : 1.6rem;
+    height          : 22.5rem;
     overflow        : hidden;
     position        : relative;
-    width           : 676px;
+    width           : 42.25rem;
 }
 
 #suluachonhangdau .frame-1000005739-cFPO5S {
@@ -212,7 +211,7 @@
     background-color: transparent;
     display         : inline-flex;
     flex-direction  : column;
-    gap             : 30px;
+    gap             : 2rem;
 }
 
 #suluachonhangdau .frame-1000005740 {
@@ -225,11 +224,11 @@
 
 #suluachonhangdau .frame-1000005740-RTxuZD {
     display: inline-flex;
-    gap    : 24px;
+    gap    : 1.5rem;
 }
 
 #suluachonhangdau .i-ng-bc-s-chuyn-gia-u-ngnh-rxwt9x {
-    line-height: 38.4px;
+    line-height: 2.4rem;
     text-align : justify;
     width      : fit-content;
 }
@@ -250,8 +249,8 @@
 
 #suluachonhangdau .msc-clinic-quy-t-i-n-rxwt9x {
     letter-spacing: 0.00px;
-    line-height   : 24px;
-    width         : 314.05859375px;
+    line-height   : 1.5rem;
+    width         : 19.69rem;
 }
 
 .proximanovavh-regular-normal-white-16px {
@@ -264,24 +263,24 @@
 
 #suluachonhangdau .frame-1000005740-RTxuZD {
     display: inline-flex;
-    gap    : 24px;
+    gap    : 1.5rem;
 }
 
 #suluachonhangdau .button-offical {
     align-items     : center;
     background-color: var(--greyscale-text0);
-    border-radius   : 24px;
+    border-radius   : 2.4rem;
     display         : inline-flex;
     flex            : 0 0 auto;
-    gap             : 8px;
-    padding         : 8px 8px 8px 24px;
+    gap             : 0.5rem;
+    padding         : 0.5rem 0.5rem 0.5rem 1.5rem;
     position        : relative;
 }
 
 #suluachonhangdau .xem-thm {
     background-color: transparent;
     letter-spacing  : 0.20px;
-    line-height     : 19.2px;
+    line-height     : 1.2rem;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
@@ -290,45 +289,45 @@
 
 #suluachonhangdau .frame-1000005541 {
     background-color: transparent;
-    height          : 32px;
+    height          : 2rem;
     position        : relative;
-    width           : 32px;
+    width           : 2rem;
 }
 
 #suluachonhangdau .frame-1000005738-e3envm {
     background-color: var(--primaryblue-400);
     border          : 1px solid;
     border-color    : var(--primaryblue-300);
-    border-radius   : 16px;
-    height          : 360px;
+    border-radius   : 1rem;
+    height          : 22.5rem;
     overflow        : hidden;
     position        : relative;
     width           : 100%;
 
     display    : flex;
     align-items: center;
-    padding    : 50px;
+    padding    : 3.125rem;
 }
 
 #suluachonhangdau .a-cFPO5S {
-    height  : 274px;
-    width   : 335px;
+    height  : 17.125rem;
+    width   : 20.9375rem;
     position: absolute;
     right   : 0;
     bottom  : 0;
 }
 
 #suluachonhangdau .rectangle-iZpwdQ {
-    height  : 259px;
+    height  : 16.1875rem;
     position: absolute;
     right   : 0;
     bottom  : 0;
 }
 
 #suluachonhangdau .msc-clinic-s-hu-h-th-qEgvC8 {
-    letter-spacing: 0.00px;
-    line-height   : 24px;
-    width         : 345.4375px;
+    letter-spacing: 0.00rem;
+    line-height   : 1.5rem;
+    width         : 21.5898rem;
 }
 
 .proximanovavh-regular-normal-white-16px {
@@ -353,21 +352,21 @@
     display         : inline-flex;
     flex            : 0 0 auto;
     flex-direction  : column;
-    gap             : 24px;
+    gap             : 1.5rem;
     position        : relative;
 }
 
 #suluachonhangdau .msc-clinic-s-hu-h-th-qEgvC8 {
-    letter-spacing: 0.00px;
-    line-height   : 24px;
-    width         : 345.4375px;
+    letter-spacing: 0.00rem;
+    line-height   : 1.5rem;
+    width         : 21.5898rem;
 }
 
 #suluachonhangdau .frame-1000005736-e3envm {
     background-color: var(--primaryblue-400);
     border          : 1px solid;
-    border-radius   : 16px;
-    height          : 360px;
+    border-radius   : 1rem;
+    height          : 22.5rem;
     width           : 100%;
 }
 
@@ -379,7 +378,7 @@
 
 #suluachonhangdau .frame-1000005596-rLs8bh {
     background-color: var(--primaryblue-600);
-    height          : 695px;
+    height          : 43.4375rem;
     overflow        : hidden;
     position        : relative;
     display         : flex;
@@ -397,9 +396,9 @@
 #suluachonhangdau .tm-nhn-v-s-mnh-v9DT2u {
     font-size    : var(--font-size-xxxxl);
     height       : auto;
-    line-height  : 57.6px;
+    line-height  : 3.6rem;
     text-align   : left;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 #suluachonhangdau .frame-1000005751-v9DT2u {
@@ -407,16 +406,16 @@
     background-color: transparent;
     display         : inline-flex;
     flex-direction  : column;
-    gap             : 16px;
+    gap             : 1rem;
 }
 
 #suluachonhangdau .component-200 {
     background-color: var(--primaryblue-400);
-    padding         : 36px;
+    padding         : 2.25rem;
     border          : 1px solid;
     border-color    : var(--primaryblue-300);
-    border-radius   : 16px;
-    width           : 527px;
+    border-radius   : 1rem;
+    width           : 32.9375rem;
 }
 
 #suluachonhangdau .component-200-xXIWKJ {
@@ -431,7 +430,7 @@
 }
 
 #suluachonhangdau .frame-1000005742-vxPFGA {
-    width: 455px;
+    width: 28.4375rem;
 }
 
 #suluachonhangdau .frame-1000005743 {
@@ -442,8 +441,8 @@
 }
 
 #suluachonhangdau .frame-1000005743-1WxP6I {
-    gap  : 16px;
-    width: 346.937744140625px;
+    gap  : 1rem;
+    width: 21.6836rem;
 }
 
 #suluachonhangdau .frame-1000005748 {
@@ -456,8 +455,8 @@
 
 #suluachonhangdau .frame-1000005748-2Rv49S {
     display: flex;
-    gap    : 8px;
-    width  : 412px;
+    gap    : 0.5rem;
+    width  : 25.75rem;
 }
 
 #suluachonhangdau .frame-1000005749 {
@@ -469,12 +468,12 @@
 }
 
 #suluachonhangdau .frame-1000005749-q9Vrrt {
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 #suluachonhangdau .component-201-TEB11C {
-    height: 40px;
-    width : 40px;
+    height: 2.5rem;
+    width : 2.5rem;
 }
 
 #suluachonhangdau .s-mnh {
@@ -488,18 +487,18 @@
 .proximanova-bold-turquoise-blue-32px {
     color      : var(--secondaryblue-400);
     font-family: var(--font-family-proxima_nova-bold);
-    font-size  : var(--font-size-xxxl);
+    font-size  : 2rem;
     font-style : normal;
     font-weight: 700;
 }
 
 #suluachonhangdau .pclasss {
-    margin-top: 10px;
+    margin-top: 1.25rem;
 }
 
 #suluachonhangdau .msc-clinic-c-quyn-s-q9Vrrt {
     align-self : stretch;
-    line-height: 19.2px;
+    line-height: 1.2rem;
     text-align : justify;
     white-space: nowrap;
 }
@@ -507,7 +506,7 @@
 .proximanovavh-bold-white-16px {
     color      : var(--greyscale-text0);
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 700;
 }
@@ -515,21 +514,21 @@
 #suluachonhangdau .gip-iu-tr-nhng-tn-th {
     background-color: transparent;
     height          : auto;
-    line-height     : 24px;
-    width           : 455px;
+    line-height     : 1.5rem;
+    width           : 28.4375rem;
 }
 
 .proximanovavh-normal-tory-blue-16px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
 
 #suluachonhangdau .a-v9DT2u {
-    height  : 594px;
-    width   : 776px;
+    height  : 37.125rem;
+    width   : 48.5rem;
     bottom  : 0;
     right   : 0;
     position: absolute;
@@ -537,12 +536,12 @@
 
 @media (max-width: 1480px) {
     #suluachonhangdau .container {
-        padding: 50px;
+        padding: 3.125rem;
     }
 
     #suluachonhangdau .frame-1000005735-7GnH4e {
 
-        border-radius: 20px;
+        border-radius: 1.25rem;
     }
 
     #suluachonhangdau .a-cFPO5S {
@@ -555,7 +554,7 @@
 
     #suluachonhangdau .s-la-chn-hng-u-cho-sc-kho-ca-bn-7GnH4e {
         display  : flex;
-        gap      : 5px;
+        gap      : 0.3125rem;
         flex-wrap: wrap;
     }
 
@@ -649,6 +648,11 @@
 }
 
 @media (max-width: 786px) {
+    #suluachonhangdau .tm-nhn-v-s-mnh-v9DT2u {
+        display        : flex;
+        justify-content: center;
+    }
+
     #suluachonhangdau .a-cFPO5S {
         display: none;
     }
@@ -678,5 +682,29 @@
     #suluachonhangdau .frame-1000005734-7GnH4e {
         flex-direction: column;
         height        : 100% !important;
+
+    }
+
+    #suluachonhangdau .container {
+        padding: 20px;
+    }
+
+    #suluachonhangdau .component-200 {
+        padding: 20px;
+        width  : 100%;
+    }
+
+    .proximanovavh-bold-white-48px {
+        padding: 0 5px;
+    }
+
+    #suluachonhangdau .gip-iu-tr-nhng-tn-th {
+
+        width: 100%;
+    }
+
+    #suluachonhangdau .frame-1000005742-vxPFGA {
+        width: 100%;
+
     }
 }
