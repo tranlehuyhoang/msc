@@ -773,7 +773,7 @@
 
 #quytrinhkhamchua .container_mobile .component-221 {
     background-color: transparent;
-    position        : absolute;
+    position        : relative;
 }
 
 #quytrinhkhamchua .container_mobile .component-221-FkJa90 {
@@ -887,9 +887,11 @@
 }
 
 #quytrinhkhamchua .container_mobile .bi-xe-BhxBYH {
-    left       : 47px;
-    line-height: 15px;
-    top        : 109px;
+    width      : 100%;
+    bottom     : 15px;
+    line-height: 10px;
+    text-align : center;
+
 }
 
 .proximanova-normal-tory-blue-10px {
