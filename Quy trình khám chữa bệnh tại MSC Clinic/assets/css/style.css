@@ -223,10 +223,11 @@
 }
 
 #quytrinhkhamchua .khch-hng-ti-phng-khm-z39VOU {
-    left          : 82px;
     letter-spacing: -0.20px;
     line-height   : 24.0px;
-    top           : 337px;
+    padding       : 0 50px;
+    bottom        : 0;
+    width         : 100%;
 }
 
 .proximanova-bold-tory-blue-20px {
@@ -625,9 +626,7 @@
 #quytrinhkhamchua .container_table .khch-hng-ti-phng-khm {
     background-color: transparent;
     height          : auto;
-    position        : absolute;
     text-align      : center;
-    width           : auto;
 }
 
 #quytrinhkhamchua .container_table .khch-hng-ti-phng-khm-pgxAiE {
@@ -810,16 +809,15 @@
 #quytrinhkhamchua .container_mobile .khch-hng-ti-phng-khm {
     background-color: transparent;
     height          : auto;
-    position        : absolute;
     text-align      : center;
-    width           : auto;
+    width           : 100%;
+    bottom          : 0;
 }
 
 #quytrinhkhamchua .container_mobile .khch-hng-ti-phng-khm-cZijIc {
-    left          : 35px;
     letter-spacing: 0.00px;
     line-height   : 16.8px;
-    top           : 188px;
+    margin-bottom : -10px;
 }
 
 #quytrinhkhamchua .container_mobile .ellipse-2131-cZijIc {
