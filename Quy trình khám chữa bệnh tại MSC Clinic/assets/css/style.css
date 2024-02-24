@@ -488,6 +488,8 @@
     flex-direction  : column;
     gap             : 24.000001907348633px;
     text-align      : center;
+    width           : 100%;
+    font-size       : 3vw;
 }
 
 #quytrinhkhamchua .container_table .quy-trnh-khm-cha-bnh-ti-msc-clinic {
@@ -515,12 +517,211 @@
 #quytrinhkhamchua .container_table .frame-1000006975-xKo5BD {
     align-items     : center;
     background-color: transparent;
-    display         : inline-flex;
-    gap             : 60.000003814697266px;
+    display         : flex;
+    gap             : 35px;
     justify-content : center;
-    left            : 0px;
+    flex-direction  : column;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006968 {
+    background-color: transparent;
+    position        : relative;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006968-10TXMr {
+    height: 400px;
+    width : 305px;
+}
+
+#quytrinhkhamchua .container_table .ellipse-2131 {
+    background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
     position        : absolute;
-    top             : 0px;
+}
+
+#quytrinhkhamchua .container_table .ellipse-2131-pgxAiE {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 32px;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .container_table .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .mask-group-pgxAiE {
+    border-radius: 500px;
+    height       : 245px;
+    left         : 33px;
+    overflow     : hidden;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .container_table .component-221 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .component-221-m3gsY6 {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .container_table .ellipse-2132 {
+    background      : linear-gradient(180deg, rgba(59.96484450995922, 197.72628128528595, 228.4374949336052, 0.5) 0%, rgba(55.25000050663948, 218.58725309371948, 255, 0) 100%);
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .ellipse-2132-lezkeF {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 0px;
+    top          : 0px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .container_table .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .mask-group-lezkeF {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .container_table .bi-xe {
+    background-color: transparent;
+    height          : auto;
+    letter-spacing  : 0.00px;
+    position        : absolute;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+#quytrinhkhamchua .container_table .bi-xe-lezkeF {
+    left       : 89px;
+    line-height: 24px;
+    top        : 198px;
+}
+
+#quytrinhkhamchua .container_table .image {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .image-m3gsY6 {
+    height: 265px;
+    left  : -80px;
+    top   : -9px;
+    width : 470px;
+}
+
+#quytrinhkhamchua .container_table .khch-hng-ti-phng-khm {
+    background-color: transparent;
+    height          : auto;
+    position        : absolute;
+    text-align      : center;
+    width           : auto;
+}
+
+#quytrinhkhamchua .container_table .khch-hng-ti-phng-khm-pgxAiE {
+    left          : 82px;
+    letter-spacing: -0.20px;
+    line-height   : 24.0px;
+    top           : 337px;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006970 {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    justify-content : center;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006970-pgxAiE {
+    gap : 3.000000238418579px;
+    left: 96px;
+    top : 269px;
+}
+
+#quytrinhkhamchua .container_table .x01 {
+    background-color: transparent;
+    letter-spacing  : 0.00px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#quytrinhkhamchua .container_table .x01-sPnC5e {
+    line-height: 81.0px;
+    margin-top : -1.00px;
+}
+
+#quytrinhkhamchua .container_table .vector-sPnC5e {
+    background-color: transparent;
+    height          : 24.8690185546875px;
+    position        : relative;
+    width           : 26.078125px;
+}
+
+#quytrinhkhamchua .container_table .vector-ssYmxD {
+    background-color: transparent;
+    height          : 24.8690185546875px;
+    position        : relative;
+    width           : 26.078125px;
+}
+
+#quytrinhkhamchua .container_table .x01 {
+    background-color: transparent;
+    letter-spacing  : 0.00px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#quytrinhkhamchua .container_table .x01-sPnC5e {
+    line-height: 81.0px;
+    margin-top : -1.00px;
+}
+
+#quytrinhkhamchua .container_table .vector-126 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .container_table .vector-126-xKo5BD {
+    height: 440px;
+    left  : 954px;
+    top   : 307px;
+    width : 69px;
+}
+
+#quytrinhkhamchua .container_table .vector-126-k8zhm9 {
+    height: 440px;
+    left  : 18px;
+    top   : 742px;
+    width : 80px;
+}
+
+#quytrinhkhamchua .container_table .vector-126-7Vk7kD {
+    height: 440px;
+    left  : 954px;
+    top   : 1180px;
+    width : 82px;
 }
 
 @media (max-width: 1400px) {
@@ -531,4 +732,16 @@
     #quytrinhkhamchua .container_table {
         display: block;
     }
+}
+
+@media (max-width: 1050px) {
+    #quytrinhkhamchua .container {
+        display: none;
+    }
+
+    #quytrinhkhamchua .container_table {
+        display: none;
+    }
+
+    #quytrinhkhamchua .container_mobile {}
 }
