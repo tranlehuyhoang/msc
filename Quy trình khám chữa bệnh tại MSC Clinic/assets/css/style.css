@@ -1,0 +1,178 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-elevation5               : #ffffff;
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-100                     : #b6c7e0;
+    --primaryblue-300                     : #6186bc;
+    --primaryblue-500                     : #134a9b;
+    --secondaryblue-400                   : #45dcff;
+    --secondaryblue-500                   : #1ab7da;
+    --font-size-l                         : 20px;
+    --font-size-m                         : 16px;
+    --font-size-s                         : 14px;
+    --font-size-xl                        : 24px;
+    --font-size-xs                        : 10px;
+    --font-size-xxl                       : 32px;
+    --font-size-xxxl                      : 54px;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#huongdanthamkham .container {
+    position: relative;
+}
+
+#huongdanthamkham .frame-1000005541-a2cNEY {
+    background-color: transparent;
+    overflow        : hidden;
+    width           : 100%;
+}
+
+#huongdanthamkham .x221-17-3-R1fT1n {
+    object-fit: cover;
+    width     : 100%;
+}
+
+#huongdanthamkham .content {
+    position       : absolute;
+    width          : 100%;
+    top            : 0;
+    height         : 100%;
+    display        : flex;
+    justify-content: center;
+}
+
+#huongdanthamkham .content>div {
+    max-width: 1400px;
+    height   : 100%;
+    width    : 100%;
+
+}
+
+#huongdanthamkham .frame-1000005542 {
+    height          : 100%;
+    align-items     : flex-start;
+    display         : flex;
+    flex-direction  : column;
+    background-color: transparent;
+}
+
+
+#huongdanthamkham .duongdan {
+    justify-content: center;
+    height         : 20%;
+    align-items    : center;
+    display        : flex;
+}
+
+#huongdanthamkham .frame-1000005542-R1fT1n {
+    gap: 8px;
+}
+
+#huongdanthamkham .trang-ch {
+    background-color: transparent;
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-style      : normal;
+    font-weight     : 400;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#huongdanthamkham .trang-ch-Z5Yk8r {
+    color      : var(--primaryblue-100);
+    font-size  : var(--font-size-m);
+    line-height: 19.2px;
+}
+
+#huongdanthamkham .x {
+    margin          : 0 5px;
+    background-color: transparent;
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-style      : normal;
+    font-weight     : 400;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#huongdanthamkham .x-Z5Yk8r {
+    color      : var(--primaryblue-100);
+    font-size  : var(--font-size-m);
+    line-height: 19.2px;
+}
+
+#huongdanthamkham .hng-dn-thm-khm-Z5Yk8r {
+    background-color: transparent;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+.proximanovavh-bold-white-16px {
+    color      : var(--background-elevation5);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#huongdanthamkham .mobile {
+    display: none;
+}
+
+#huongdanthamkham .hng-dn-thm-khm-R1fT1n {
+    background-color: transparent;
+    color           : var(--background-elevation5);
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : 48px;
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    line-height     : 57.6px;
+    text-align      : justify;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+@media (max-width: 1400px) {
+    #huongdanthamkham .frame-1000005542-R1fT1n {
+        margin: 20px;
+    }
+
+    #huongdanthamkham .hng-dn-thm-khm-R1fT1n {
+        background-color: transparent;
+
+        font-size: 5vw;
+
+    }
+}
+
+@media (max-width: 768px) {
+    #huongdanthamkham .mobile {
+        display: block;
+    }
+
+    #huongdanthamkham .desktop {
+        display: none;
+    }
+
+    #huongdanthamkham .hng-dn-thm-khm-R1fT1n {
+        background-color: transparent;
+        font-size       : 8vw;
+    }
+}
