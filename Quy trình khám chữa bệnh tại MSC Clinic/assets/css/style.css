@@ -184,9 +184,7 @@
 }
 
 #quytrinhkhamchua .bi-xe-jbHgom {
-    left       : 89px;
-    line-height: 24px;
-    top        : 198px;
+    bottom: 15px;
 }
 
 .proximanova-normal-tory-blue-16px {
@@ -546,7 +544,7 @@
 
 #quytrinhkhamchua .container_table .mask-group {
     background-color: transparent;
-    position        : absolute;
+    position        : relative;
 }
 
 #quytrinhkhamchua .container_table .mask-group-pgxAiE {
@@ -603,7 +601,7 @@
     position        : absolute;
     text-align      : center;
     white-space     : nowrap;
-    width           : auto;
+    width           : 100%;
 }
 
 #quytrinhkhamchua .container_table .bi-xe-lezkeF {
