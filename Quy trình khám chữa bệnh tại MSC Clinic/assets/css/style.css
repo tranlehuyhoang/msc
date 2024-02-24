@@ -178,6 +178,7 @@
     height          : auto;
     letter-spacing  : 0.00px;
     position        : absolute;
+    width           : 100%;
     text-align      : center;
     white-space     : nowrap;
     width           : auto;
@@ -185,6 +186,7 @@
 
 #quytrinhkhamchua .bi-xe-jbHgom {
     bottom: 15px;
+    width : 100%;
 }
 
 .proximanova-normal-tory-blue-16px {
@@ -336,7 +338,7 @@
 
 #quytrinhkhamchua .component-221 {
     background-color: transparent;
-    position        : absolute;
+    position        : relative;
 }
 
 #quytrinhkhamchua .component-221-sk3BN8 {
@@ -508,6 +510,7 @@
     flex-direction  : column;
     gap             : 36px;
     position        : relative;
+    margin-bottom   : 100px;
 }
 
 #quytrinhkhamchua .container_table .frame-1000006975-xKo5BD {
