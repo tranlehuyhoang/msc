@@ -27,152 +27,508 @@
     --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
 }
 
-#huongdanthamkham .container {
-    position: relative;
+#quytrinhkhamchua .quy-trnh-thm-khm-3d0Li3 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 36px;
+    position        : relative;
 }
 
-#huongdanthamkham .frame-1000005541-a2cNEY {
-    background-color: transparent;
-    overflow        : hidden;
+#quytrinhkhamchua {
+    width           : 100%;
+    background-color: gray;
+    justify-content : center;
+    display         : flex;
+}
+
+#quytrinhkhamchua .container {
+    max-width       : 1400px;
+    background-color: white;
     width           : 100%;
 }
 
-#huongdanthamkham .x221-17-3-R1fT1n {
-    object-fit: cover;
-    width     : 100%;
+#quytrinhkhamchua .container_table {
+    max-width: 1050px;
+    display  : none;
+
+    background-color: white;
+    width           : 100%;
 }
 
-#huongdanthamkham .content {
-    position       : absolute;
-    width          : 100%;
-    top            : 0;
-    height         : 100%;
-    display        : flex;
-    justify-content: center;
+#quytrinhkhamchua .frame-1000006975-19dZ9x {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 60.000003814697266px;
+    justify-content : center;
+    position        : relative;
 }
 
-#huongdanthamkham .content>div {
-    max-width: 1400px;
-    height   : 100%;
-    width    : 100%;
-
-}
-
-#huongdanthamkham .frame-1000005542 {
-    height          : 100%;
+#quytrinhkhamchua .frame-1000006967 {
     align-items     : flex-start;
+    background-color: transparent;
     display         : flex;
     flex-direction  : column;
+    gap             : 24.000001907348633px;
+}
+
+#quytrinhkhamchua .frame-1000006967-XZaxKd {
+    height  : 227.00001525878906px;
+    position: relative;
+    width   : 305px;
+}
+
+#quytrinhkhamchua .quy-trnh-khm-cha-bnh-ti-msc-clinic {
     background-color: transparent;
-}
-
-
-#huongdanthamkham .duongdan {
-    justify-content: center;
-    height         : 20%;
-    align-items    : center;
-    display        : flex;
-}
-
-#huongdanthamkham .frame-1000005542-R1fT1n {
-    gap: 8px;
-}
-
-#huongdanthamkham .trang-ch {
-    background-color: transparent;
-    font-family     : var(--font-family-proxima_nova_vh-regular);
-    font-style      : normal;
-    font-weight     : 400;
-    position        : relative;
-    text-align      : center;
-    white-space     : nowrap;
-    width           : fit-content;
-}
-
-#huongdanthamkham .trang-ch-Z5Yk8r {
-    color      : var(--primaryblue-100);
-    font-size  : var(--font-size-m);
-    line-height: 19.2px;
-}
-
-#huongdanthamkham .x {
-    margin          : 0 5px;
-    background-color: transparent;
-    font-family     : var(--font-family-proxima_nova_vh-regular);
-    font-style      : normal;
-    font-weight     : 400;
-    margin-top      : -1.00px;
-    position        : relative;
-    text-align      : center;
-    white-space     : nowrap;
-    width           : fit-content;
-}
-
-#huongdanthamkham .x-Z5Yk8r {
-    color      : var(--primaryblue-100);
-    font-size  : var(--font-size-m);
-    line-height: 19.2px;
-}
-
-#huongdanthamkham .hng-dn-thm-khm-Z5Yk8r {
-    background-color: transparent;
-    line-height     : 19.2px;
-    position        : relative;
-    text-align      : center;
-    white-space     : nowrap;
-    width           : fit-content;
-}
-
-.proximanovavh-bold-white-16px {
-    color      : var(--background-elevation5);
-    font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-m);
-    font-style : normal;
-    font-weight: 700;
-}
-
-#huongdanthamkham .mobile {
-    display: none;
-}
-
-#huongdanthamkham .hng-dn-thm-khm-R1fT1n {
-    background-color: transparent;
-    color           : var(--background-elevation5);
-    font-family     : var(--font-family-proxima_nova_vh-bold);
-    font-size       : 48px;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova-bold);
     font-style      : normal;
     font-weight     : 700;
+    letter-spacing  : 0.00px;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-shadow     : 0px -13.40185546875px 18.762598037719727px #ffffff40;
+    width           : fit-content;
+}
+
+#quytrinhkhamchua .quy-trnh-khm-cha-bnh-ti-msc-clinic-p4oYcQ {
+    font-size  : var(--font-size-xxl);
+    line-height: 44.8px;
+    text-align : left;
+}
+
+#quytrinhkhamchua .frame-1000006968 {
+    background-color: transparent;
+    position        : relative;
+}
+
+#quytrinhkhamchua .frame-1000006968-XZaxKd {
+    height: 400px;
+    width : 305px;
+}
+
+#quytrinhkhamchua .ellipse-2131 {
+    background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .ellipse-2131-z39VOU {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 32px;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .mask-group-z39VOU {
+    border-radius: 500px;
+    height       : 245px;
+    left         : 33px;
+    overflow     : hidden;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .component-221 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .component-221-2qFRK8 {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .ellipse-2132 {
+    background      : linear-gradient(180deg, rgba(59.96484450995922, 197.72628128528595, 228.4374949336052, 0.5) 0%, rgba(55.25000050663948, 218.58725309371948, 255, 0) 100%);
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .ellipse-2132-jbHgom {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 0px;
+    top          : 0px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .mask-group-jbHgom {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .bi-xe {
+    background-color: transparent;
     height          : auto;
-    line-height     : 57.6px;
-    text-align      : justify;
+    letter-spacing  : 0.00px;
+    position        : absolute;
+    text-align      : center;
     white-space     : nowrap;
     width           : auto;
 }
 
-@media (max-width: 1400px) {
-    #huongdanthamkham .frame-1000005542-R1fT1n {
-        margin: 20px;
-    }
-
-    #huongdanthamkham .hng-dn-thm-khm-R1fT1n {
-        background-color: transparent;
-
-        font-size: 5vw;
-
-    }
+#quytrinhkhamchua .bi-xe-jbHgom {
+    left       : 89px;
+    line-height: 24px;
+    top        : 198px;
 }
 
-@media (max-width: 768px) {
-    #huongdanthamkham .mobile {
-        display: block;
-    }
+.proximanova-normal-tory-blue-16px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
 
-    #huongdanthamkham .desktop {
+#quytrinhkhamchua .image {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .image-2qFRK8 {
+    height: 265px;
+    left  : -80px;
+    top   : -9px;
+    width : 470px;
+}
+
+#quytrinhkhamchua .image-xJA7CJ {
+    height: 265px;
+    left  : -4105px;
+    top   : 1833px;
+    width : 470px;
+}
+
+#quytrinhkhamchua .khch-hng-ti-phng-khm {
+    background-color: transparent;
+    height          : auto;
+    position        : absolute;
+    text-align      : center;
+    width           : auto;
+}
+
+#quytrinhkhamchua .khch-hng-ti-phng-khm-z39VOU {
+    left          : 82px;
+    letter-spacing: -0.20px;
+    line-height   : 24.0px;
+    top           : 337px;
+}
+
+.proximanova-bold-tory-blue-20px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : var(--font-size-l);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#quytrinhkhamchua .frame-1000006970 {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    justify-content : center;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .frame-1000006970-z39VOU {
+    gap : 3.000000238418579px;
+    left: 96px;
+    top : 269px;
+}
+
+#quytrinhkhamchua .x01 {
+    background-color: transparent;
+    letter-spacing  : 0.00px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#quytrinhkhamchua .x01-x205v4 {
+    line-height: 81.0px;
+    margin-top : -1.00px;
+}
+
+.proximanova-bold-cerulean-54px {
+    color      : var(--secondaryblue-500);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : var(--font-size-xxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#quytrinhkhamchua .vector-125 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .vector-125-z39VOU {
+    height: 2px;
+    left  : 222px;
+    top   : 307px;
+    width : 234px;
+}
+
+#quytrinhkhamchua .frame-1000006976-19dZ9x {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 60.000003814697266px;
+    justify-content : center;
+    position        : relative;
+}
+
+#quytrinhkhamchua .frame-1000006974 {
+    background-color: transparent;
+    position        : relative;
+}
+
+#quytrinhkhamchua .frame-1000006974-FII3xx {
+    height: 400px;
+    width : 305px;
+}
+
+#quytrinhkhamchua .ellipse-2131 {
+    background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .ellipse-2131-TKrZQM {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 32px;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .mask-group-TKrZQM {
+    border-radius: 500px;
+    height       : 245px;
+    left         : 33px;
+    overflow     : hidden;
+    top          : 33px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .component-221 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .component-221-sk3BN8 {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .ellipse-2132 {
+    background      : linear-gradient(180deg, rgba(59.96484450995922, 197.72628128528595, 228.4374949336052, 0.5) 0%, rgba(55.25000050663948, 218.58725309371948, 255, 0) 100%);
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .ellipse-2132-8x2a4x {
+    border-radius: 122.31px;
+    height       : 245px;
+    left         : 0px;
+    top          : 0px;
+    width        : 245px;
+}
+
+#quytrinhkhamchua .mask-group {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .mask-group-8x2a4x {
+    height: 245px;
+    left  : 0px;
+    top   : 0px;
+    width : 245px;
+}
+
+#quytrinhkhamchua .phng-khm-ni-phng-khm-cxk-phng-da-liu {
+    background-color: transparent;
+    height          : auto;
+    letter-spacing  : 0.00px;
+    position        : absolute;
+    text-align      : center;
+    width           : auto;
+}
+
+#quytrinhkhamchua .phng-khm-ni-phng-khm-cxk-phng-da-liu-8x2a4x {
+    left       : 59px;
+    line-height: 24px;
+    top        : 161px;
+}
+
+.proximanova-normal-tory-blue-16px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#quytrinhkhamchua .image {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .image-sk3BN8 {
+    height: 265px;
+    left  : -80px;
+    top   : -9px;
+    width : 470px;
+}
+
+#quytrinhkhamchua .image {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .image-gqrc4K {
+    height: 265px;
+    left  : -3740px;
+    top   : 1397px;
+    width : 470px;
+}
+
+#quytrinhkhamchua .khch-hng-ch-v-nhn-kt-qu-khm {
+    background-color: transparent;
+    height          : auto;
+    position        : absolute;
+    text-align      : center;
+}
+
+#quytrinhkhamchua .khch-hng-ch-v-nhn-kt-qu-khm-TKrZQM {
+    left          : 50px;
+    letter-spacing: -0.20px;
+    line-height   : 24.0px;
+    top           : 337px;
+    width         : 204px;
+}
+
+.proximanova-bold-tory-blue-20px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : var(--font-size-l);
+    font-style : normal;
+    font-weight: 700;
+}
+
+#quytrinhkhamchua .frame-1000006977-19dZ9x {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 60.000003814697266px;
+    justify-content : center;
+    position        : relative;
+}
+
+#quytrinhkhamchua .vector-126 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .vector-126-FII3xx {
+    height: 440px;
+    left  : 1304px;
+    top   : -129px;
+    width : 97px;
+}
+
+#quytrinhkhamchua .vector-126 {
+    background-color: transparent;
+    position        : absolute;
+}
+
+#quytrinhkhamchua .vector-126-19dZ9x {
+    height: 440px;
+    left  : 1px;
+    top   : 742px;
+    width : 97px;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006967 {
+    padding         : 50px;
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : flex;
+    flex-direction  : column;
+    gap             : 24.000001907348633px;
+    text-align      : center;
+}
+
+#quytrinhkhamchua .container_table .quy-trnh-khm-cha-bnh-ti-msc-clinic {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova-bold);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : 0.00px;
+    width           : 100%;
+    margin-top      : -1.00px;
+    position        : relative;
+    text-shadow     : 0px -13.40185546875px 18.762598037719727px #ffffff40;
+}
+
+#quytrinhkhamchua .container_table .quy-trnh-thm-khm-3d0Li3 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 36px;
+    position        : relative;
+}
+
+#quytrinhkhamchua .container_table .frame-1000006975-xKo5BD {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    gap             : 60.000003814697266px;
+    justify-content : center;
+    left            : 0px;
+    position        : absolute;
+    top             : 0px;
+}
+
+@media (max-width: 1400px) {
+    #quytrinhkhamchua .container {
         display: none;
     }
 
-    #huongdanthamkham .hng-dn-thm-khm-R1fT1n {
-        background-color: transparent;
-        font-size       : 8vw;
+    #quytrinhkhamchua .container_table {
+        display: block;
     }
 }
