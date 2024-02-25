@@ -13,13 +13,13 @@
     --primaryblue-500                     : #134a9b;
     --secondaryblue-400                   : #45dcff;
     --secondaryblue-500                   : #1ab7da;
-    --font-size-l                         : 20px;
-    --font-size-m                         : 16px;
-    --font-size-s                         : 14px;
-    --font-size-xl                        : 24px;
-    --font-size-xs                        : 10px;
-    --font-size-xxl                       : 32px;
-    --font-size-xxxl                      : 54px;
+    --font-size-l                         : 1.25rem;
+    --font-size-m                         : 1rem;
+    --font-size-s                         : 0.875rem;
+    --font-size-xl                        : 1.5rem;
+    --font-size-xs                        : 0.625rem;
+    --font-size-xxl                       : 2rem;
+    --font-size-xxxl                      : 3.375rem;
     --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
     --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
     --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
@@ -52,7 +52,7 @@
 }
 
 #huongdanthamkham .content>div {
-    max-width: 1400px;
+    max-width: 87.5rem;
     height   : 100%;
     width    : 100%;
 
@@ -75,7 +75,7 @@
 }
 
 #huongdanthamkham .frame-1000005542-R1fT1n {
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 #huongdanthamkham .trang-ch {
@@ -92,16 +92,16 @@
 #huongdanthamkham .trang-ch-Z5Yk8r {
     color      : var(--primaryblue-100);
     font-size  : var(--font-size-m);
-    line-height: 19.2px;
+    line-height: 1.2rem;
 }
 
 #huongdanthamkham .x {
-    margin          : 0 5px;
+    margin          : 0 0.3125rem;
     background-color: transparent;
     font-family     : var(--font-family-proxima_nova_vh-regular);
     font-style      : normal;
     font-weight     : 400;
-    margin-top      : -1.00px;
+    margin-top      : -0.0625rem;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
@@ -111,12 +111,12 @@
 #huongdanthamkham .x-Z5Yk8r {
     color      : var(--primaryblue-100);
     font-size  : var(--font-size-m);
-    line-height: 19.2px;
+    line-height: 1.2rem;
 }
 
 #huongdanthamkham .hng-dn-thm-khm-Z5Yk8r {
     background-color: transparent;
-    line-height     : 19.2px;
+    line-height     : 1.2rem;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
@@ -139,30 +139,29 @@
     background-color: transparent;
     color           : var(--background-elevation5);
     font-family     : var(--font-family-proxima_nova_vh-bold);
-    font-size       : 48px;
+    font-size       : 3rem;
     font-style      : normal;
     font-weight     : 700;
     height          : auto;
-    line-height     : 57.6px;
+    line-height     : 3.45rem;
     text-align      : justify;
     white-space     : nowrap;
     width           : auto;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 87.5rem) {
     #huongdanthamkham .frame-1000005542-R1fT1n {
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     #huongdanthamkham .hng-dn-thm-khm-R1fT1n {
         background-color: transparent;
-
-        font-size: 5vw;
+        font-size       : 5vw;
 
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     #huongdanthamkham .mobile {
         display: block;
     }

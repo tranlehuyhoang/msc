@@ -249,3 +249,35 @@ images_table[9].addEventListener("mouseout", function () {
     images_table[9].src = "./assets/imgs/mask-group-18@2x.png";
 });
 
+// 01. Bãi đỗ xe
+// 02. Quầy lễ tân
+// 03. Phòng tư vấn
+// 07. Phòng khám nội<br> Phòng khám CXK<br> Phòng da liễu
+// 06. Phòng siêu âm <br>Phòng chụp X-quang <br>Phòng xét nghiệm
+// 05. Phòng khám nội <br>Phòng khám CXK <br>Phòng da liễu
+// 04. Quầy lễ tân
+// 08. Quầy lễ tân
+// 09. Phòng tư vấn
+// 10. Quầy lễ tân
+
+// 01. Khách hàng <br> tới phòng khám
+// 02. Tiếp đón và nhận <br> thông tin đăng ký
+// 03. Tiếp nhận thông tin khách hàng <br> và tiền sức khoẻ
+// 07. Khách hàng chờ <br>và nhận kết quả khám
+// 06. Khách hàng khám <br>cận lâm sàng <br>theo chỉ định
+// 05. Bác sĩ khám và <br>chỉ định cận lâm sàng
+// 04. Khách hàng tạm ứng <br> phí dịch vụ
+// 08. Khách hàng<br>thanh toán dịch vụ
+// 09. Khách hàng điều trị <br> (nếu có)
+// 10. Khách hàng <br>kết thúc điều trị
+
+// 01. src="/assets/imgs/mask-group@2x.png"
+// 02. src="/assets/imgs/mask-group-1@2x.png"
+// 03. src="/assets/imgs/mask-group-5@2x.png"
+// 07. src="/assets/imgs/mask-group-8@2x.png"
+// 06. src="/assets/imgs/mask-group-10@2x.png"
+// 05. src="./assets/imgs/Frame 1000007304 (1).png"
+// 04. src="/assets/imgs/mask-group-15@2x.png"
+// 08. src="/assets/imgs/mask-group-17@2x.png"
+// 09. src="./assets/imgs/Frame 1000007305.svg"
+// 10. src="/assets/imgs/mask-group-18@2x.png"

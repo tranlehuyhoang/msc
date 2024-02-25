@@ -1,0 +1,310 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-elevation5               : #ffffff;
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-300                     : #6186bc;
+    --primaryblue-500                     : #134a9b;
+    --secondaryblue-400                   : #45dcff;
+    --font-size-l                         : 2rem;
+    --font-size-m                         : 1.5rem;
+    --font-size-s                         : 1rem;
+    --font-size-xl                        : 2.25rem;
+    --font-size-xxl                       : 3rem;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#sodophongkham .s-phng-khm-msc-clinic {
+    background-color: transparent;
+    color           : var(--background-elevation5);
+    font-style      : normal;
+    font-weight     : 700;
+}
+
+#sodophongkham .s-phng-khm-msc-clinic-vAHxaz {
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : var(--font-size-xxl);
+    letter-spacing: -0.48px;
+    line-height   : 57.6px;
+    margin-top    : 4.375rem;
+    position      : relative;
+    text-align    : left;
+    white-space   : nowrap;
+    width         : fit-content;
+}
+
+#sodophongkham {
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    background-color: #0d356e;
+}
+
+#sodophongkham .container {
+    width         : 100%;
+    max-width     : 87.5rem;
+    align-items   : flex-start;
+    display       : inline-flex;
+    flex          : 0 0 auto;
+    flex-direction: column;
+    gap           : 4.375rem;
+    position      : relative;
+}
+
+#sodophongkham .frame-1000006996-WZLkx2 {
+    width           : 100%;
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 2.25rem;
+    position        : relative;
+}
+
+#sodophongkham .frame-1000007181-vAHxaz {
+    width: 100%;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu {
+    height           : 12.5rem !important;
+    width            : 100%;
+    background-color : transparent;
+    position         : relative;
+    background-repeat: no-repeat;
+    background-color : gray;
+    border           : 1px solid;
+    border-color     : var(--primaryblue-300);
+    border-radius    : 0.5rem;
+
+    position: relative;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(1) {
+    background-image   : url("../imgs/rectangle-34625240.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(2) {
+    background-image   : url("../imgs/rectangle-34625240-1.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(3) {
+    background-image   : url("../imgs/rectangle-34625240-2.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(4) {
+    background-image   : url("../imgs/rectangle-34625240-3.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(5) {
+    background-image   : url("../imgs/rectangle-34625240-4.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .frame-1000005735-CVnpxu:nth-child(6) {
+    background-image   : url("../imgs/rectangle-34625240-5.png");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+#sodophongkham .rectangle-34625240 {
+    width : 100%;
+    height: 13.0625rem;
+}
+
+#sodophongkham .content {
+    position       : absolute;
+    top            : 0;
+    display        : flex;
+    height         : 100%;
+    justify-content: center;
+    align-items    : center;
+}
+
+#sodophongkham .tng-g {
+    background-color: transparent;
+    white-space     : nowrap;
+    margin          : 3.125rem;
+}
+
+#sodophongkham .tng-g-mEA6TE {
+    line-height: 2.7rem;
+}
+
+.proximanova-bold-turquoise-blue-36px {
+    color      : var(--secondaryblue-400);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : 2.25rem;
+    font-style : normal;
+    font-weight: 700;
+}
+
+#sodophongkham .vector-mEA6TE {
+    background-color: transparent;
+    height          : 1.5625rem;
+    width           : 1.125rem;
+}
+
+#sodophongkham .frame-1000006995 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 1rem;
+    margin-right    : 3.125rem;
+}
+
+#sodophongkham .phng-chp-x-quang {
+    background-color: transparent;
+    position        : relative;
+    text-align      : left;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    gap             : 0.3125rem;
+}
+
+.proximanovavh-bold-white-24px {
+    color      : var(--background-elevation5);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : 1.0rem;
+    font-style : normal;
+    font-weight: 700;
+}
+
+#sodophongkham .button {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin         : 3.125rem;
+}
+
+#sodophongkham .button-offical-WZLkx2 {
+    align-items     : center;
+    background-color: var(--background-elevation5);
+    border-radius   : 0.9375rem;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 0.3125rem;
+    padding         : 0.3125rem 0.3125rem 0.3125rem 0.9375rem;
+    position        : relative;
+}
+
+#sodophongkham .xem-thm {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova_vh-semibold);
+    font-size       : var(--font-size-s);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.125rem;
+    line-height     : 1.2rem;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+@media (max-width: 1400px) {
+    #sodophongkham .container {
+        padding: 0 3.125rem;
+    }
+}
+
+@media (max-width: 900px) {
+    #sodophongkham .container {
+        padding: 0 3.125rem;
+    }
+
+    #sodophongkham .s-phng-khm-msc-clinic-vAHxaz {
+        display        : flex;
+        width          : 100%;
+        justify-content: center;
+        align-items    : center;
+        text-align     : center;
+        align-items    : center;
+        font-size      : 5vw;
+    }
+
+    #sodophongkham .frame-1000006996-WZLkx2 {
+        gap: 0.625rem;
+    }
+
+    #sodophongkham .tng-g {
+        margin: 1.25rem;
+    }
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(1) {
+        background-image   : url("../imgs/rectangle-34625299.svg");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(2) {
+        background-image   : url("../imgs/rectangle-34625299-1.svg");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(3) {
+        background-image   : url("../imgs/rectangle-34625299-2.svg");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(4) {
+        background-image   : url("../imgs/rectangle-34625299-3.svg");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(5) {
+        background-image   : url("../imgs/rectangle-34625299-4.svg");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+    #sodophongkham .frame-1000005735-CVnpxu:nth-child(6) {
+        background-image   : url("../imgs/rectangle-34625240-5.png");
+        background-position: center;
+        background-size    : cover;
+        background-repeat  : no-repeat;
+    }
+
+
+
+}
+
+#sodophongkham .group {
+    display  : flex;
+    flex-wrap: wrap;
+    gap      : 16px;
+}
