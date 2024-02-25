@@ -20,13 +20,13 @@
 09. Khách hàng điều trị <br> (nếu có)
 10. Khách hàng <br>kết thúc điều trị
 
-01. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group@2x.png"
-02. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-1@2x.png"
-03. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-5@2x.png"
-07. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-8@2x.png"
-06. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-10@2x.png"
+01. src="/assets/imgs/mask-group@2x.png"
+02. src="/assets/imgs/mask-group-1@2x.png"
+03. src="/assets/imgs/mask-group-5@2x.png"
+07. src="/assets/imgs/mask-group-8@2x.png"
+06. src="/assets/imgs/mask-group-10@2x.png"
 05. src="./assets/imgs/Frame 1000007304 (1).png"
-04. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-15@2x.png"
-08. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-17@2x.png"
+04. src="/assets/imgs/mask-group-15@2x.png"
+08. src="/assets/imgs/mask-group-17@2x.png"
 09. src="./assets/imgs/Frame 1000007305.svg"
-10. src="https://cdn.animaapp.com/projects/65d72adb3570f8e5072f919d/releases/65d9322179b39a9103eb3ad4/img/mask-group-18@2x.png"
+10. src="/assets/imgs/mask-group-18@2x.png"
