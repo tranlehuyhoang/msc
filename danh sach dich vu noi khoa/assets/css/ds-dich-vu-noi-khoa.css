@@ -1,0 +1,1065 @@
+:root {
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --greyscale-text30                    : #828282;
+    --greyscale-text5                     : #ececec;
+    --primaryblue-300                     : #6186bc;
+    --primaryblue-400                     : #1e60c1;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --primaryblue-700                     : #0d356e;
+    --secondaryblue-400                   : #45dcff;
+    --secondaryblue-50                    : #e8f8fb;
+    --secondaryblue-500                   : #1ab7da;
+    --zircon                              : #f5f8fb;
+    --font-size-l                         : 16.2px;
+    --font-size-m                         : 16px;
+    --font-size-s                         : 14px;
+    --font-size-xl                        : 20px;
+    --font-size-xxl                       : 24px;
+    --font-size-xxxl                      : 32px;
+    --font-size-xxxxl                     : 48px;
+    --font-family-averta-bold             : "Averta-Bold", Helvetica;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
+    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing            : border-box;
+    margin                : 0;
+    padding               : 0;
+}
+
+/* Ẩn thanh cuộn */
+::-webkit-scrollbar {
+    width: 0em;
+}
+
+* {
+    font-family: var(--font-family-proxima_nova-semibold);
+}
+
+div {
+    -webkit-text-size-adjust: none;
+}
+
+
+.banner {
+    display          : flex;
+    width            : 100% !important;
+    height           : 42rem;
+    overflow-x       : hidden;
+    justify-content  : center;
+    background-image : url("../imgs/dich-vu-noi-khoa/banner.png");
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.banner .wrapper {
+    width      : 100%;
+    max-width  : 87.5rem;
+    /* Converted from 1400px to rem */
+    display    : flex;
+    align-items: flex-end;
+    gap        : 2rem;
+}
+
+.banner .wrapper .left {
+    width: 100%;
+}
+
+.breadcrumb {
+    display: inline-flex;
+    gap    : 0.5rem;
+    left   : 6.25rem;
+    top    : 2.19rem;
+}
+
+.banner-img {
+    height: 39.88rem;
+    left  : 46.62rem;
+    top   : 11.88rem;
+    width : 47.13rem;
+}
+
+.banner .wrapper .left {
+    height         : 100%;
+    padding        : 2rem 0;
+    display        : flex;
+    flex-direction : column;
+    justify-content: start;
+    gap            : 4rem;
+}
+
+.services .content {
+    display       : flex;
+    flex-direction: column;
+    gap           : 2rem;
+    margin-bottom : 6rem;
+}
+
+.banner .content h1 {
+    color         : var(--secondaryblue-500);
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : var(--font-size-xxxxl);
+    font-style    : normal;
+    font-weight   : 700;
+    letter-spacing: -0.48px;
+    line-height   : 57.6px;
+    text-align    : left;
+}
+
+.trang-ch-kAY5Tp {
+    color         : var(--primaryblue-400);
+    font-family   : var(--font-family-proxima_nova_vh-regular);
+    font-size     : 1.25rem;
+    /* Converted from var(--font-size-m) to rem */
+    font-style    : normal;
+    font-weight   : 400;
+    letter-spacing: -0.01rem;
+    /* Converted from -0.16px to rem */
+    line-height   : 1.2rem;
+    /* Converted from 19.2px to rem */
+    margin-top    : -0.06rem;
+    /* Converted from -1px to rem */
+    text-align    : center;
+    white-space   : nowrap;
+    width         : fit-content;
+}
+
+.c-xng-khp-kAY5Tp {
+    color         : var(--primaryblue-500);
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : 1.25rem;
+    /* Converted from var(--font-size-m) to rem */
+    font-style    : normal;
+    font-weight   : 700;
+    letter-spacing: -0.01rem;
+    /* Converted from -0.16px to rem */
+    line-height   : 1.2rem;
+    /* Converted from 19.2px to rem */
+    margin-top    : -0.06rem;
+    /* Converted from -1px to rem */
+    text-align    : center;
+    white-space   : nowrap;
+}
+
+.span0-4zcung {
+    color         : var(--secondaryblue-500);
+    font-style    : normal;
+    letter-spacing: -0.004rem;
+    /* Converted from -0.06px to rem */
+}
+
+.bnh-c-xng-khp-l-khi-TwIsFC {
+    color         : var(--primaryblue-500);
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : 2.4rem;
+    /* Converted from var(--font-size-xxl) to rem */
+    font-style    : normal;
+    font-weight   : 700;
+    letter-spacing: -0.012rem;
+    /* Converted from -0.24px to rem */
+    line-height   : 2.25rem;
+    /* Converted from 36px to rem */
+    max-width     : 50%;
+    /* Converted from 597px to rem */
+}
+
+.span0-bGSA9x {
+    color         : var(--secondaryblue-500);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+.span1-bGSA9x {
+    color         : var(--primaryblue-500);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
+
+.dch-v-ni-khoa-ti-msc {
+    background-color: transparent;
+    font-style      : normal;
+    font-weight     : 700;
+    text-align      : justify;
+}
+
+.dch-v-ni-khoa-ti-msc-1x6Guj {
+    color         : transparent;
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : var(--font-size-xl);
+    height        : auto;
+    left          : 39px;
+    letter-spacing: -0.24px;
+    line-height   : 36px;
+    top           : 38px;
+}
+
+.advantage {
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    padding         : 5rem 0;
+    background-color: var(--secondaryblue-500);
+}
+
+.advantage .wrapper {
+    width           : 100%;
+    background-color: var(--greyscale-text0);
+    padding         : 2rem;
+    border-radius   : 1rem;
+    max-width       : 87.5rem;
+    display         : flex;
+    gap             : 2rem;
+    flex-direction  : column;
+    gap             : 1rem;
+
+}
+
+
+.span0-AkJp2i {
+    color         : var(--secondaryblue-400);
+    font-style    : normal;
+    font-size     : var(--font-size-xxl);
+    letter-spacing: -0.06rem;
+}
+
+.banner .proximanovavh-bold-tory-blue-24px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxl);
+    font-style : normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.proximanovavh-bold-tory-blue-24px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxl);
+    font-style : normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.proximanovavh-normal-white-16-2px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-l);
+    font-style : normal;
+    font-weight: 100;
+}
+
+.advantage .title {
+    max-width: 60%;
+}
+
+.cards {
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 1rem;
+}
+
+.cards .card-item .card-content {
+    background-image : url(../imgs/dich-vu-noi-khoa/advantage_bg_1.png);
+    background-repeat: no-repeat;
+    height           : 126px;
+    padding          : 1rem;
+    display          : flex;
+    justify-content  : space-between;
+    align-items      : center;
+    gap              : 1rem;
+    border-radius    : 1rem;
+    background-size  : cover;
+}
+
+.services {
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    padding         : 5rem 0;
+    background-color: var(--secondaryblue-500);
+}
+
+.services .wrapper {
+    width         : 100%;
+    padding       : 2rem;
+    border-radius : 1rem;
+    max-width     : 87.5rem;
+    display       : flex;
+    gap           : 2rem;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+.services .wrapper .content {
+    display        : flex;
+    flex-direction : row;
+    width          : 100%;
+    justify-content: space-between;
+}
+
+.tm-hiu-ngay-O32YxY {
+    background-color: transparent;
+    color           : var(--greyscale-text0);
+    font-family     : var(--font-family-proxima_nova_vh-semibold);
+    font-size       : var(--font-size-xxl);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.00rem;
+    line-height     : 1.8rem;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : left;
+    width           : 41.42rem;
+}
+
+.proximanovavh-bold-turquoise-blue-48px {
+    color      : var(--zircon);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+.span1-f8C8x6 {
+    color         : var(--greyscale-text0);
+    font-style    : normal;
+    letter-spacing: -0.23rem;
+    font-size     : var(--font-size-xxxxl);
+}
+
+.frame-1000005628 {
+    align-items     : flex-start;
+    background-color: var(--greyscale-text0);
+    border          : 1px solid;
+    border-color    : var(--primaryblue-300);
+    border-radius   : 16px;
+    display         : inline-flex;
+    flex-direction  : column;
+    gap             : 23px;
+    left            : 1px;
+    padding         : 36px;
+    position        : relative;
+    top             : 0px;
+}
+
+.frame-1000005629 {
+    align-items     : flex-start;
+    background-color: var(--greyscale-text0);
+    display         : flex;
+    flex            : 0 0 auto;
+    flex-direction  : column;
+    gap             : 16px;
+    position        : relative;
+    width           : 577px;
+}
+
+
+
+.services .content {
+    position: -webkit-sticky;
+    position: sticky;
+    top     : 0;
+
+}
+
+.left-sticky {
+    position     : sticky !important;
+    overflow     : visible;
+    position     : -webkit-sticky;
+    position     : sticky;
+    top          : 6rem;
+    height       : 30rem;
+    margin-bottom: 10rem;
+
+}
+
+.content .left-sticky .background {
+    position: relative;
+
+}
+
+.content .left-sticky .img-content {
+    position: relative;
+    height  : 600px;
+
+}
+
+.content .left-sticky .img-content img {
+    position: relative;
+    z-index : 10;
+
+}
+
+.group-qvZxTK {
+    background-color: transparent;
+    height          : 460px;
+    left            : 146px;
+    mix-blend-mode  : overlay;
+    position        : absolute;
+    top             : 180px;
+    left            : 321px;
+    width           : 268px;
+
+
+}
+
+.group-Fxt8kQ {
+    background-color: transparent;
+    height          : 460px;
+    mix-blend-mode  : overlay;
+    position        : absolute;
+    width           : 268px;
+}
+
+.asset-225s-1-ffpNR5 {
+    background-color: transparent;
+    height          : 523px;
+    left            : 0;
+    object-fit      : cover;
+    top             : 0px;
+    width           : auto;
+}
+
+.img-content {
+    background-color: transparent;
+    height          : 523px;
+    left            : 140px;
+    position        : absolute;
+    top             : 120px;
+    width           : 296px;
+}
+
+.ellipse-2038-ffpNR5 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgb(212.4999949336052, 0, 0) 0%, rgba(204.00000303983688, 5.950000025331974, 5.950000025331974, 0) 100%);
+    background-color: transparent;
+    border-radius   : 30.49px/30.48px;
+    height          : 61px;
+    left            : 126px;
+    position        : absolute;
+    top             : 237px;
+    width           : 61px;
+    z-index         : 99;
+}
+
+.ellipse-2040-ffpNR5 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 102.75px/102.73px;
+    filter          : blur(3.714067220687866px);
+    height          : 205px;
+    left            : 54px;
+    opacity         : 0.2;
+    position        : absolute;
+    top             : 164px;
+    width           : 206px;
+    z-index         : 99;
+
+}
+
+.ellipse-2041-ffpNR5 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 63.19px/63.18px;
+    filter          : blur(3.714067220687866px);
+    height          : 126px;
+    left            : 93px;
+    opacity         : 0.5;
+    position        : absolute;
+    top             : 204px;
+    width           : 126px;
+    z-index         : 99;
+}
+
+.ellipse-2042-4xnRtG {
+    background      : radial-gradient(50% 50% at 50% 50%, rgb(98.81249696016312, 198.7725019454956, 255) 0%, rgba(106.84499993920326, 206.24271869659424, 255, 0.46000000834465027) 46.99999988079071%, rgba(113.68749797344208, 212.6062372326851, 255, 0) 100%);
+    background-color: transparent;
+    border-radius   : 231.52px;
+    top             : 0;
+    height          : 463px;
+    left            : -60px;
+    position        : absolute;
+    width           : 463px;
+    z-index         : 2;
+}
+
+.group-1000004199-4xnRtG {
+    z-index: 99;
+}
+
+.services .slide {
+    width         : 40%;
+    display       : flex;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+.services .card {
+    background-color: #e8f8fb;
+    padding         : 2rem;
+    border-radius   : 1rem;
+    border          : 1px solid var(--primaryblue-700);
+}
+
+.services .card .title {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.phc-hi-sau-phu-thut-c-xng-khp-3mzned {
+    background-color: transparent;
+    color           : var(--secondaryblue-500);
+    font-family     : var(--font-family-proxima_nova-bold);
+    font-size       : var(--font-size-xl);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : -0.32px;
+    line-height     : 3.84rem;
+    margin-top      : -0.1rem;
+    position        : relative;
+    text-align      : justify;
+    width           : 37.175rem;
+}
+
+.bnh-c-xng-khp-l-khi-FDDZXC {
+    align-self      : stretch;
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-size       : var(--font-size-m);
+    font-style      : normal;
+    font-weight     : 400;
+    letter-spacing  : 0.00px;
+    line-height     : 1.6rem;
+    position        : relative;
+    text-align      : justify;
+}
+
+.bnh-c-xng-khp-l-khi-FDDZXC {
+    max-width: 100%;
+}
+
+.tutorial {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    padding        : 5rem 0;
+}
+
+.tutorial .wrapper {
+    width         : 100%;
+    padding       : 2rem;
+    border-radius : 1rem;
+    max-width     : 87.5rem;
+    display       : flex;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+.wrapper>.content {
+    display              : grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap                  : 2rem;
+    margin-top           : 1rem;
+}
+
+.tutorial .wrapper .card {
+    background-image: url('../imgs/dich-vu-co-xuong-khop/tutorial.png');
+    border-radius   : 1rem;
+    padding         : 1rem;
+}
+
+.wrapper .content {
+    margin-bottom: 2rem;
+}
+
+.wrapper h1 {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+.x01-gvtVY2 {
+    background-color: transparent;
+    color           : var(--secondaryblue-400);
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-xxxl);
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    letter-spacing  : -0.48px;
+    line-height     : 57.6px;
+    white-space     : nowrap;
+    width           : auto;
+}
+
+.trao-i-thng-tin-sc-k-gvtVY2 {
+    color      : white;
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+    width      : 14.375rem;
+}
+
+.frame-1000007504 {
+    background-color: transparent;
+    height          : 16.225rem;
+    left            : 0;
+    overflow        : hidden;
+    position        : relative;
+    top             : 0;
+    width           : 19.625rem;
+}
+
+.frame-1000007505-AgAYqc {
+    background-color: transparent;
+    height          : 15.6875rem;
+    left            : 2.25rem;
+    position        : absolute;
+    top             : 1.375rem;
+    width           : 14.125rem;
+}
+
+.frame-AgAYqc {
+    background-color: transparent;
+    height          : 15.375rem;
+    left            : 2rem;
+    position        : absolute;
+    top             : 1.375rem;
+    width           : 15.375rem;
+}
+
+.ellipse-2042-85EEdf {
+    background      : radial-gradient(50% 50% at 50% 50%, rgb(98.81249696016312, 198.7725019454956, 255) 0%, rgba(106.84499993920326, 206.24271869659424, 255, 0.46000000834465027) 46.99999988079071%, rgba(113.68749797344208, 212.6062372326851, 255, 0) 100%);
+    background-color: transparent;
+    border-radius   : 5.746rem / 5.775rem;
+    height          : 11.5rem;
+    left            : 1.9375rem;
+    position        : absolute;
+    top             : 1.875rem;
+    width           : 11.5rem;
+}
+
+.group-1000004199-85EEdf {
+    background-color: transparent;
+    height          : 13rem;
+    left            : 4.5rem;
+    position        : absolute;
+    top             : 1.1875rem;
+    width           : 7.3125rem;
+}
+
+.asset-225s-1 {
+    background-color: transparent;
+    height          : 13rem;
+    left            : 0;
+    object-fit      : cover;
+    position        : absolute;
+    top             : 0;
+    width           : 7.3125rem;
+}
+
+.ellipse-2038 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgb(212.4999949336052, 0, 0) 0%, rgba(204.00000303983688, 5.950000025331974, 5.950000025331974, 0) 100%);
+    background-color: transparent;
+    border-radius   : 0.756rem / 0.757rem;
+    height          : 1.5rem;
+    left            : 3.125rem;
+    position        : absolute;
+    top             : 4.7rem;
+    width           : 1.5rem;
+}
+
+.ellipse-2040 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 2.538rem / 2.543rem;
+    filter          : blur(0.104rem);
+    height          : 5.125rem;
+    left            : 1.3125rem;
+    opacity         : 0.2;
+    position        : absolute;
+    top             : 4.0625rem;
+    width           : 5.125rem;
+}
+
+.ellipse-2041 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 25.1px / 25.13px;
+    filter          : blur(1.6673948764801025px);
+    height          : 50px;
+    left            : 37px;
+    opacity         : 0.5;
+    position        : absolute;
+    top             : 81px;
+    width           : 50px;
+}
+
+.group-1000004200-85EEdf {
+    background-color: transparent;
+    height          : 208px;
+    left            : 64px;
+    position        : absolute;
+    top             : 19px;
+    width           : 117px;
+}
+
+.asset-225s-1 {
+    background-color: transparent;
+    height          : 208px;
+    left            : 0px;
+    object-fit      : cover;
+    position        : absolute;
+    top             : 0px;
+    width           : 117px;
+}
+
+.ellipse-2038 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgb(212.4999949336052, 0, 0) 0%, rgba(204.00000303983688, 5.950000025331974, 5.950000025331974, 0) 100%);
+    background-color: transparent;
+    border-radius   : 12.11px / 12.12px;
+    height          : 24px;
+    left            : 50px;
+    position        : absolute;
+    top             : 94px;
+    width           : 24px;
+}
+
+.ellipse-2040 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 40.81px / 40.87px;
+    filter          : blur(1.6673948764801025px);
+    height          : 82px;
+    left            : 21px;
+    opacity         : 0.2;
+    position        : absolute;
+    top             : 65px;
+    width           : 82px;
+}
+
+.ellipse-2041 {
+    background      : radial-gradient(50% 50% at 50% 50%, rgba(242.24999696016312, 47.440625354647636, 47.440625354647636, 0) 0%, rgb(226.31249696016312, 27.34609331935644, 27.34609331935644) 100%);
+    background-color: transparent;
+    border-radius   : 25.1px / 25.13px;
+    filter          : blur(1.6673948764801025px);
+    height          : 50px;
+    left            : 37px;
+    opacity         : 0.5;
+    position        : absolute;
+    top             : 81px;
+    width           : 50px;
+}
+
+.content-mb {
+    display: none;
+}
+
+.layer-blur-mb {
+    display: none;
+}
+
+@media (max-width: 1220px) {
+    .services {
+        padding-top: 0;
+    }
+
+    .banner .wrapper .right .banner-img {
+        display: none;
+    }
+
+    .banner .wrapper .left .banner-img-mb {
+        position: relative;
+        width   : 100%;
+        display : block !important;
+    }
+
+    .rectangle-34625336 {
+        background-color: transparent;
+        height          : 262px;
+        left            : 25px;
+        position        : absolute;
+        top             : 16px;
+        object-fit      : contain;
+        width           : 262px;
+    }
+
+    .banner .wrapper .left .breadcrumb,
+    .banner .wrapper .left .content {
+        padding: 0 2rem;
+    }
+
+    .bnh-c-xng-khp-l-khi {
+        max-width: 100%;
+    }
+
+    .img-mb-wrapper {
+        position: relative;
+    }
+
+    .layer-blur-mb {
+        opacity : 0.5;
+        width   : 100% !important;
+        filter  : blur(5px);
+        position: absolute;
+        bottom  : -1rem !important;
+    }
+
+    .banner {
+        background-repeat: no-repeat;
+        height           : auto;
+        background-image : none;
+    }
+
+    .ds-dich-vu-co-xuong-khop .banner {
+        padding: 0 !important;
+    }
+
+    .banner .left .content {
+        display       : flex;
+        flex-direction: column;
+        gap           : 1rem;
+        margin-top    : 2rem;
+    }
+
+    .banner-img-mb {
+        display: block;
+    }
+
+
+    .advantage {
+        background-color: var(--secondaryblue-500);
+    }
+
+    .advantage .wrapper {
+        background-color: var(--secondaryblue-500);
+
+        border-radius: 0;
+        padding      : 4rem 1rem;
+    }
+
+    .advantage .proximanovavh-bold-tory-blue-24px {
+        color: var(--zircon);
+    }
+
+    .ds-dich-vu-co-xuong-khop .banner .proximanovavh-bold-tory-blue-24px {
+        font-weight: 100;
+        font-size  : var(--font-size-xl);
+    }
+
+    .ds-dich-vu-co-xuong-khop .banner .left {
+        gap: 1rem;
+    }
+
+    .ds-dich-vu-co-xuong-khop .banner .left .banner-img-mb {
+        height: 400px !important;
+    }
+
+    .span0-bGSA9x {
+        color: var(--zircon);
+    }
+
+    .span1-bGSA9x {
+        color: white;
+    }
+
+    .advantage .cards {
+        display: none;
+    }
+
+    .advantage {
+        padding: 0 !important;
+    }
+
+    .advantage .cards-mb {
+
+        display              : grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap                  : 1rem;
+    }
+
+    .proximanovavh-bold-turquoise-blue-48px {
+        font-size: var(--font-size-xxxl);
+    }
+
+    .span1-f8C8x6 {
+        font-size     : var(--font-size-xxxl);
+        letter-spacing: normal;
+    }
+
+    .advantage .cards-mb .card-content {
+        display    : flex;
+        align-items: center;
+        gap        : 1rem;
+    }
+
+    .advantage .cards-mb .card-item {
+        column-span     : 1;
+        background-color: var(--zircon);
+        padding         : 1rem;
+        border-radius   : 1rem;
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        gap             : 1.5rem;
+        padding         : 3rem 0;
+    }
+
+    .proximanova-bold-tory-blue-16px {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-bold);
+        font-size  : var(--font-size-xl);
+        font-style : normal;
+        font-weight: 700;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: var(--zircon) !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        width        : 30px !important;
+        border-radius: .2rem !important;
+    }
+
+    .services .wrapper .content-mb {
+
+        display   : flex;
+        overflow-x: hidden;
+        gap       : 1rem;
+
+    }
+
+    .services .wrapper .content-mb .card-item {
+        background   : var(--zircon);
+        border       : 0.5px solid;
+        border-color : var(--primaryblue-300);
+        border-radius: 10px;
+        height       : auto;
+        width        : 100%;
+    }
+
+    .services .wrapper .content-mb .card-content {
+
+        padding       : 1rem;
+        padding-bottom: 1rem !important;
+        display       : flex;
+        flex-direction: column;
+        gap           : 1rem;
+
+    }
+
+    .services .frame-1000007504 {
+        height: 18rem;
+    }
+
+    .content-mb::-webkit-scrollbar {
+        width: 0.5em;
+        /* Chiều rộng của thanh cuộn */
+    }
+
+    .content-mb::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        /* Màu nền của vùng track */
+    }
+
+    .content-mb::-webkit-scrollbar-thumb {
+        background-color: #888;
+        /* Màu nền của thanh cuộn */
+    }
+
+    .swiper_2 {
+        width : 100%;
+        height: 95%;
+    }
+
+    .services .wrapper .content {
+        display: none;
+
+    }
+
+    .proximanovavh-bold-cerulean-20px {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova_vh-bold);
+        font-size  : var(--font-size-xxl);
+        font-style : normal;
+        font-weight: 700;
+    }
+
+    .mbu47danh-sach-dich-vu-co-xuong-khop .line-427 {
+        background-color: transparent;
+        height          : 1px;
+        object-fit      : cover;
+    }
+
+    .proximanova-regular-normal-white-14px {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-semibold);
+        font-size  : var(--font-size-m);
+        font-style : normal;
+        font-weight: 400;
+    }
+
+    .proximanovavh-bold-cerulean-14px {
+        color      : var(--secondaryblue-500);
+        font-family: var(--font-family-proxima_nova_vh-bold);
+        font-size  : var(--font-size-m);
+        font-style : normal;
+        font-weight: 700;
+    }
+
+    .tutorial .wrapper>.content {
+        display              : grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+
+    .tutorial .wrapper .card {
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 1580px) {
+    .ds-dich-vu-co-xuong-khop .banner {
+        padding: 1rem 0 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tutorial .wrapper>.content {
+        display              : grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .tutorial .wrapper>.content {
+        display   : flex;
+        overflow-x: scroll;
+
+    }
+
+    .tutorial .wrapper .card {
+        min-width: 60%;
+
+    }
+
+    .services {
+        overflow-x: hidden;
+    }
+
+    .ds-dich-vu-co-xuong-khop .banner .left .content {
+        padding: 0 1rem;
+    }
+}
