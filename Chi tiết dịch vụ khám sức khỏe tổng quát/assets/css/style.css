@@ -1,0 +1,199 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-400                     : #1e60c1;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --primaryblue-700                     : #0d356e;
+    --turquoise-blue                      : #45dcff;
+    --zircon                              : #f6faff;
+    --font-size-l                         : 20px;
+    --font-size-m                         : 16px;
+    --font-size-s                         : 14px;
+    --font-size-xl                        : 24px;
+    --font-size-xxl                       : 30px;
+    --font-size-xxxl                      : 32px;
+    --font-size-xxxxl                     : 48px;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
+    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
+    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+#chitietdichvukhamsuckhoetongquat .container {
+    position           : relative;
+    height             : 820px;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+    background-image   : url("https://cdn.animaapp.com/projects/65dae37cd8a7585f62fd00b8/releases/65dc1b115df743f8480a6c9b/img/rectangle-34625294.png");
+}
+
+#chitietdichvukhamsuckhoetongquat .x221-17-2 {
+    background      : linear-gradient(180deg, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0) 0%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%);
+    background-color: transparent;
+    position        : absolute;
+
+
+}
+
+#chitietdichvukhamsuckhoetongquat .x221-17-2-uUUIHM {
+    height: 379px;
+    width : 100%;
+    width : 100%;
+    bottom: 0;
+}
+
+#chitietdichvukhamsuckhoetongquat .content {
+    justify-content: center;
+    display        : flex;
+    height         : 100%;
+}
+
+#chitietdichvukhamsuckhoetongquat .group {
+    position : relative;
+    width    : 100%;
+    display  : flex;
+    max-width: 1400px;
+}
+
+
+
+
+
+#chitietdichvukhamsuckhoetongquat .frame-1000005779-uUUIHM {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    gap             : 8px;
+}
+
+#chitietdichvukhamsuckhoetongquat .trang-ch {
+    background-color: transparent;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .x {
+    background-color: transparent;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .x-gfDxDH {
+    letter-spacing: -0.16px;
+    line-height   : 19.2px;
+}
+
+#chitietdichvukhamsuckhoetongquat .tm-sot-sc-kho-ton-din {
+    background-color: transparent;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .tm-sot-sc-kho-ton-din-gfDxDH {
+    line-height: 19.2px;
+}
+
+.proximanovavh-regular-normal-denim-16px {
+    color      : var(--primaryblue-400);
+    font-family: var(--font-family-proxima_nova_vh-regular);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .x {
+    background-color: transparent;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .x-LAW0qS {
+    letter-spacing: -0.16px;
+    line-height   : 19.2px;
+}
+
+.proximanovavh-regular-normal-denim-16px {
+    color      : var(--primaryblue-400);
+    font-family: var(--font-family-proxima_nova_vh-regular);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-style      : normal;
+}
+
+#chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut-gfDxDH {
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-m);
+    font-weight: 700;
+    line-height: 19.2px;
+    position   : relative;
+    text-align : center;
+    white-space: nowrap;
+    width      : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut {
+    background-color: transparent;
+    color           : var(--primaryblue-500);
+    font-style      : normal;
+}
+
+#chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut-uUUIHM {
+    font-family: var(--font-family-proxima_nova_vh-bold);
+    font-size  : var(--font-size-xxxxl);
+    font-weight: 700;
+    height     : auto;
+    line-height: 57.6px;
+    text-align : justify;
+    white-space: nowrap;
+    width      : auto;
+}
+
+#chitietdichvukhamsuckhoetongquat .thng-qua-khm-nh-k-nh-uUUIHM {
+    position        : absolute;
+    bottom          : 0;
+    right           : 0;
+    background-color: transparent;
+    color           : transparent;
+    font-family     : var(--font-family-proxima_nova_vh-bold);
+    font-size       : var(--font-size-xl);
+    font-style      : normal;
+    font-weight     : 700;
+    height          : auto;
+    line-height     : 36px;
+    text-align      : justify;
+    width           : 579px;
+}
+
+#chitietdichvukhamsuckhoetongquat .span0-zJivlU {
+    color     : var(--turquoise-blue);
+    font-style: normal;
+}
+
+#chitietdichvukhamsuckhoetongquat .span1-zJivlU {
+    color         : var(--greyscale-text0);
+    font-style    : normal;
+    letter-spacing: -0.06px;
+}
