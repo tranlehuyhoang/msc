@@ -33,7 +33,7 @@
     background-repeat  : no-repeat;
     background-size    : cover;
     background-position: center;
-    background-image   : url("https://cdn.animaapp.com/projects/65dae37cd8a7585f62fd00b8/releases/65dc1b115df743f8480a6c9b/img/rectangle-34625294.png");
+    background-image   : url("../imgs/rectangle-34625294.png");
 }
 
 #chitietdichvukhamsuckhoetongquat .x221-17-2 {
@@ -222,7 +222,6 @@
     position        : relative;
     background-color: var(--zircon);
     border-radius   : 24px;
-    height          : 420px;
     overflow        : hidden;
     width           : 100%;
 }
@@ -232,9 +231,9 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .rectangle-34625240-vjxXIn {
-    height: 420px;
 
-    width: 627px;
+    width : 50%;
+    height: 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007144-vjxXIn {
@@ -244,6 +243,7 @@
     flex-direction  : column;
     gap             : 28px;
     margin          : 50px;
+    width           : 50%;
 }
 
 #chitietdichvukhamsuckhoetongquat .v-sao-nn-khm-sc-kho-tng-qut-nh-k {
@@ -284,10 +284,9 @@
 
 #chitietdichvukhamsuckhoetongquat .vit-nam-c-tnh-cho-th-C2T8XH {
     font-size     : var(--font-size-xl);
-    height        : 141.845703125px;
     letter-spacing: 0.00px;
     line-height   : 36px;
-    width         : 621.75px;
+    width         : 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007148 {
@@ -299,7 +298,7 @@
     display       : flex;
     flex-direction: column;
     gap           : 24px;
-    width         : 566px;
+    width         : 50%;
     margin        : 50px;
 }
 
@@ -318,10 +317,11 @@
     letter-spacing: 0.00px;
     line-height   : 36px;
     text-align    : justify;
-    width         : 566px;
+    width         : 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007145-GnoxMm {
+    margin-top      : 10px;
     align-items     : flex-start;
     background-color: transparent;
     display         : inline-flex;
@@ -345,7 +345,6 @@
 #chitietdichvukhamsuckhoetongquat .thoi-ha-khp-tin-pht-ot5O2t {
     height     : 48px;
     line-height: 24px;
-    width      : 542.23828125px;
 }
 
 #chitietdichvukhamsuckhoetongquat .container_2 {
@@ -353,6 +352,7 @@
     display         : flex;
     justify-content : center;
     background-color: var(--primaryblue-500);
+    position        : relative;
 }
 
 #chitietdichvukhamsuckhoetongquat .content_2 {
@@ -362,6 +362,10 @@
     display        : flex;
     justify-content: space-between;
     gap            : 100px;
+}
+
+#chitietdichvukhamsuckhoetongquat .content_2 div {
+    width: 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .khm-ni-khoa-chuyn-su-tng-qut {
@@ -430,8 +434,7 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .a-GMz5Qx {
-    height: 539px;
-    width : 659px;
+    width: 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .ngi-khm-sc-khe-s-c-k {
@@ -448,7 +451,7 @@
     font-weight: 400;
     height     : auto;
     line-height: 30px;
-    width      : 576px;
+    width      : 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .group-1000004204-zJyIKa {
@@ -469,4 +472,286 @@
     font-size  : var(--font-size-m);
     font-style : normal;
     font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .container_3 {
+    width              : 100%;
+    display            : flex;
+    justify-content    : center;
+    position           : relative;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+    background-image   : url("../imgs/freepik-27241819.png");
+}
+
+#chitietdichvukhamsuckhoetongquat .content_3 {
+    margin        : 100px 0;
+    max-width     : 1400px;
+    width         : 100%;
+    display       : flex;
+    flex-direction: column;
+    gap           : 100px;
+}
+
+#chitietdichvukhamsuckhoetongquat .cc-bc-thm-khm-mDZxaG {
+    color         : var(--primaryblue-600);
+    font-family   : var(--font-family-proxima_nova_vh-bold);
+    font-size     : var(--font-size-xxxxl);
+    height        : auto;
+    letter-spacing: -0.48px;
+    line-height   : 57.6px;
+    text-align    : left;
+    width         : auto;
+}
+
+#chitietdichvukhamsuckhoetongquat .cc-bc-thm-khm {
+    background-color: transparent;
+    font-style      : normal;
+    font-weight     : 700;
+    white-space     : nowrap;
+}
+
+#chitietdichvukhamsuckhoetongquat .frame-1000006957-KExA3H {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 24px;
+    position        : relative;
+}
+
+#chitietdichvukhamsuckhoetongquat .group-1000004158 {
+    background-color: transparent;
+    height          : 53px;
+    position        : relative;
+    width           : 53px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+#chitietdichvukhamsuckhoetongquat .ellipse-2036 {
+    background      : linear-gradient(180deg, rgb(69.00000348687172, 221.00000202655792, 255) 0%, rgba(70.00000342726707, 221.00000202655792, 254.00000005960464, 0) 100%);
+    background-color: transparent;
+    border-radius   : 26.29px;
+    height          : 53px;
+    width           : 53px;
+}
+
+#chitietdichvukhamsuckhoetongquat .x01 {
+    background-color: transparent;
+    height          : auto;
+    position        : absolute;
+
+    text-align : center;
+    white-space: nowrap;
+    width      : auto;
+}
+
+.proximanova-bold-tory-blue-30px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-size  : var(--font-size-xxl);
+    font-style : normal;
+    font-weight: 700;
+}
+
+.proximanovavh-normal-tory-blue-24px {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-xl);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .frame-1000006959 {
+    align-items     : flex-start;
+    background-color: transparent;
+    display         : inline-flex;
+    flex-direction  : column;
+}
+
+#chitietdichvukhamsuckhoetongquat .frame-1000006959-mDZxaG {
+    gap: 24px;
+}
+
+#chitietdichvukhamsuckhoetongquat .rectangle-34625338-gLpgjH {
+    display         : none;
+    background      : linear-gradient(180deg, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0) 0%, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0.8050000071525574) 57.499998807907104%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%);
+    background-color: transparent;
+    height          : 306px;
+    position        : absolute;
+    bottom          : 0;
+    width           : 100%;
+}
+
+#chitietdichvukhamsuckhoetongquat .button {
+    align-items  : center;
+    border-radius: 24px;
+    display      : inline-flex;
+    bottom       : 0;
+    gap          : 8px;
+    padding      : 8px 8px 8px 24px;
+    position     : absolute;
+}
+
+#chitietdichvukhamsuckhoetongquat .xem-thm {
+    background-color: transparent;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chitietdichvukhamsuckhoetongquat .xem-thm-Qf9J21 {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .frame-1000005541 {
+    background-color: transparent;
+    height          : 32px;
+    position        : relative;
+    width           : 32px;
+}
+
+#chitietdichvukhamsuckhoetongquat .button-gLpgjH {
+    display         : none;
+    margin          : 30px;
+    background-color: var(--greyscale-text0);
+}
+
+#chitietdichvukhamsuckhoetongquat .button {
+    align-items  : center;
+    border-radius: 24px;
+    display      : inline-flex;
+    gap          : 8px;
+    padding      : 8px 8px 8px 24px;
+}
+
+#chitietdichvukhamsuckhoetongquat .button-xi0Zxk {
+    display         : none;
+    margin          : 50px;
+    background-color: var(--primaryblue-500);
+}
+
+.proximanovavh-normal-white-16px {
+    color      : var(--greyscale-text0);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chitietdichvukhamsuckhoetongquat .button {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    #chitietdichvukhamsuckhoetongquat .content_2 {
+        flex-direction: column-reverse;
+        margin        : 100px 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .content_3 {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #chitietdichvukhamsuckhoetongquat .group {
+        padding: 20px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .thng-qua-khm-nh-k-nh-uUUIHM {
+        display: none;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .frame-1000007144-qKGLf1 {
+        flex-direction: column;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .content_1 {
+        margin: 100px;
+
+    }
+
+    #chitietdichvukhamsuckhoetongquat .frame-1000007144-vjxXIn {
+
+        width  : 100%;
+        padding: 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .rectangle-34625240-vjxXIn {
+        width: 100%;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .frame-1000007148-IZPBXd {
+
+        width  : 100%;
+        padding: 0 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .content_2 {
+        flex-direction: column-reverse;
+        margin        : 100px 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .content_3 {
+        padding: 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .content_2 {
+
+
+        position: relative;
+
+    }
+
+    #chitietdichvukhamsuckhoetongquat .khm-ni-khoa-chuyn-su-tng-qut-WaxNkx {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        position       : absolute;
+        top            : 0;
+        width          : 100%;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .rectangle-34625338-gLpgjH {
+        display: block;
+
+    }
+
+    #chitietdichvukhamsuckhoetongquat .button-gLpgjH {
+        display: flex;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .button-xi0Zxk {
+        display: flex;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .container_3 {
+        width              : 100%;
+        display            : flex;
+        justify-content    : center;
+        position           : relative;
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-position: center;
+        background-image   : url("../imgs/rectangle-34625313.svg");
+    }
+
+    #chitietdichvukhamsuckhoetongquat .frame-1000006957-KExA3H {
+        padding      : 10px 0;
+        width        : 100%;
+        border-bottom: 1px solid gray;
+    }
+
 }
