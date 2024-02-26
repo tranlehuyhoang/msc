@@ -13,13 +13,13 @@
     --primaryblue-700                     : #0d356e;
     --turquoise-blue                      : #45dcff;
     --zircon                              : #f6faff;
-    --font-size-l                         : 20px;
-    --font-size-m                         : 16px;
-    --font-size-s                         : 14px;
-    --font-size-xl                        : 24px;
-    --font-size-xxl                       : 30px;
-    --font-size-xxxl                      : 32px;
-    --font-size-xxxxl                     : 48px;
+    --font-size-l                         : 1.25rem;
+    --font-size-m                         : 1rem;
+    --font-size-s                         : 0.875rem;
+    --font-size-xl                        : 1.5rem;
+    --font-size-xxl                       : 1.875rem;
+    --font-size-xxxl                      : 2rem;
+    --font-size-xxxxl                     : 3rem;
     --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
     --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
     --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
@@ -29,7 +29,7 @@
 
 #chitietdichvukhamsuckhoetongquat .container {
     position           : relative;
-    height             : 820px;
+    height             : 51.25rem;
     background-repeat  : no-repeat;
     background-size    : cover;
     background-position: center;
@@ -40,12 +40,10 @@
     background      : linear-gradient(180deg, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0) 0%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%);
     background-color: transparent;
     position        : absolute;
-
-
 }
 
 #chitietdichvukhamsuckhoetongquat .x221-17-2-uUUIHM {
-    height: 379px;
+    height: 23.6875rem;
     width : 100%;
     width : 100%;
     bottom: 0;
@@ -61,19 +59,15 @@
     position : relative;
     width    : 100%;
     display  : flex;
-    max-width: 1400px;
+    max-width: 87.5rem;
 }
-
-
-
-
 
 #chitietdichvukhamsuckhoetongquat .frame-1000005779-uUUIHM {
     align-items     : flex-start;
     background-color: transparent;
     display         : inline-flex;
-    gap             : 8px;
-    margin          : 50px 0;
+    gap             : 0.5rem;
+    margin          : 3.125rem 0;
 }
 
 #chitietdichvukhamsuckhoetongquat .trang-ch {
@@ -93,8 +87,8 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .x-gfDxDH {
-    letter-spacing: -0.16px;
-    line-height   : 19.2px;
+    letter-spacing: -0.01rem;
+    line-height   : 1.2rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .tm-sot-sc-kho-ton-din {
@@ -106,13 +100,13 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .tm-sot-sc-kho-ton-din-gfDxDH {
-    line-height: 19.2px;
+    line-height: 1.2rem;
 }
 
 .proximanovavh-regular-normal-denim-16px {
     color      : var(--primaryblue-400);
     font-family: var(--font-family-proxima_nova_vh-regular);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -126,14 +120,14 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .x-LAW0qS {
-    letter-spacing: -0.16px;
-    line-height   : 19.2px;
+    letter-spacing: -0.01rem;
+    line-height   : 1.2rem;
 }
 
 .proximanovavh-regular-normal-denim-16px {
     color      : var(--primaryblue-400);
     font-family: var(--font-family-proxima_nova_vh-regular);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -146,9 +140,9 @@
 
 #chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut-gfDxDH {
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-weight: 700;
-    line-height: 19.2px;
+    line-height: 1.2rem;
     position   : relative;
     text-align : center;
     white-space: nowrap;
@@ -163,10 +157,10 @@
 
 #chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut-uUUIHM {
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-xxxxl);
+    font-size  : 3rem;
     font-weight: 700;
     height     : auto;
-    line-height: 57.6px;
+    line-height: 5.76rem;
     text-align : justify;
     white-space: nowrap;
     width      : auto;
@@ -179,13 +173,13 @@
     background-color: transparent;
     color           : transparent;
     font-family     : var(--font-family-proxima_nova_vh-bold);
-    font-size       : var(--font-size-xl);
+    font-size       : 1.5rem;
     font-style      : normal;
     font-weight     : 700;
     height          : auto;
-    line-height     : 36px;
+    line-height     : 2.6rem;
     text-align      : justify;
-    width           : 579px;
+    width           : 50%;
 }
 
 #chitietdichvukhamsuckhoetongquat .span0-zJivlU {
@@ -196,23 +190,22 @@
 #chitietdichvukhamsuckhoetongquat .span1-zJivlU {
     color         : var(--greyscale-text0);
     font-style    : normal;
-    letter-spacing: -0.06px;
+    letter-spacing: -0.06rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .container_1 {
     width          : 100%;
     display        : flex;
     justify-content: center;
-
 }
 
 #chitietdichvukhamsuckhoetongquat .content_1 {
-    margin        : 100px 0;
-    max-width     : 1400px;
+    margin        : 6.25rem 0;
+    max-width     : 87.5rem;
     width         : 100%;
     display       : flex;
     flex-direction: column;
-    gap           : 50px;
+    gap           : 3.125rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007144-qKGLf1 {
@@ -221,7 +214,7 @@
     align-items     : center;
     position        : relative;
     background-color: var(--zircon);
-    border-radius   : 24px;
+    border-radius   : 1.5rem;
     overflow        : hidden;
     width           : 100%;
 }
@@ -231,7 +224,6 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .rectangle-34625240-vjxXIn {
-
     width : 50%;
     height: 100%;
 }
@@ -241,8 +233,8 @@
     background-color: transparent;
     display         : inline-flex;
     flex-direction  : column;
-    gap             : 28px;
-    margin          : 50px;
+    gap             : 1.75rem;
+    margin          : 3.125rem;
     width           : 50%;
 }
 
@@ -256,8 +248,8 @@
 
 #chitietdichvukhamsuckhoetongquat .v-sao-nn-khm-sc-kho-tng-qut-nh-k-C2T8XH {
     font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : var(--font-size-xxxxl);
-    line-height: 57.6px;
+    font-size  : 2.8rem;
+    line-height: 3.6rem;
     text-align : justify;
     width      : fit-content;
 }
@@ -283,9 +275,9 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .vit-nam-c-tnh-cho-th-C2T8XH {
-    font-size     : var(--font-size-xl);
+    font-size     : 1.5rem;
     letter-spacing: 0.00px;
-    line-height   : 36px;
+    line-height   : 2.25rem;
     width         : 100%;
 }
 
@@ -297,9 +289,9 @@
 #chitietdichvukhamsuckhoetongquat .frame-1000007148-IZPBXd {
     display       : flex;
     flex-direction: column;
-    gap           : 24px;
+    gap           : 1.5rem;
     width         : 50%;
-    margin        : 50px;
+    margin        : 3.125rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .bt-k-v-tr-no-trn-c-t {
@@ -310,23 +302,22 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .bt-k-v-tr-no-trn-c-t-GnoxMm {
-    font-family   : var(--font-family-proxima_nova-semibold);
-    font-size     : var(--font-size-xl);
-    font-weight   : 400;
-    height        : 71px;
-    letter-spacing: 0.00px;
-    line-height   : 36px;
-    text-align    : justify;
-    width         : 100%;
+    font-family: var(--font-family-proxima_nova-semibold);
+    font-size  : var(--font-size-xl);
+    font-weight: 400;
+    height     : 4.4375rem;
+    line-height: 2.25rem;
+    text-align : justify;
+    width      : 100%;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007145-GnoxMm {
-    margin-top      : 10px;
+    margin-top      : 0.625rem;
     align-items     : flex-start;
     background-color: transparent;
     display         : inline-flex;
     flex            : 0 0 auto;
-    gap             : 10px;
+    gap             : 0.625rem;
     position        : relative;
 }
 
@@ -343,8 +334,8 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .thoi-ha-khp-tin-pht-ot5O2t {
-    height     : 48px;
-    line-height: 24px;
+    height     : 3rem;
+    line-height: 1.5rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .container_2 {
@@ -356,12 +347,12 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .content_2 {
-    margin         : 100px 0;
-    max-width      : 1400px;
+    margin         : 6.25rem 0;
+    max-width      : 87.5rem;
     width          : 100%;
     display        : flex;
     justify-content: space-between;
-    gap            : 100px;
+    gap            : 6.25rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .content_2 div {
@@ -379,9 +370,9 @@
     font-family: var(--font-family-proxima_nova_vh-bold);
     font-size  : var(--font-size-xxxxl);
     height     : auto;
-    line-height: 57.6px;
+    line-height: 3.6rem;
     text-align : left;
-    width      : 515px;
+    width      : 32.1875rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .span0-MKax1J {
@@ -401,11 +392,11 @@
     display         : inline-flex;
     flex            : 0 0 auto;
     flex-direction  : column;
-    gap             : 13px;
+    gap             : 0.8125rem;
     position        : relative;
-    border-bottom   : 2px solid white;
+    border-bottom   : 0.125rem solid white;
     width           : 100%;
-    padding         : 10px 0;
+    padding         : 0.625rem 0;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007145-3uyRLS {
@@ -413,7 +404,7 @@
     background-color: transparent;
     display         : inline-flex;
     flex            : 0 0 auto;
-    gap             : 10px;
+    gap             : 0.625rem;
     justify-content : center;
     position        : relative;
 }
@@ -422,7 +413,7 @@
     background-color: transparent;
     position        : relative;
     text-align      : left;
-    width           : 542.23828125px;
+    width           : 33.888rem;
 }
 
 .proximanovavh-normal-white-20px {
@@ -450,7 +441,7 @@
     font-style : normal;
     font-weight: 400;
     height     : auto;
-    line-height: 30px;
+    line-height: 1.875rem;
     width      : 100%;
 }
 
@@ -459,11 +450,10 @@
     justify-content: center;
     align-items    : center;
     flex-direction : column;
-
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000007190-KAS83M {
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .proximanovavh-regular-normal-midnight-blue-16px {
@@ -486,12 +476,12 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .content_3 {
-    margin        : 100px 0;
-    max-width     : 1400px;
+    margin        : 6.25rem 0;
+    max-width     : 87.5rem;
     width         : 100%;
     display       : flex;
     flex-direction: column;
-    gap           : 100px;
+    gap           : 6.25rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .cc-bc-thm-khm-mDZxaG {
@@ -500,7 +490,7 @@
     font-size     : var(--font-size-xxxxl);
     height        : auto;
     letter-spacing: -0.48px;
-    line-height   : 57.6px;
+    line-height   : 5.76rem;
     text-align    : left;
     width         : auto;
 }
@@ -513,19 +503,21 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000006957-KExA3H {
-    align-items     : center;
-    background-color: transparent;
-    display         : inline-flex;
-    flex            : 0 0 auto;
-    gap             : 24px;
-    position        : relative;
+    align-items        : center;
+    background-color   : transparent;
+    display            : inline-flex;
+    flex               : 0 0 auto;
+    gap                : 1.5rem;
+    position           : relative;
+    /* border-bottom   : 1px solid gray;
+    width              : 50%; */
 }
 
 #chitietdichvukhamsuckhoetongquat .group-1000004158 {
     background-color: transparent;
-    height          : 53px;
+    height          : 3.3125rem;
     position        : relative;
-    width           : 53px;
+    width           : 3.3125rem;
     display         : flex;
     justify-content : center;
     align-items     : center;
@@ -534,25 +526,24 @@
 #chitietdichvukhamsuckhoetongquat .ellipse-2036 {
     background      : linear-gradient(180deg, rgb(69.00000348687172, 221.00000202655792, 255) 0%, rgba(70.00000342726707, 221.00000202655792, 254.00000005960464, 0) 100%);
     background-color: transparent;
-    border-radius   : 26.29px;
-    height          : 53px;
-    width           : 53px;
+    border-radius   : 2.93125rem;
+    height          : 3.3125rem;
+    width           : 3.3125rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .x01 {
     background-color: transparent;
     height          : auto;
     position        : absolute;
-
-    text-align : center;
-    white-space: nowrap;
-    width      : auto;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : auto;
 }
 
 .proximanova-bold-tory-blue-30px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova-bold);
-    font-size  : var(--font-size-xxl);
+    font-size  : 1.75rem;
     font-style : normal;
     font-weight: 700;
 }
@@ -560,7 +551,7 @@
 .proximanovavh-normal-tory-blue-24px {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-xl);
+    font-size  : 1.5rem;
     font-style : normal;
     font-weight: 400;
 }
@@ -573,14 +564,14 @@
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000006959-mDZxaG {
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .rectangle-34625338-gLpgjH {
     display         : none;
     background      : linear-gradient(180deg, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0) 0%, rgba(19.0000007674098, 74.0000031888485, 155.00000596046448, 0.8050000071525574) 57.499998807907104%, rgb(19.0000007674098, 74.0000031888485, 155.00000596046448) 100%);
     background-color: transparent;
-    height          : 306px;
+    height          : 19.125rem;
     position        : absolute;
     bottom          : 0;
     width           : 100%;
@@ -588,18 +579,18 @@
 
 #chitietdichvukhamsuckhoetongquat .button {
     align-items  : center;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     display      : inline-flex;
     bottom       : 0;
-    gap          : 8px;
-    padding      : 8px 8px 8px 24px;
+    gap          : 0.5rem;
+    padding      : 0.5rem 0.5rem 0.5rem 1.5rem;
     position     : absolute;
 }
 
 #chitietdichvukhamsuckhoetongquat .xem-thm {
     background-color: transparent;
-    letter-spacing  : 0.20px;
-    line-height     : 19.2px;
+    letter-spacing  : 0.02rem;
+    line-height     : 1.2rem;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
@@ -609,35 +600,35 @@
 #chitietdichvukhamsuckhoetongquat .xem-thm-Qf9J21 {
     color      : var(--primaryblue-500);
     font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
 
 #chitietdichvukhamsuckhoetongquat .frame-1000005541 {
     background-color: transparent;
-    height          : 32px;
+    height          : 2rem;
     position        : relative;
-    width           : 32px;
+    width           : 2rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .button-gLpgjH {
     display         : none;
-    margin          : 30px;
+    margin          : 1.875rem;
     background-color: var(--greyscale-text0);
 }
 
 #chitietdichvukhamsuckhoetongquat .button {
     align-items  : center;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     display      : inline-flex;
-    gap          : 8px;
-    padding      : 8px 8px 8px 24px;
+    gap          : 0.5rem;
+    padding      : 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
 #chitietdichvukhamsuckhoetongquat .button-xi0Zxk {
     display         : none;
-    margin          : 50px;
+    margin          : 3.125rem;
     background-color: var(--primaryblue-500);
 }
 
@@ -653,20 +644,32 @@
     display: none;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 87.5rem) {
+    #chitietdichvukhamsuckhoetongquat .group {
+        padding-left: 50px;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .khm-sc-kho-tng-qut-uUUIHM {
+        font-size: 2rem;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .thng-qua-khm-nh-k-nh-uUUIHM {
+        margin-right: 50px;
+    }
+
     #chitietdichvukhamsuckhoetongquat .content_2 {
         flex-direction: column-reverse;
-        margin        : 100px 50px;
+        margin        : 6.25rem 3.125rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .content_3 {
-        padding: 50px;
+        padding: 3.125rem;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 62.5rem) {
     #chitietdichvukhamsuckhoetongquat .group {
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .thng-qua-khm-nh-k-nh-uUUIHM {
@@ -678,14 +681,12 @@
     }
 
     #chitietdichvukhamsuckhoetongquat .content_1 {
-        margin: 100px;
-
+        margin: 2.25rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .frame-1000007144-vjxXIn {
-
         width  : 100%;
-        padding: 50px;
+        padding: 3.125rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .rectangle-34625240-vjxXIn {
@@ -693,25 +694,21 @@
     }
 
     #chitietdichvukhamsuckhoetongquat .frame-1000007148-IZPBXd {
-
         width  : 100%;
-        padding: 0 50px;
+        padding: 0 3.125rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .content_2 {
         flex-direction: column-reverse;
-        margin        : 100px 50px;
+        margin        : 6.25rem 3.125rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .content_3 {
-        padding: 50px;
+        padding: 3.125rem;
     }
 
     #chitietdichvukhamsuckhoetongquat .content_2 {
-
-
         position: relative;
-
     }
 
     #chitietdichvukhamsuckhoetongquat .khm-ni-khoa-chuyn-su-tng-qut-WaxNkx {
@@ -726,7 +723,6 @@
 
     #chitietdichvukhamsuckhoetongquat .rectangle-34625338-gLpgjH {
         display: block;
-
     }
 
     #chitietdichvukhamsuckhoetongquat .button-gLpgjH {
@@ -738,20 +734,35 @@
     }
 
     #chitietdichvukhamsuckhoetongquat .container_3 {
-        width              : 100%;
-        display            : flex;
-        justify-content    : center;
-        position           : relative;
-        background-repeat  : no-repeat;
-        background-size    : cover;
-        background-position: center;
-        background-image   : url("../imgs/rectangle-34625313.svg");
+        width           : 100%;
+        display         : flex;
+        justify-content : center;
+        position        : relative;
+        background-image: url("../imgs/rectangle-34625313.svg");
     }
 
     #chitietdichvukhamsuckhoetongquat .frame-1000006957-KExA3H {
-        padding      : 10px 0;
+        padding      : 0.625rem 0;
         width        : 100%;
         border-bottom: 1px solid gray;
     }
+}
 
+@media (max-width: 48rem) {
+    #chitietdichvukhamsuckhoetongquat .frame-1000007145-GnoxMm {
+        margin: 1.25rem 0;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .frame-1000005779-uUUIHM {
+        flex-wrap: wrap;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .v-sao-nn-khm-sc-kho-tng-qut-nh-k-C2T8XH {
+        font-size: 2rem;
+    }
+
+    #chitietdichvukhamsuckhoetongquat .cc-bc-thm-khm {
+        font-size: 2rem;
+
+    }
 }
