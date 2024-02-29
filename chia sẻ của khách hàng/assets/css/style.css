@@ -1,0 +1,691 @@
+:root {
+    --black                               : #000000;
+    --greyscale-text0                     : #ffffff;
+    --primaryblue-500                     : #134a9b;
+    --primaryblue-600                     : #0e3f86;
+    --secondaryblue-500                   : #1ab7da;
+    --secondaryblue-50                    : #e8f8fb;
+    --background-elevation5               : #ffffff;
+    --font-size-l                         : 1.875rem;
+    --font-size-m                         : 1rem;
+    --font-size-xl                        : 3rem;
+    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
+    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
+    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
+}
+
+.screen * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing            : border-box;
+}
+
+* {
+    font-family: var(--font-family-proxima_nova-semibold);
+}
+
+.screen div {
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    display        : flex;
+    margin         : 0;
+    justify-content: center;
+}
+
+#chiasekhachhang {
+    overflow-x     : hidden;
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+
+}
+
+#chiasekhachhang>div {
+    max-width: 1400px;
+    width    : 100%;
+    margin   : 100px 0;
+}
+
+#chiasekhachhang .story {
+    max-width  : 1400px;
+    width      : 100%;
+    padding-top: 3rem !important;
+}
+
+#chiasekhachhang .story .heading {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : end;
+}
+
+#chiasekhachhang .c-p-btn {
+    background: transparent;
+    border    : none;
+}
+
+#chiasekhachhang .c-n-btn {
+    background: transparent;
+    border    : none;
+}
+
+#chiasekhachhang .c-n-btn:hover>svg>g>rect {
+    fill      : #246ddb;
+    transition: .3s all;
+}
+
+#chiasekhachhang .c-n-btn:hover>svg>g>path {
+
+    stroke    : white !important;
+    transition: .3s all;
+}
+
+#chiasekhachhang .c-p-btn:hover>svg>g>rect {
+    fill      : #246ddb;
+    transition: .3s all;
+}
+
+#chiasekhachhang .c-p-btn:hover>svg>g>path {
+
+    stroke    : white !important;
+    transition: .3s all;
+}
+
+#chiasekhachhang .cu-chuyn-HDvsCl {
+    background-color: transparent;
+    color           : var(--secondaryblue-500);
+    font-family     : var(--font-family-proxima_nova-bold);
+    font-size       : var(--font-size-l);
+    font-style      : normal;
+    font-weight     : 700;
+    letter-spacing  : 0.00px;
+    line-height     : 28.8px;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chiasekhachhang .khch-hng {
+    background-color: transparent;
+    position        : relative;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chiasekhachhang .khch-hng-CkqOTU {
+    color         : var(--primaryblue-500);
+    font-family   : var(--font-family-proxima_nova-bold);
+    font-size     : var(--font-size-xl);
+    font-style    : normal;
+    font-weight   : 700;
+    letter-spacing: -0.48px;
+    line-height   : 57.6px;
+    margin        : 0;
+    text-align    : center;
+    text-shadow   : 0px -13.40185546875px 18.762598037719727px #ffffff40;
+}
+
+#chiasekhachhang .swiper {
+    width    : 100%;
+    max-width: 1400px;
+
+}
+
+#chiasekhachhang .frame-1000005435-xeE26U {
+    cursor          : pointer;
+    align-items     : center;
+    background-color: var(--background-elevation5);
+    border-radius   : 20px;
+    display         : flex;
+    flex            : 0 0 auto;
+    gap             : 20px;
+    align-self      : end !important;
+
+    overflow       : hidden;
+    padding        : 16px;
+    position       : relative;
+    width          : 100%;
+    justify-content: end;
+}
+
+#chiasekhachhang .icon-dch-v-2 {
+    background-color: transparent;
+    height          : 40px;
+    position        : relative;
+    width           : 40px;
+}
+
+#chiasekhachhang .frame-1000005435-xeE26U:hover {
+    background-color: var(--secondaryblue-50) !important;
+}
+
+#chiasekhachhang .story .main {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+#chiasekhachhang .rectangle-34625143-CYQVIm {
+    height       : 209px;
+    left         : 0px;
+    object-fit   : cover;
+    top          : 1px;
+    width        : 209px;
+    border-radius: 100%;
+}
+
+#chiasekhachhang .stories {
+    width: 100%;
+}
+
+#chiasekhachhang .item {
+    background-color: var(--secondaryblue-50);
+    border-radius   : 20px;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    padding         : 50px;
+}
+
+#chiasekhachhang .left .avatar {
+    position: relative;
+}
+
+#chiasekhachhang .left .avatar .icon {
+    position: absolute;
+    right   : 0;
+    bottom  : 0;
+}
+
+#chiasekhachhang .frame-1000005407 {
+    align-items     : center;
+    background-color: transparent;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 4px;
+    display         : flex;
+    align-items     : start;
+    position        : relative;
+}
+
+#chiasekhachhang .ng-nguyn-vn-abc-davuX4 {
+    background-color: transparent;
+    letter-spacing  : -0.16px;
+    line-height     : 19.2px;
+    margin-top      : -1px;
+    position        : relative;
+    text-align      : justify;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chiasekhachhang .name-content {
+    display       : flex;
+    flex-direction: column;
+
+}
+
+#chiasekhachhang .pathology-content {
+    display       : flex;
+    flex-direction: column;
+
+}
+
+#chiasekhachhang .right .content {
+    border-radius   : 12px;
+    width           : 80%;
+    background-color: var(--background-elevation5);
+    padding         : 1.3rem;
+}
+
+#chiasekhachhang .right .content {
+    color      : var(--primaryblue-600);
+    font-family: var(--font-family-proxima_nova_vh-semibold);
+    font-size  : var(--font-size-m);
+    font-style : normal;
+    font-weight: 400;
+}
+
+#chiasekhachhang .buttons-group .button-offical-CSS5HP {
+    align-items     : center;
+    background-color: var(--background-elevation5);
+    border-radius   : 24px;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 8px;
+    height          : 48px;
+    padding         : 8px 24px;
+    position        : relative;
+}
+
+#chiasekhachhang .buttons-group .button-offical-r35xnF {
+    align-items     : center;
+    background-color: var(--primaryblue-500);
+    border-radius   : 24px;
+    display         : inline-flex;
+    flex            : 0 0 auto;
+    gap             : 8px;
+    padding         : 8px 8px 8px 24px;
+    position        : relative;
+}
+
+#chiasekhachhang .story .info {
+    display       : flex;
+    margin-top    : 1rem;
+    flex-direction: column;
+    gap           : 1rem;
+}
+
+#chiasekhachhang .proximanovavh-normal-white-16px {
+    background-color: transparent;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    color           : white;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+}
+
+#chiasekhachhang .stories .right {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : end;
+    width          : 100%;
+}
+
+#chiasekhachhang .stories .item {
+    gap: 1rem;
+}
+
+#chiasekhachhang .proximanovavh-normal-tory-blue-16px {
+    background-color: transparent;
+    letter-spacing  : 0.20px;
+    line-height     : 19.2px;
+    position        : relative;
+    text-align      : center;
+    white-space     : nowrap;
+    width           : fit-content;
+    font-family     : var(--font-family-proxima_nova_vh-regular);
+    font-size       : var(--font-size-s);
+
+}
+
+#chiasekhachhang .tabs {
+    display        : flex;
+    margin-right   : 2rem;
+    justify-content: center;
+    direction      : rtl;
+    width          : 100%;
+    display        : none;
+
+
+
+}
+
+#chiasekhachhang .tabs .tab-items {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : flex-start;
+    height         : 400px;
+    width          : 100%;
+    overflow-y     : scroll;
+    overflow-x     : hidden;
+}
+
+#chiasekhachhang .tabs .tab-items::-webkit-scrollbar {
+    width: 8px;
+    /* Độ rộng của thanh cuộn */
+}
+
+#chiasekhachhang
+
+/* Tùy chỉnh phần thumb (phần di chuyển) của thanh cuộn */
+.tabs .tab-items::-webkit-scrollbar-thumb {
+    background-color: #d0dde9;
+    /* Màu nền của thumb */
+    border-radius   : 4px;
+    /* Bo góc của thumb */
+}
+
+#chiasekhachhang
+
+/* Tùy chỉnh phần track (phần nền) của thanh cuộn */
+.tabs .tab-items::-webkit-scrollbar-track {
+    background-color: #f5f8fb;
+    /* Màu nền của track */
+}
+
+#chiasekhachhang .frame-1000007048-5zt8lv {
+    background-color: #f5f8fb;
+    border-radius   : 6px;
+    overflow        : hidden;
+    position        : relative;
+    height          : 100%;
+    width           : 12px;
+}
+
+#chiasekhachhang .rectangle-34625282-zdrXaB {
+    background-color: #d0dde9;
+    border-radius   : 6px;
+    height          : 71px;
+    left            : 0px;
+    position        : relative;
+    top             : 27px;
+    width           : 12px;
+}
+
+#chiasekhachhang .buttons-group {
+    justify-content: center;
+    display        : flex;
+    gap            : 1rem;
+}
+
+#chiasekhachhang .button-offical-CSS5HP {
+    padding: 0px 2rem !important;
+}
+
+#chiasekhachhang .khch-hng-5dDoP4,
+.bnh-l-7NsO5X {
+    color      : var(--primaryblue-500);
+    font-family: var(--font-family-proxima_nova-bold);
+    font-style : normal;
+    margin     : 0;
+    font-weight: bold;
+}
+
+#chiasekhachhang .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width        : 2.3816rem;
+    border-radius: 0.8rem;
+    background   : var(--PRIMARY-blue-300, #6186BC);
+}
+
+#chiasekhachhang .swiper-pagination {
+    position  : absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform : translate3d(0, 0, 0);
+    z-index   : 10;
+}
+
+#chiasekhachhang .mobile_ {
+    display: none;
+}
+
+@media (max-width: 1220px) {
+    body {
+        display: block;
+    }
+
+    #chiasekhachhang {
+
+        background-color: var(--secondaryblue-50);
+    }
+
+    #chiasekhachhang .story {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    #chiasekhachhang .story .main {
+        display       : flex;
+        flex-direction: column;
+        gap           : 2rem;
+    }
+
+    #chiasekhachhang .frame-1000007048-5zt8lv {
+        display: none;
+    }
+
+    #chiasekhachhang .tab-items {
+        display       : flex;
+        width         : 100%;
+        overflow-y    : scroll;
+        align-items   : center;
+        flex-direction: row !important;
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U img {
+        display: none;
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U {
+        width : auto !important;
+        height: 50px !important;
+    }
+
+    #chiasekhachhang .story {
+        background-color: var(--secondaryblue-50);
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U {
+        padding: 0 1rem;
+    }
+
+    #chiasekhachhang .tabs .tab-items {
+        gap      : .2rem;
+        direction: ltr;
+
+        height: auto;
+
+        overflow-x        : scroll !important;
+        scrollbar-width   : 0 !important;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width   : none;
+        /* Firefox */
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U {
+        background: transparent;
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U:first-child {
+        background: white;
+    }
+
+    #chiasekhachhang .frame-1000005435-xeE26U:first-child .c-xng-khp-2RpGOA {
+        background: white;
+        opacity   : 1;
+
+    }
+
+    #chiasekhachhang .c-xng-khp-2RpGOA {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-bold);
+        font-style : normal;
+        margin     : 0;
+        opacity    : .6;
+        font-weight: bold;
+        text-align : center;
+
+    }
+
+    #chiasekhachhang .heading {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        margin         : 2rem !important;
+    }
+
+    #chiasekhachhang .heading .btn-group {
+        display: none;
+    }
+
+    #chiasekhachhang .stories .item {
+        background-color: var(--greyscale-text0);
+    }
+
+    #chiasekhachhang .left-bottom {
+        display       : flex;
+        flex-direction: row-reverse;
+    }
+
+    #chiasekhachhang .stories .item {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        padding       : 1rem !important;
+    }
+
+    #chiasekhachhang .rectangle-34625143-CYQVIm {
+        width        : 100%;
+        border-radius: 10px;
+    }
+
+    #chiasekhachhang .left {
+        width: 100%;
+    }
+
+    #chiasekhachhang .avatar .icon {
+        height     : 100%;
+        width      : 100%;
+        display    : flex;
+        align-items: center;
+
+    }
+
+    #chiasekhachhang .avatar .icon img {
+        left           : 0 !important;
+        right          : 0 !important;
+        margin         : 0 auto !important;
+        justify-content: center;
+
+    }
+
+    #chiasekhachhang .left-bottom {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : start;
+        margin-top     : 1rem;
+    }
+
+    #chiasekhachhang .left-bottom .info {
+        margin: 0 !important;
+    }
+
+    #chiasekhachhang .khch-hng-5dDoP4,
+    .bnh-l-7NsO5X {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-bold);
+        font-style : normal;
+        margin     : 0;
+        font-weight: bold;
+    }
+
+    #chiasekhachhang .ng-nguyn-vn-abc-davuX4,
+    .vim-khp-dng-thp-JfClI4 {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-bold);
+        font-style : normal;
+        margin     : 0;
+        font-weight: thin;
+    }
+
+    #chiasekhachhang .right .content {
+        color      : var(--primaryblue-500);
+        font-family: var(--font-family-proxima_nova-bold);
+        font-style : normal;
+        margin     : 0;
+        font-weight: bold;
+    }
+
+    #chiasekhachhang .buttons-group {
+        display: none;
+    }
+
+    #chiasekhachhang .buttons-group-mb {
+        margin-top: 1rem;
+        display   : block !important;
+    }
+
+    #chiasekhachhang .button-offical-CSS5HP {
+        padding      : 1rem 2rem;
+        border-radius: 24px;
+        border       : 1px solid var(--primaryblue-500);
+        color        : var(--primaryblue-500);
+        font-family  : var(--font-family-proxima_nova-bold);
+        font-style   : normal;
+        margin       : 0;
+        font-weight  : bold;
+    }
+
+    #chiasekhachhang .stories .right {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        width          : 100%;
+    }
+
+    #chiasekhachhang .right .content {
+        width     : 100% !important;
+        padding   : 0 0px;
+        max-width : 100% !important;
+        text-align: justify;
+    }
+
+    #chiasekhachhang .swiper {
+        width: 100vw !important;
+
+    }
+
+    #chiasekhachhang .mobile_ {
+        display: flex;
+    }
+
+    #chiasekhachhang .tabs {
+        display: flex;
+        margin : 50px 0;
+    }
+
+    #chiasekhachhang
+}
+
+@media (max-width: 1580px) {
+
+
+    .tab-items {
+        height: auto;
+    }
+
+    #chiasekhachhang
+    /* .content {
+        max-width: 25rem !important;
+    }#chiasekhachhang */
+
+    .proximanovavh-normal-tory-blue-16px {
+        padding: 1rem;
+    }
+
+    #chiasekhachhang
+    /* .swiper {
+        width: 60vw !important;
+
+    }#chiasekhachhang */
+
+}
+
+@media (max-width: 768px) {
+
+    .swiper {
+        width: 100vw !important;
+
+    }
+
+    #chiasekhachhang .tabs {
+
+        display     : flex;
+        margin-right: 0;
+        width       : 100vw;
+        overflow-x  : hidden;
+
+    }
+
+
+}
