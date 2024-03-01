@@ -1,69 +1,30 @@
-:root {
-    --black                               : #000000;
-    --greyscale-text0                     : #ffffff;
-    --primaryblue-500                     : #134a9b;
-    --primaryblue-600                     : #0e3f86;
-    --secondaryblue-500                   : #1ab7da;
-    --secondaryblue-50                    : #e8f8fb;
-    --background-elevation5               : #ffffff;
-    --font-size-l                         : 1.875rem;
-    --font-size-m                         : 1rem;
-    --font-size-xl                        : 3rem;
-    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
-    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
-    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
-}
-
-.screen * {
-    -webkit-font-smoothing: antialiased;
-    box-sizing            : border-box;
-}
-
-* {
-    font-family: var(--font-family-proxima_nova-semibold);
-}
-
-.screen div {
-    -webkit-text-size-adjust: none;
-}
-
-body {
-    display        : flex;
-    margin         : 0;
-    justify-content: center;
-}
-
 #chiasekhachhang {
+    font-family    : "Proxima Nova-Semibold", Helvetica;
     overflow-x     : hidden;
     width          : 100%;
     display        : flex;
     justify-content: center;
-
 }
 
 #chiasekhachhang>div {
-    max-width: 1400px;
+    max-width: 87.5rem;
     width    : 100%;
-    margin   : 100px 0;
+    margin   : 6.25rem 0;
 }
 
 #chiasekhachhang .story {
-    max-width  : 1400px;
+    max-width  : 87.5rem;
     width      : 100%;
-    padding-top: 3rem !important;
+    padding-top: 4.8rem !important;
 }
 
 #chiasekhachhang .story .heading {
     display        : flex;
     justify-content: space-between;
-    align-items    : end;
+    align-items    : flex-end;
 }
 
-#chiasekhachhang .c-p-btn {
-    background: transparent;
-    border    : none;
-}
-
+#chiasekhachhang .c-p-btn,
 #chiasekhachhang .c-n-btn {
     background: transparent;
     border    : none;
@@ -75,7 +36,6 @@ body {
 }
 
 #chiasekhachhang .c-n-btn:hover>svg>g>path {
-
     stroke    : white !important;
     transition: .3s all;
 }
@@ -86,21 +46,18 @@ body {
 }
 
 #chiasekhachhang .c-p-btn:hover>svg>g>path {
-
     stroke    : white !important;
     transition: .3s all;
 }
 
 #chiasekhachhang .cu-chuyn-HDvsCl {
     background-color: transparent;
-    color           : var(--secondaryblue-500);
-    font-family     : var(--font-family-proxima_nova-bold);
-    font-size       : var(--font-size-l);
+    color           : #1ab7da;
+    font-family     : "Proxima Nova-Bold", Helvetica;
+    font-size       : 1.875rem;
     font-style      : normal;
     font-weight     : 700;
-    letter-spacing  : 0.00px;
-    line-height     : 28.8px;
-    margin-top      : -1px;
+    line-height     : 1.8rem;
     position        : relative;
     text-align      : center;
     white-space     : nowrap;
@@ -115,50 +72,48 @@ body {
 }
 
 #chiasekhachhang .khch-hng-CkqOTU {
-    color         : var(--primaryblue-500);
-    font-family   : var(--font-family-proxima_nova-bold);
-    font-size     : var(--font-size-xl);
+    color         : #134a9b;
+    font-family   : "Proxima Nova-Bold", Helvetica;
+    font-size     : 3rem;
     font-style    : normal;
     font-weight   : 700;
     letter-spacing: -0.48px;
-    line-height   : 57.6px;
+    line-height   : 3.6rem;
     margin        : 0;
     text-align    : center;
-    text-shadow   : 0px -13.40185546875px 18.762598037719727px #ffffff40;
+    text-shadow   : 0px -0.84rem 1.17rem #ffffff40;
 }
 
 #chiasekhachhang .swiper {
     width    : 100%;
-    max-width: 1400px;
-
+    max-width: 87.5rem;
 }
 
 #chiasekhachhang .frame-1000005435-xeE26U {
     cursor          : pointer;
     align-items     : center;
-    background-color: var(--background-elevation5);
-    border-radius   : 20px;
+    background-color: #ffffff;
+    border-radius   : 2rem;
     display         : flex;
     flex            : 0 0 auto;
-    gap             : 20px;
-    align-self      : end !important;
-
-    overflow       : hidden;
-    padding        : 16px;
-    position       : relative;
-    width          : 100%;
-    justify-content: end;
+    gap             : 2rem;
+    align-self      : flex-end !important;
+    overflow        : hidden;
+    padding         : 1rem;
+    position        : relative;
+    width           : 100%;
+    justify-content : flex-end;
 }
 
 #chiasekhachhang .icon-dch-v-2 {
     background-color: transparent;
-    height          : 40px;
+    height          : 2.5rem;
     position        : relative;
-    width           : 40px;
+    width           : 2.5rem;
 }
 
 #chiasekhachhang .frame-1000005435-xeE26U:hover {
-    background-color: var(--secondaryblue-50) !important;
+    background-color: #e8f8fb !important;
 }
 
 #chiasekhachhang .story .main {
@@ -166,6 +121,7 @@ body {
     flex-direction : row;
     justify-content: space-between;
 }
+
 
 #chiasekhachhang .rectangle-34625143-CYQVIm {
     height       : 209px;
@@ -181,7 +137,7 @@ body {
 }
 
 #chiasekhachhang .item {
-    background-color: var(--secondaryblue-50);
+    background-color: #e8f8fb;
     border-radius   : 20px;
     display         : flex;
     flex-direction  : row;
@@ -236,21 +192,21 @@ body {
 #chiasekhachhang .right .content {
     border-radius   : 12px;
     width           : 80%;
-    background-color: var(--background-elevation5);
+    background-color: #ffffff;
     padding         : 1.3rem;
 }
 
 #chiasekhachhang .right .content {
-    color      : var(--primaryblue-600);
-    font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : var(--font-size-m);
+    color      : #0e3f86;
+    font-family: "Proxima Nova vh-Semibold", Helvetica;
+    font-size  : 1rem;
     font-style : normal;
     font-weight: 400;
 }
 
 #chiasekhachhang .buttons-group .button-offical-CSS5HP {
     align-items     : center;
-    background-color: var(--background-elevation5);
+    background-color: #ffffff;
     border-radius   : 24px;
     display         : inline-flex;
     flex            : 0 0 auto;
@@ -262,7 +218,7 @@ body {
 
 #chiasekhachhang .buttons-group .button-offical-r35xnF {
     align-items     : center;
-    background-color: var(--primaryblue-500);
+    background-color: #134a9b;
     border-radius   : 24px;
     display         : inline-flex;
     flex            : 0 0 auto;
@@ -391,8 +347,8 @@ body {
 
 #chiasekhachhang .khch-hng-5dDoP4,
 .bnh-l-7NsO5X {
-    color      : var(--primaryblue-500);
-    font-family: var(--font-family-proxima_nova-bold);
+    color      : #134a9b;
+    font-family: "Proxima Nova-Bold", Helvetica;
     font-style : normal;
     margin     : 0;
     font-weight: bold;
@@ -423,7 +379,7 @@ body {
 
     #chiasekhachhang {
 
-        background-color: var(--secondaryblue-50);
+        background-color: #e8f8fb;
     }
 
     #chiasekhachhang .story {
@@ -460,7 +416,7 @@ body {
     }
 
     #chiasekhachhang .story {
-        background-color: var(--secondaryblue-50);
+        background-color: #e8f8fb;
     }
 
     #chiasekhachhang .frame-1000005435-xeE26U {
@@ -496,8 +452,8 @@ body {
     }
 
     #chiasekhachhang .c-xng-khp-2RpGOA {
-        color      : var(--primaryblue-500);
-        font-family: var(--font-family-proxima_nova-bold);
+        color      : #134a9b;
+        font-family: "Proxima Nova-Bold", Helvetica;
         font-style : normal;
         margin     : 0;
         opacity    : .6;
@@ -519,7 +475,7 @@ body {
     }
 
     #chiasekhachhang .stories .item {
-        background-color: var(--greyscale-text0);
+        background-color: #ffffff;
     }
 
     #chiasekhachhang .left-bottom {
@@ -572,8 +528,8 @@ body {
 
     #chiasekhachhang .khch-hng-5dDoP4,
     .bnh-l-7NsO5X {
-        color      : var(--primaryblue-500);
-        font-family: var(--font-family-proxima_nova-bold);
+        color      : #134a9b;
+        font-family: "Proxima Nova-Bold", Helvetica;
         font-style : normal;
         margin     : 0;
         font-weight: bold;
@@ -581,16 +537,16 @@ body {
 
     #chiasekhachhang .ng-nguyn-vn-abc-davuX4,
     .vim-khp-dng-thp-JfClI4 {
-        color      : var(--primaryblue-500);
-        font-family: var(--font-family-proxima_nova-bold);
+        color      : #134a9b;
+        font-family: "Proxima Nova-Bold", Helvetica;
         font-style : normal;
         margin     : 0;
         font-weight: thin;
     }
 
     #chiasekhachhang .right .content {
-        color      : var(--primaryblue-500);
-        font-family: var(--font-family-proxima_nova-bold);
+        color      : #134a9b;
+        font-family: "Proxima Nova-Bold", Helvetica;
         font-style : normal;
         margin     : 0;
         font-weight: bold;
@@ -608,9 +564,9 @@ body {
     #chiasekhachhang .button-offical-CSS5HP {
         padding      : 1rem 2rem;
         border-radius: 24px;
-        border       : 1px solid var(--primaryblue-500);
-        color        : var(--primaryblue-500);
-        font-family  : var(--font-family-proxima_nova-bold);
+        border       : 1px solid #134a9b;
+        color        : #134a9b;
+        font-family  : "Proxima Nova-Bold", Helvetica;
         font-style   : normal;
         margin       : 0;
         font-weight  : bold;
@@ -644,38 +600,22 @@ body {
         margin : 50px 0;
     }
 
-    #chiasekhachhang
 }
 
 @media (max-width: 1580px) {
-
-
     .tab-items {
         height: auto;
     }
 
-    #chiasekhachhang
-    /* .content {
-        max-width: 25rem !important;
-    }#chiasekhachhang */
-
     .proximanovavh-normal-tory-blue-16px {
         padding: 1rem;
     }
-
-    #chiasekhachhang
-    /* .swiper {
-        width: 60vw !important;
-
-    }#chiasekhachhang */
-
 }
 
 @media (max-width: 768px) {
 
     .swiper {
         width: 100vw !important;
-
     }
 
     #chiasekhachhang .tabs {
@@ -684,8 +624,17 @@ body {
         margin-right: 0;
         width       : 100vw;
         overflow-x  : hidden;
+    }
+
+    #chiasekhachhang .cu-chuyn-HDvsCl {
+
+        font-size: 6vw;
 
     }
 
+    #chiasekhachhang .khch-hng-CkqOTU {
 
+        font-size: 7vw;
+
+    }
 }

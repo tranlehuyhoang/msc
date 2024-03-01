@@ -1,78 +1,45 @@
-* {
-    margin    : 0;
-    padding   : 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --black                               : #000000;
-    --gray                                : #828282;
-    --greyscale-text0                     : #ffffff;
-    --greyscale-text70                    : #313131;
-    --primaryblue-300                     : #6186bc;
-    --primaryblue-400                     : #1e60c1;
-    --primaryblue-50                      : #e7edf5;
-    --primaryblue-500                     : #134a9b;
-    --primaryblue-600                     : #0e3f86;
-    --primaryblue-700                     : #0d356e;
-    --thunderbird                         : #bd2424;
-    --font-size-l                         : 43px;
-    --font-size-m                         : 16px;
-    --font-size-s                         : 13.9px;
-    --font-size-xl                        : 48px;
-    --font-size-xs                        : 12.1px;
-    --font-size-xxl                       : 64px;
-    --font-size-xxs                       : 10.5px;
-    --font-family-proxima_nova-bold       : "Proxima Nova-Bold", Helvetica;
-    --font-family-proxima_nova-regular    : "Proxima Nova-Regular", Helvetica;
-    --font-family-proxima_nova-semibold   : "Proxima Nova-Semibold", Helvetica;
-    --font-family-proxima_nova_vh-bold    : "Proxima Nova vh-Bold", Helvetica;
-    --font-family-proxima_nova_vh-regular : "Proxima Nova vh-Regular", Helvetica;
-    --font-family-proxima_nova_vh-semibold: "Proxima Nova vh-Semibold", Helvetica;
-}
-
-#login {
-    background-color: var(--primaryblue-600);
+#register {
+    background-color: #0e3f86;
     width           : 100%;
     justify-content : center;
     display         : flex;
     position        : relative;
     overflow        : hidden;
-
 }
 
-#login input {
+#register input {
     border  : none;
     overflow: hidden;
     outline : none;
 }
 
-#login .container {
+#register .container {
     justify-content: space-between;
     width          : 100%;
     display        : flex;
     overflow       : hidden;
     margin-top     : 100px;
     max-width      : 1600px;
+    z-index        : 9;
 }
 
-#login .content__ {
+#register .content__ {
     display        : flex;
     justify-content: center;
     align-items    : center;
 }
 
-#login .frame-1000007321-OIXrcG {
-    height: 43.1875rem;
-    width : 31.8125rem;
+#register .frame-1000007321-OIXrcG {
+    height: 691.5px;
+    width : 477px;
 }
 
-#login .group-1000004233-AxfcVQ {
-    height: 22.625rem;
-    width : 32.1875rem;
+#register .group-1000004233-AxfcVQ {
+    height: 361.25px;
+    width : 517px;
 }
 
-#login .tham-gia {
+#register .tham-gia {
     background-color: transparent;
     height          : auto;
     text-align      : left;
@@ -80,20 +47,20 @@
     width           : auto;
 }
 
-#login .tham-gia-q0LBll {
-    line-height: 3.6rem;
+#register .tham-gia-q0LBll {
+    line-height: 57.6px;
     position   : relative;
 }
 
 .proximanovavh-bold-white-48px {
-    color      : var(--greyscale-text0);
-    font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : 3rem;
+    color      : #ffffff;
+    font-family: "Proxima Nova vh-Bold", Helvetica;
+    font-size  : 48px;
     font-style : normal;
     font-weight: 700;
 }
 
-#login .i-ng-affiliate {
+#register .i-ng-affiliate {
     background-color: transparent;
     color           : transparent;
     font-style      : normal;
@@ -104,19 +71,19 @@
     width           : auto;
 }
 
-#login .i-ng-affiliate-q0LBll {
-    margin     : 1.25rem 0;
-    font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : 3.8rem;
-    line-height: 4.8rem;
+#register .i-ng-affiliate-q0LBll {
+    margin     : 20px 0;
+    font-family: "Proxima Nova vh-Bold", Helvetica;
+    font-size  : 60.8px;
+    line-height: 76.8px;
 }
 
-#login .span0-99dxKx {
+#register .span0-99dxKx {
     color     : #1ab7da;
     font-style: normal;
 }
 
-#login .ca-chng-ti {
+#register .ca-chng-ti {
     background-color: transparent;
     height          : auto;
     text-align      : left;
@@ -124,89 +91,88 @@
     width           : auto;
 }
 
-#login .ca-chng-ti-q0LBll {
-    line-height: 3.6rem;
+#register .ca-chng-ti-q0LBll {
+    line-height: 57.6px;
 }
 
-.proximanovavh-bold-white-48px {
-    color      : var(--greyscale-text0);
-    font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : 3rem;
+#register .proximanovavh-bold-white-48px {
+    color      : #ffffff;
+    font-family: "Proxima Nova vh-Bold", Helvetica;
+    font-size  : 48px;
     font-style : normal;
     font-weight: 700;
 }
 
-#login .group-1000004197-q0LBll {
-    height: 8.625rem;
-    width : 8.625rem;
+#register .group-1000004197-q0LBll {
+    height: 138.375px;
+    width : 138.375px;
 }
 
-#login .group-1000004197 {
+#register .group-1000004197 {
     background-color: transparent;
 }
 
-#login .ellipse-2141-7I1oDE {
-    background-color: var(--primaryblue-50);
-    border-radius   : 2.875rem;
-    height          : 5.75rem;
-    left            : 1.4375rem;
+#register .ellipse-2141-7I1oDE {
+    background-color: #e7edf5;
+    border-radius   : 46px;
+    height          : 92px;
+    left            : 23px;
     position        : absolute;
-    top             : 1.4375rem;
-    width           : 5.75rem;
+    top             : 23px;
+    width           : 92px;
 }
 
-#login .ellipse-2142 {
-    background-color: var(--primaryblue-50);
+#register .ellipse-2142 {
+    background-color: #e7edf5;
     opacity         : 0.3;
     position        : absolute;
 }
 
-#login .ellipse-2142-7I1oDE {
-    border-radius: 3.4375rem;
-    height       : 6.875rem;
-    left         : 0.875rem;
-    top          : 0.875rem;
-    width        : 6.875rem;
+#register .ellipse-2142-7I1oDE {
+    border-radius: 55px;
+    height       : 110px;
+    left         : 14px;
+    top          : 14px;
+    width        : 110px;
 }
 
-#login .ellipse-2143 {
-    background-color: var(--primaryblue-50);
+#register .ellipse-2143 {
+    background-color: #e7edf5;
     opacity         : 0.1;
     left            : 0;
 }
 
-#login .ellipse-2143-7I1oDE {
-    border-radius: 4.3125rem;
-    height       : 8.625rem;
-    width        : 8.625rem;
+#register .ellipse-2143-7I1oDE {
+    border-radius: 69px;
+    height       : 138.375px;
+    width        : 138.375px;
     position     : absolute;
 }
 
-#login .star-1-7I1oDE {
-    height: 1.75rem;
-    left  : 3.8125rem;
-    top   : 3.4375rem;
-    width : 1.5rem;
+#register .star-1-7I1oDE {
+    height: 28px;
+    left  : 61px;
+    top   : 55px;
+    width : 24px;
 }
 
-#login .star-1 {
+#register .star-1 {
     background-color: transparent;
     position        : absolute;
 }
 
 
-
-#login .button-offical-q0LBll {
-    margin-right    : 6.25rem;
-    background-color: var(--greyscale-text0);
-    border-radius   : 1.5rem;
-    gap             : 0.5rem;
-    left            : 10.625rem;
-    padding         : 0.5rem 0.5rem 0.5rem 1.5rem;
-    top             : 17.3125rem;
+#register .button-offical-q0LBll {
+    margin-right    : 100px;
+    background-color: #ffffff;
+    border-radius   : 24px;
+    gap             : 8px;
+    left            : 170px;
+    padding         : 8px 8px 8px 24px;
+    top             : 277px;
 }
 
-#login .xem-thm {
+#register .xem-thm {
     background-color: transparent;
     position        : relative;
     text-align      : center;
@@ -214,61 +180,60 @@
     width           : fit-content;
 }
 
-.proximanovavh-normal-tory-blue-16px {
-    color      : var(--primaryblue-500);
-    font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : 1rem;
+#register .proximanovavh-normal-tory-blue-16px {
+    color      : #134a9b;
+    font-family: "Proxima Nova vh-Semibold", Helvetica;
+    font-size  : 16px;
     font-style : normal;
     font-weight: 400;
 }
 
-#login .frame-1000005541 {
+#register .frame-1000005541 {
     background-color: transparent;
     position        : relative;
 }
 
-#login .gruop_content>div {
-    margin-top     : 0.625rem;
+#register .gruop_content>div {
+    margin-top     : 10px;
     display        : flex;
     position       : relative;
     align-items    : center;
     justify-content: space-between;
 }
 
-#login .frame-1000005541-Xf3O6x {
-    height: 2rem;
-    width : 2rem;
+#register .frame-1000005541-Xf3O6x {
+    height: 32px;
+    width : 32px;
 }
 
-#login .xem-video {
+#register .xem-video {
     background-color: transparent;
     height          : auto;
     white-space     : nowrap;
     width           : auto;
     display         : block;
-
 }
 
-#login .xem-video-AxfcVQ {
-    letter-spacing : 0.0125rem;
-    line-height    : 1.2rem;
+#register .xem-video-AxfcVQ {
+    letter-spacing : 0.2px;
+    line-height    : 20px;
     text-align     : center;
     justify-content: flex-start;
-    width          : 8.625rem;
+    width          : 138.375px;
     text-align     : center;
     text-align     : center;
     display        : block !important;
 }
 
 .proximanovavh-normal-white-16px {
-    color      : var(--greyscale-text0);
-    font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : 1rem;
+    color      : #ffffff;
+    font-family: "Proxima Nova vh-Semibold", Helvetica;
+    font-size  : 16px;
     font-style : normal;
     font-weight: 400;
 }
 
-#login .frame-1000007047 {
+#register .frame-1000007047 {
     background-color: transparent;
     position        : absolute;
     display         : flex;
@@ -276,81 +241,82 @@
     flex-direction  : column;
 }
 
-#login .frame-1000007047-OIXrcG {
+#register .frame-1000007047-OIXrcG {
     display        : flex;
     justify-content: center;
     align-items    : center;
-    height         : 49.375rem;
+    height         : 789.375px;
     right          : 0;
     bottom         : 0;
-    width          : 25rem;
-    margin-right   : 16.65625rem;
+    width          : 400px;
+    margin-right   : 266.5px;
 }
 
-#login .phone {
+#register .phone {
     position: relative;
 }
 
-#login .group-1000004196-zYHUut {
-    height         : 5.4375rem;
-    width          : 5.5rem;
+#register .group-1000004196-zYHUut {
+    height         : 87px;
+    width          : 88px;
     position       : relative;
     display        : flex;
     justify-content: center;
     align-items    : center;
 }
 
-#login .group-1000004196 {
+#register .group-1000004196 {
     background-color: transparent;
 }
 
-#login .ellipse-2138 {
-    background-color: var(--greyscale-text0);
+#register .ellipse-2138 {
+    background-color: #ffffff;
 }
 
-#login .ellipse-2138-svynlu {
-    border-radius: 2.36125rem;
-    height       : 4.75rem;
-    width        : 4.75rem;
+#register .ellipse-2138-svynlu {
+    border-radius: 100%;
+    height       : 95px;
+    width        : 95px;
     position     : absolute;
+    opacity      : 0.3;
 }
 
-#login .ellipse-2139 {
-    background-color: var(--greyscale-text0);
-    opacity         : 0.3;
+#register .ellipse-2139 {
+    background-color: #ffffff;
+
 }
 
-#login .ellipse-2139-svynlu {
+#register .ellipse-2139-svynlu {
     border-radius: 2.73875rem/2.71875rem;
     position     : absolute;
-    height       : 5.4375rem;
-    width        : 5.5rem;
+    height       : 87px;
+    width        : 88px;
 }
 
-#login .group-svynlu {
-    height: 2.75rem;
-    width : 2.25rem;
+#register .group-svynlu {
+    height: 44px;
+    width : 36px;
 }
 
-#login .group {
+#register .group {
     background-color: transparent;
     position        : absolute;
 }
 
-#login .interface-check {
+#register .interface-check {
     background-color: transparent;
     position        : absolute;
 }
 
-#login .interface-check-svynlu {
-    height: 0.875rem;
-    bottom: 0;
-    width : 0.875rem;
+#register .interface-check-svynlu {
+    height: 14px;
+    bottom: -5px;
+    width : 14px;
 }
 
-#login .ng-nhp {
+#register .ng-nhp {
     background-color: transparent;
-    color           : var(--primaryblue-600);
+    color           : #0e3f86;
     font-style      : normal;
     font-weight     : 700;
     height          : auto;
@@ -359,35 +325,35 @@
     width           : auto;
 }
 
-#login .ng-nhp-zYHUut {
-    font-family: var(--font-family-proxima_nova_vh-bold);
-    font-size  : 2rem;
-    line-height: 2.4rem;
+#register .ng-nhp-zYHUut {
+    font-family: "Proxima Nova vh-Bold", Helvetica;
+    font-size  : 32px;
+    line-height: 38.4px;
 }
 
-#login .form-ng-nhp {
+#register .form-ng-nhp {
     background-color: transparent;
 }
 
-#login .form-ng-nhp-zYHUut {
-    border-radius: 0.9375rem;
-    box-shadow   : 0.125rem 0.375rem 1.875rem #124b9a0a, 0px 0.75rem 2rem #1bb7da0a;
-    height       : 14.875rem;
+#register .form-ng-nhp-zYHUut {
+    border-radius: 15px;
+    box-shadow   : 2px 6px 30px #124b9a0a, 0px 12px 32px #1bb7da0a;
+    height       : 238px;
     width        : 100%;
 }
 
-#login .frame-1000005497 {
+#register .frame-1000005497 {
     align-items     : flex-start;
     background-color: transparent;
     display         : flex;
     justify-content : center;
 }
 
-#login .frame-1000005497-cijZyr {
-    gap: 0.75rem;
+#register .frame-1000005497-cijZyr {
+    gap: 12px;
 }
 
-#login .frame-1000005383 {
+#register .frame-1000005383 {
     align-items     : flex-start;
     background-color: transparent;
     display         : flex;
@@ -397,11 +363,11 @@
     position        : relative;
 }
 
-#login .frame-1000005383-IU640i {
-    gap: 1.25rem;
+#register .frame-1000005383-IU640i {
+    gap: 20px;
 }
 
-#login .frame-1000007040 {
+#register .frame-1000007040 {
     align-items     : flex-start;
     background-color: transparent;
     display         : flex;
@@ -409,14 +375,14 @@
     position        : relative;
 }
 
-#login .frame-1000007040-9Zu6zx {
+#register .frame-1000007040-9Zu6zx {
     align-self: stretch;
     flex      : 0 0 auto;
-    gap       : 0.3125rem;
+    gap       : 5px;
     width     : 100%;
 }
 
-#login .s-in-thoi {
+#register .s-in-thoi {
     align-self      : stretch;
     background-color: transparent;
     letter-spacing  : 0;
@@ -424,20 +390,19 @@
     text-align      : left;
 }
 
-#login .s-in-thoi-SVJfT9 {
-    line-height: 1.5rem;
-    margin-top : -0.0625rem;
+#register .s-in-thoi-SVJfT9 {
+    line-height: 24px;
 }
 
-.proximanovavh-normal-mine-shaft-16px {
-    color      : var(--greyscale-text70);
-    font-family: var(--font-family-proxima_nova_vh-semibold);
-    font-size  : 1rem;
+#register .proximanovavh-normal-mine-shaft-16px {
+    color      : #313131;
+    font-family: "Proxima Nova vh-Semibold", Helvetica;
+    font-size  : 16px;
     font-style : normal;
     font-weight: 400;
 }
 
-#login .input-field {
+#register .input-field {
     align-items     : flex-start;
     align-self      : stretch;
     background-color: transparent;
@@ -449,14 +414,14 @@
     width           : 100%;
 }
 
-#login .input-field-SVJfT9 {
-    border       : 0.0625rem solid;
-    border-color : var(--primaryblue-300);
-    border-radius: 1.5rem;
-    gap          : 0.5rem;
+#register .input-field-SVJfT9 {
+    border       : 1px solid;
+    border-color : #6186bc;
+    border-radius: 24px;
+    gap          : 8px;
 }
 
-#login .frame-9137 {
+#register .frame-9137 {
     align-items     : flex-start;
     align-self      : stretch;
     background-color: transparent;
@@ -466,29 +431,28 @@
     width           : 100%;
 }
 
-#login .frame-9137-bfl1M1 {
-    gap   : 0.5rem;
-    height: 3rem;
+#register .frame-9137-bfl1M1 {
+    gap   : 8px;
+    height: 48px;
 }
 
-#login .frame-16 {
+#register .frame-16 {
     align-items     : center;
     align-self      : stretch;
-    background-color: var(--greyscale-text0);
+    background-color: #ffffff;
     display         : flex;
     justify-content : space-between;
     overflow        : hidden;
     position        : relative;
-    width           : 100%;
 }
 
-#login .frame-16-zRPZ88 {
-    border-radius: 0.25rem;
-    height       : 3rem;
-    padding      : 0.75rem 1.25rem;
+#register .frame-16-zRPZ88 {
+    border-radius: 4px;
+    height       : 48px;
+    padding      : 12px 20px;
 }
 
-#login .frame-9174 {
+#register .frame-9174 {
     align-items     : center;
     background-color: transparent;
     display         : flex;
@@ -497,14 +461,14 @@
     position        : relative;
 }
 
-#login .frame-9174-CzvTPT {
-    gap: 0.125rem;
+#register .frame-9174-CzvTPT {
+    gap: 2px;
 }
 
-#login .qun-mt-khu {
+#register .qun-mt-khu {
     background-color: transparent;
-    color           : var(--greyscale-text0);
-    font-family     : var(--font-family-proxima_nova-semibold);
+    color           : #ffffff;
+    font-family     : "Proxima Nova-Semibold", Helvetica;
     font-style      : normal;
     font-weight     : 400;
     height          : auto;
@@ -513,46 +477,46 @@
     width           : auto;
 }
 
-#login .qun-mt-khu-cijZyr {
+#register .qun-mt-khu-cijZyr {
     display        : flex;
-    font-size      : 0.875rem;
+    font-size      : 14px;
     justify-content: flex-start;
     letter-spacing : 0.17px;
-    line-height    : 1.04rem;
-    margin         : 0.625rem 0;
+    line-height    : 16px;
+    margin         : 10px 0;
 }
 
-#login .group_button {
+#register .group_button {
     width          : 100%;
     display        : flex;
     justify-content: space-between;
     margin-top     : 220px;
 }
 
-#login .button-offical {
+#register .button-offical {
     align-items: center;
     display    : inline-flex;
 
 }
 
-#login .button-offical-zYHUut {
-    background-color: var(--primaryblue-500);
-    border-radius   : 1.5rem;
-    gap             : 0.5rem;
-    padding         : 0.5rem 0.5rem 0.5rem 1.5rem;
+#register .button-offical-zYHUut {
+    background-color: #134a9b;
+    border-radius   : 24px;
+    gap             : 8px;
+    padding         : 8px 8px 8px 34px;
 }
 
-#login .ng-k-zYHUut {
+#register .ng-k-zYHUut {
     align-items: flex-start;
     display    : flex;
     align-items: center;
-    gap        : 0.5rem;
+    gap        : 8px;
 }
 
-#login .cha-c-ti-khon {
+#register .cha-c-ti-khon {
     background-color: transparent;
-    color           : var(--black);
-    font-family     : var(--font-family-proxima_nova-regular);
+    color           : #000000;
+    font-family     : "Proxima Nova-Regular", Helvetica;
     font-style      : normal;
     font-weight     : 400;
     position        : relative;
@@ -561,16 +525,16 @@
     width           : fit-content;
 }
 
-#login .cha-c-ti-khon-SLxDw7 {
-    font-size     : 0.875rem;
+#register .cha-c-ti-khon-SLxDw7 {
+    font-size     : 14px;
     letter-spacing: 0.17px;
-    line-height   : 1.04rem;
+    line-height   : 16px;
 }
 
-#login .ng-k-ngay {
+#register .ng-k-ngay {
     background-color: transparent;
-    color           : var(--primaryblue-700);
-    font-family     : var(--font-family-proxima_nova-semibold);
+    color           : #0d356e;
+    font-family     : "Proxima Nova-Semibold", Helvetica;
     font-style      : normal;
     font-weight     : 400;
     position        : relative;
@@ -579,170 +543,154 @@
     width           : fit-content;
 }
 
-#login .ng-k-ngay-SLxDw7 {
-    font-size     : 0.875rem;
+#register .ng-k-ngay-SLxDw7 {
+    font-size     : 14px;
     letter-spacing: 0.17px;
-    line-height   : 1.04rem;
+    line-height   : 14px;
 }
 
-#login .front-view-hand-holding-smartphone-1 {
-    height: 50rem;
+#register .front-view-hand-holding-smartphone-1 {
+    height: 800px;
 }
 
-#login .ellipse-2141-OIXrcG {
-    background-color: var(--primaryblue-400);
-    border-radius   : 48.65625rem;
-    filter          : blur(18.20625rem);
-    height          : 97.3125rem;
-    right           : -71.7rem;
-    top             : -60.85rem;
+#register .ellipse-2141-OIXrcG {
+    background-color: #1e60c1;
+    border-radius   : 780px;
+    filter          : blur(292px);
+    height          : 1953px;
+    right           : -1147px;
+    top             : -974px;
     position        : absolute;
-    width           : 97.3125rem;
+    width           : 1953px;
 }
 
-#login .group_title {
-    margin-left: 1.875rem;
+#register .group_title {
+    margin-left: 30px;
 }
 
-#login .ellipse-2141-OIXrcH {
-    background-color: var(--primaryblue-400);
-    border-radius   : 48.65625rem;
-    filter          : blur(18.20625rem);
-    height          : 97.3125rem;
-    bottom          : -57.3125rem;
-    left            : -76.0625rem;
+#register .ellipse-2141-OIXrcH {
+    background-color: #1e60c1;
+    border-radius   : 780px;
+    filter          : blur(292px);
+    height          : 1953px;
+    bottom          : -916px;
+    left            : -1217px;
     position        : absolute;
-    width           : 97.3125rem;
+    width           : 1953px;
 }
 
-#login .a {
+#register .a {
     display: none;
 }
 
-#login .gruop_input {
+#register .gruop_input {
     margin-top: 20px;
     display   : flex;
     gap       : 10px;
-
 }
 
-#login .gruop_input .frame-1000007040-9Zu6zx {
+#register .gruop_input .frame-1000007040-9Zu6zx {
     width: auto;
 }
 
-
-
-@media (max-width: 85.625rem) {
-    #login .container {
+@media (max-width: 1370px) {
+    #register .container {
         flex-direction: column;
     }
 
-    #login .phone {
+    #register .phone {
         display        : flex;
         justify-content: center;
     }
 
-    #login .frame-1000007047-OIXrcG {
-
+    #register .frame-1000007047-OIXrcG {
         margin-right: 0;
     }
 
-    #login .front-view-hand-holding-smartphone-1 {
+    #register .front-view-hand-holding-smartphone-1 {
         display: none;
     }
 
-    #login .frame-1000007047 {
+    #register .frame-1000007047 {
         background-color: #0d356e;
-        padding         : 0 6.25rem;
+        padding         : 0 100px;
         position        : relative;
         background      : linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
-        border          : 0.0625rem solid;
-        border-radius   : 3.125rem;
-        border-color    : var(--greyscale-text0);
+        border          : 1px solid;
+        border-radius   : 50px;
+        border-color    : #ffffff;
     }
 
-    #login .frame-1000007047-OIXrcG {
-
+    #register .frame-1000007047-OIXrcG {
         width: auto;
     }
 
-    #login .frame-1000007321-OIXrcG {
+    #register .frame-1000007321-OIXrcG {
         height       : auto;
-        margin-bottom: 6.25rem;
-        width        : 31.8125rem;
+        margin-bottom: 100px;
+        width        : 510px;
     }
 
-    #login .phone {
-        margin-bottom: 6.25rem;
+    #register .phone {
+        margin-bottom: 100px;
     }
 
-    #login .frame-1000007047 {
-        padding: 0 3.125rem;
+    #register .frame-1000007047 {
+        padding: 0 50px;
     }
 
-    #login .content__ {
+    #register .content__ {
         width: 100%;
     }
 
-    #login .frame-1000007321-OIXrcG {
+    #register .frame-1000007321-OIXrcG {
         width          : 100%;
         justify-content: center;
         align-items    : center;
         display        : flex;
     }
 
-    #login .frame-1000007047 {
+    #register .frame-1000007047 {
         width: 80%;
     }
 
-    #login .a {
+    #register .a {
         display : block;
         left    : 0;
         position: absolute;
-        top     : 0rem;
+        top     : 0px;
     }
 
-    #login .frame-1000007047 {
+    #register .frame-1000007047 {
         width: 90%;
     }
 
-    #login .gruop_input {
+    #register .gruop_input {
         width                : 100%;
         display              : grid;
         grid-template-columns: repeat(2, 1fr);
-
-
     }
-
-
 }
 
 @media (max-width: 555px) {
-
-    #login .frame-1000007047 {
+    #register .frame-1000007047 {
         padding: 0 10px;
     }
 
-    #login .i-ng-affiliate-q0LBll {
-
-        font-size: var(--font-size-xl);
-
+    #register .i-ng-affiliate-q0LBll {
+        font-size: 48px;
     }
 
-    #login .gruop_input {
+    #register .gruop_input {
         width  : 100%;
         display: block;
-
-
     }
 
-    #login .group_button {
-
+    #register .group_button {
         margin-top: 290px;
     }
 
-    #login .frame-100000704000 {
-
+    #register .frame-100000704000 {
         margin-top: 20px;
     }
 }
